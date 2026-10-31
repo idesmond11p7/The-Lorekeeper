@@ -9,6 +9,12 @@ import {
 } from '@/lib/observatoryTypes';
 import { CanonBadge } from './CanonBadge';
 import {
+  ASTRAL_CONSTRUCTION_DOCTRINE,
+  ASTRAL_TAXONOMY_GROUPS,
+  EXPANDED_RACE_CATEGORIES,
+  getRaceCensusSummary,
+} from '@/lib/racesAndFrameworksData';
+import {
   Users,
   Search,
   Plus,
@@ -18,6 +24,7 @@ import {
   Volume2,
   Eye,
   Ruler,
+  Layers,
 } from 'lucide-react';
 
 interface EntitiesViewProps {
@@ -48,6 +55,8 @@ export const EntitiesView: React.FC<EntitiesViewProps> = ({
   const [kindFilter, setKindFilter] = useState<'ALL' | EntityKind>('ALL');
   const [searchQuery, setSearchQuery] = useState('');
   const [showModal, setShowModal] = useState(false);
+  const [showMasterCensus, setShowMasterCensus] = useState(false);
+  const census = getRaceCensusSummary();
 
   // New Entity Form
   const [title, setTitle] = useState('');
@@ -157,10 +166,21 @@ export const EntitiesView: React.FC<EntitiesViewProps> = ({
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search breeds, bloodlines, proportions..."
+              placeholder="Search 670 races, Astral species, bloodlines..."
               className="pl-8 pr-3 py-1.5 rounded bg-[#101117] border border-[#353744] text-xs text-[#E9E1D2] placeholder-[#A4A6B5] focus:outline-none focus:border-[#9A82E8]"
             />
           </div>
+          <button
+            onClick={() => setShowMasterCensus(!showMasterCensus)}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded border font-mono text-xs transition-all ${
+              showMasterCensus
+                ? 'bg-[#D3B477] text-[#101117] border-[#D3B477] font-semibold'
+                : 'bg-[#101117] text-[#D3B477] border-[#D3B477]/50 hover:bg-[#242633]'
+            }`}
+          >
+            <Layers className="w-3.5 h-3.5" />
+            <span>{census.grandTotal}-Race Census &amp; Astral Blueprint</span>
+          </button>
           <button
             onClick={() => setShowModal(true)}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#9A82E8] text-[#101117] font-semibold text-xs hover:opacity-90"
@@ -170,6 +190,108 @@ export const EntitiesView: React.FC<EntitiesViewProps> = ({
           </button>
         </div>
       </div>
+
+      {/* Collapsible 670-Race Master Census & Astral Construction Analyzer */}
+      {showMasterCensus && (
+        <div className="bg-[#151722] border-b border-[#D3B477]/40 p-5 lg:px-8 max-h-[58vh] overflow-y-auto space-y-5 shrink-0">
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#353744] pb-3">
+            <div>
+              <div className="text-[11px] font-mono uppercase tracking-wider text-[#D3B477]">
+                Master Species &amp; Ontological Architecture Registry
+              </div>
+              <h3 className="text-lg font-serif font-bold text-[#E9E1D2]">
+                {census.grandTotal} Total Canonical Races &amp; Astral Species ({census.astralCount} Astral Species + {census.nonAstralTotal} Non-Astral Races)
+              </h3>
+            </div>
+            <div className="flex flex-wrap gap-2 text-xs font-mono">
+              <span className="px-2.5 py-1 rounded bg-[#101117] border border-[#76D5E0]/40 text-[#76D5E0]">
+                32 Astral Taxonomies: {census.astralCount} Species
+              </span>
+              <span className="px-2.5 py-1 rounded bg-[#101117] border border-[#9A82E8]/40 text-[#9A82E8]">
+                11 Expanded Race Categories: {census.expandedRacesCount} Races
+              </span>
+              <span className="px-2.5 py-1 rounded bg-[#101117] border border-[#D3B477]/40 text-[#D3B477]">
+                Demon Breeds ({census.demonBreedsCount}) + Bloodlines ({census.demonBloodlinesCount}) + Goetarchs ({census.goetarchsCount})
+              </span>
+            </div>
+          </div>
+
+          {/* 6-Rule Architectural Comparison: Standard Races vs. Astral Entities */}
+          <div className="space-y-2.5">
+            <h4 className="text-xs font-mono uppercase tracking-wider text-[#76D5E0]">
+              Architectural Analysis: How Standard Races Are Made vs. How Astral Entities Are Distinctively Made
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {ASTRAL_CONSTRUCTION_DOCTRINE.map((rule) => (
+                <div
+                  key={rule.id}
+                  className="p-3.5 rounded bg-[#101117] border border-[#353744] space-y-2 text-xs"
+                >
+                  <div className="font-mono text-[11px] font-semibold text-[#D3B477]">
+                    Rule #{rule.ruleNumber}: {rule.title}
+                  </div>
+                  <div className="text-[#A4A6B5]">
+                    <span className="text-[#E9E1D2] font-semibold">Standard Races: </span>
+                    {rule.standardRaceMechanism}
+                  </div>
+                  <div className="text-[#76D5E0]">
+                    <span className="font-semibold">Astral Entities Only: </span>
+                    {rule.astralEntityMechanism}
+                  </div>
+                  <div className="text-[11px] font-mono text-[#9A82E8] pt-1 border-t border-[#353744]/60">
+                    → {rule.canonicalImplication}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Quick Jump to Expanded Categories & Astral Families */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-2">
+            <div className="p-3.5 rounded bg-[#101117] border border-[#353744] space-y-2">
+              <div className="text-xs font-mono uppercase text-[#9A82E8]">
+                11 New Expanded Non-Astral Race Categories ({census.expandedRacesCount} New Races)
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {EXPANDED_RACE_CATEGORIES.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => {
+                      setKindFilter('ALL');
+                      onSelectRecord(cat.id);
+                      setShowMasterCensus(false);
+                    }}
+                    className="px-2 py-1 rounded bg-[#191B25] hover:bg-[#242633] border border-[#353744] text-[11px] text-[#E9E1D2] text-left transition-colors"
+                  >
+                    {cat.categoryName}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded bg-[#101117] border border-[#353744] space-y-2">
+              <div className="text-xs font-mono uppercase text-[#76D5E0]">
+                32 Astral Taxonomy Families ({census.astralCount} Distinct Astral Species)
+              </div>
+              <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
+                {ASTRAL_TAXONOMY_GROUPS.map((ag) => (
+                  <button
+                    key={ag.id}
+                    onClick={() => {
+                      setKindFilter('Astral Entity');
+                      onSelectRecord(ag.id);
+                      setShowMasterCensus(false);
+                    }}
+                    className="px-2 py-1 rounded bg-[#191B25] hover:bg-[#242633] border border-[#353744] text-[11px] text-[#76D5E0] text-left transition-colors"
+                  >
+                    {ag.category} ({ag.entities.length})
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Split List + Detailed Dossier */}
       <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">

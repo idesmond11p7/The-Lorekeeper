@@ -11,6 +11,8 @@ import {
   DETAILED_DEMON_BREEDS,
   NAMED_DEMON_BLOODLINES,
   ASTRAL_TAXONOMY_GROUPS,
+  ASTRAL_CONSTRUCTION_DOCTRINE,
+  EXPANDED_RACE_CATEGORIES,
   GOETARCH_72_NOBLES,
   NETHERFIRE_RESERVES_LIST,
   OCCULT_FRAMEWORKS_LIST,
@@ -80,6 +82,83 @@ export function buildCanonicalObservatorySeed(): ObservatoryWorkspaceState {
 
   // 2. Lore Documents (from CANONICAL_LORE_ARTICLES + Anti-Aura & AK117 Boosted Gear Doctrine)
   const loreDocuments: LoreDocument[] = [
+    {
+      id: 'lore-500-plus-race-taxonomy-and-astral-construction',
+      title: 'The 670-Race Master Taxonomy & Astral Construction Analysis: How Standard Races vs. Astral Entities Are Distinctively Made',
+      kicker: '6-Rule Astral Construction Doctrine, 329 Astral Species (32 Families) & 341 Non-Astral Races (670 Total)',
+      category: 'Cognition & Astral',
+      summary: 'Analyzes the exact architectural difference between how Category 1–7 / Bio-Manifold / Netherbound races are constructed versus how Astral Entities are distinctively generated, and establishes the expanded 670-Race Master Census (329 Astral Species across 32 Taxonomies + 341 Non-Astral Races across 26 Categories/Castes/Bloodlines).',
+      content: `1. ARCHITECTURAL ANALYSIS: HOW STANDARD RACES ARE MADE VS. HOW ASTRAL ENTITIES ARE DISTINCTIVELY MADE
+In the Ur-Verse / ForeverWorlds, **Astral Entities** and **Standard Races (Category 1–7 Bio-Manifold, Netherbounders, Demon Breeds & Noble Bloodlines)** are built on fundamentally different ontological blueprints across six strict laws:
+
+• **Rule 1 — The "Incomplete Soul" Law (Sub-Soul < 1 vs. Complete Soul 1 + Soul 2):**
+  - *Standard Races (Cat 3–5):* Possess a complete **Soul 1** (linear temporal anchor composed of quantum particles, information particles, and time crystals) AND a **Soul 2** (non-Euclidean MWI possibility matrix). Shattering their Soul 1 triggers a **Supernatural Nuke**.
+  - *Astral Entities:* An Astral Entity is **NEVER a complete soul**. By strict canonical law, the moment an Astral Entity achieves soul completeness, it ceases to be an Astral Entity and automatically graduates into a **Soul 1 (Tier 7 Semi-Spiritual)** being.
+
+• **Rule 2 — Genesis: Darwinian / Deep-Time Bottlenecks vs. Unintended Precognitive Kickback ("Astral Trails"):**
+  - *Standard Races:* Constructed via biological evolution across the Bio-Manifold or *All Tomorrows*-scale deep-time bottlenecks across the Nether-boundary, governed by DNA, chitin, silicon-iron calcified bone, Somatic Ki channels, and internal Mindscape Tanks.
+  - *Astral Entities:* Have **zero biological reproduction**. Whenever Category 4 (or other precognitive) minds run mental simulations—especially those weighted by evolutionary survival emotions (Fear, Anger, Disgust, Shame, Grief)—that simulation causes unintended micro-reality warping, **shedding \`Astral Trails\` every second and microsecond**. Those shed trails cluster, ferment, and coalesce into Astral Entities.
+
+• **Rule 3 — Substrate: Physical/Nether Matter vs. Vibrational Spectrum + Telepathy ("The Psychic Internet"):**
+  - *Standard Races:* Anchored in classical/exotic physical matter states or high-density Category 5 Nether-flesh.
+  - *Astral Entities:* Exist strictly on the **Astral Spectrum = Vibrational Spectrum + Telepathy**. They inhabit the **"Psychic Internet"**—Mirror Dimensions, Voids, Bridges, Transversal Routes, and vibrational frequencies of terrestrial locations.
+
+• **Rule 4 — The 10⁹ (1,000,000,000×) Magnitude Gap: Tier 5 Low-Astral vs. Tier 6 True Astral:**
+  - *Cognition Tier 5 (Micro-Telekinesis & Low-End Astral):* Synchronized with biological electromagnetic fields; not necessarily magical. Spawns *Astral Trails, Apparitions / Phantoms, Eidolons, and Wraiths*.
+  - *Cognition Tier 6 (Telekinesis & True Astral):* Separated from Tier 5 by a **massive gap of order 9 ($10^9 = 1,000,000,000\\times$) and above**. Unlocks true Astral Projection and houses complex folklore, grimoire, oneiric, and technomantic species (*Ghosts, Jinns, Specters, Banshees, Poltergeists, Un-Born, Nachzehrer, Pretas, Gulon, Soul Fragments, Keres*, and the 30 Taxonomic Families).
+
+• **Rule 5 — Morphology: Biomechanical Proportions vs. "The Illusion of Myths" Exaggeration:**
+  - *Standard Races:* Governed by functional evolutionary biomechanics (head-height ratios, vascular hydraulics, or Anglerfish/Orchid Mantis convergent mimicry).
+  - *Astral Entities:* Because they condense directly from emotional kickback and collective folklore (*The Illusion of Myths*), their visuals are **emotionally exaggerated**—epic, terrifying, horrific, gross, or geometrically abstract—acting as a direct visual readout of the trauma or anxiety that birthed them.
+
+• **Rule 6 — Ecological Function: The 50! Population Bedrock, AMR Fermentation & Framework DRM:**
+  - In the Terra-Realms alone, Astral Entities outnumber all biological life by over **$50!$ ($50$ factorial)**. They form the foundational political and metabolic bedrock of the supernatural world—serving as the internal symbionts that **ferment mortal dread into Liquid/Solid/Gas \`AMRs\`** inside Noble Demon tanks, and as autonomous **DRM Hit-Squads (Agnosia Hounds)** that neurologically gaslight mortals who glimpse gatekept Occult Frameworks.
+
+2. MASTER CENSUS CALCULATION: 670 NAMED RACES & ASTRAL SPECIES (SURPASSING 500+ TOTAL & 100+ NEW CATEGORIES)
+• **Part I — All 32 Astral Taxonomy Categories (329 Distinct Astral Species):**
+  - *Baseline Tier 5 & Tier 6 Astral Species:* 15 species
+  - *Soul 1 Detonation Fallout (Exotic Temporal Horrors):* 14 species
+  - *Canonical Astral Families 1–15 (Trance, Goetic, Funerary, Planetary, Liminal, Thoughtforms, Parasites, Archons, Tricksters, Bestial, Dream, Mythic, Elemental, Machine, Alchemical):* 150 species (15 × 10)
+  - *Expanded Astral Families 16–30 (Acoustic/Barbarous-Frequency, Framework-DRM Censors, Noble-House AMR-Fermenters, Battlefield Mass-Trauma, Optical/Ray-Traced Mirages, Somatic-Ki Residual Ghosts, Deep-Sea/Barometric Phantoms, Urban/Brutalist Spirits, Contagion/Plague Thoughtforms, Bibliophilic/Grimoire Parasites, Social-GPS Vanity Phantoms, Sub-Zero/Starvation Spirits, Weapon Kill-Effect Ghosts, Extinct-Epoch Fossil Echoes, Psychic-Internet Routing Daemons):* **150 new species** (15 × 10)
+  - **Astral Species Subtotal = 329 Species**
+
+• **Part II — All Non-Astral Bio-Manifold, Netherbound, Somatic-Ki & Category 1–7 Races (341 Distinct Races & Lineages):**
+  - *Detailed Demon Breeds (6 Castes):* 22 breeds
+  - *Named Demon Bloodlines (7 Groups):* 102 bloodlines
+  - *Sovereign Goetarch Pillar Dynasties:* 72 lineages
+  - *11 New Expanded Race Categories (+145 New Races):*
+    1. Category 1 Macro-Biomass & Newtonian Apex Fauna (12 races)
+    2. Category 2 Formless Thinking Nodes & Mathematical Phenomena (12 races)
+    3. Category 3 Emotionless Memoryless Precognitive Calculators (15 races)
+    4. Category 4 Non-Human Emotional Civilizations of the Bio-Manifold (15 races)
+    5. Category 5 Non-Malevolent / Symbiotic Ontological Manipulators (12 races)
+    6. Category 5 Deep-Time "Netherbounder" Post-Species — *All Tomorrows* Scale (20 races)
+    7. Inverted Beast Manifold Ruling Castes & Mirror-Fauna (15 races)
+    8. Somatic-Ki Ascetic Lineages & Bio-Constitutional Trans-Humans (12 races)
+    9. Hybrid, Grafted & Relic-Fused Lineages — Expression #6 En-Grafted (12 races)
+    10. Category 6 Classified / Threshold Anomalies — "The Unspoken Tier" (10 races)
+    11. Category 7 Adjudicators & Transfinite Metachaos Authorities (10 races)
+  - **Non-Astral Races Subtotal = 341 Races & Lineages**
+  - **GRAND TOTAL CANONICAL RACES & ASTRAL SPECIES = 329 + 341 = 670 RACES & SPECIES!**`,
+      establishedFacts: [
+        'Astral Entities are never complete souls (Soul < 1); achieving soul completeness automatically elevates an entity to a Tier 7 Semi-Spiritual Soul 1.',
+        'Astral Entities are generated without biological reproduction via unintended precognitive simulation kickback ("Astral Trails") on the Vibrational + Telepathic spectrum.',
+        'Cognition Tier 5 (Low-Astral EM sync) and Tier 6 (True Astral Projection) are separated by a 10⁹ (1,000,000,000×) magnitude gap.',
+        'The Master Observatory Census now catalogs 670 total named races and Astral species: 329 Astral Species across 32 Taxonomies and 341 Non-Astral Races across 26 Categories/Castes/Bloodlines.',
+      ],
+      inferredPrinciples: [
+        'Standard races evolve hardware to survive physical or Nether environments, whereas Astral Entities condense directly out of the psychological and vibrational friction of thinking minds.',
+      ],
+      unresolvedQuestions: [
+        'How do Category 3 memoryless calculators interact with Tier 6 Framework-DRM Censor entities when casting steady MAGIC?',
+      ],
+      provenanceNote: 'Direct Creator Mandate — 500+ Race Expansion & Astral Entity Construction Analysis.',
+      canonStatus: 'Established',
+      sourceCitation: 'Direct Creator Mandate — 670-Race Master Taxonomy & Astral Construction Analysis',
+      tags: ['670 Races', 'Astral Entities', 'Taxonomy', 'Category 1-7', 'Netherbounders', 'Soul 1', 'Cognition Tiers'],
+      createdAt: NOW,
+      updatedAt: NOW,
+    },
     {
       id: 'lore-netherbounders-and-noble-demons-ontology',
       title: 'The Ontology of Netherbounders & Noble Demons: All Tomorrows Deep-Time Divergence, Anglerfish Mimicry, The 4-Stage Blight-Farming Loop & Fossil AMR Vaults',
@@ -562,26 +641,60 @@ In the Ur-Verse, normal mundane kills do NOT have Kill Effects. However, **Super
       updatedAt: NOW,
     })),
 
-    // All 17 Astral Taxonomy Groups
+    // All 32 Astral Taxonomy Groups (329 Distinct Astral Species)
     ...ASTRAL_TAXONOMY_GROUPS.map((ag) => ({
       id: ag.id,
       title: `Astral Taxonomy: ${ag.category}`,
-      summary: `${ag.tier} — Includes: ${ag.entities.join(', ')}.`,
+      summary: `${ag.tier} (${ag.entities.length} Species) — Includes: ${ag.entities.join(', ')}.`,
       kind: 'Astral Entity' as const,
-      categoryTier: ag.id === 'astral-soul1-temporal' ? 'Tier 7 Breach Phenomenon' : 'Astral (Incomplete Soul)',
+      categoryTier: ag.id === 'astral-soul1-temporal' ? 'Tier 7 Breach Phenomenon' : 'Astral (Incomplete Soul < Soul 1)',
       cognitionTier: ag.tier,
       factionOrCaste: ag.category,
-      originOrRealm: 'Astral Realms / Terra-Realms Psychic Substrate',
-      metaphysicalNature: `Tier Classification: ${ag.tier}\n\nCanonical Entities in Group (${ag.entities.length}):\n${ag.entities.map((e, i) => `${i + 1}. ${e}`).join('\n')}\n\nCore Rule: Astral Entities are born from unintended mental precognitive simulation trails and never possess a complete soul (completion elevates an entity to Soul 1).`,
-      appearanceAndSilhouette: 'Exaggerated, horrific, epic, or abstract visual proportions and facial distortions shaped by the Illusion of Myths and emotional kickback.',
+      originOrRealm: 'Astral Realms ("Psychic Internet" Vibrational + Telepathic Substrate)',
+      metaphysicalNature: `Tier Classification: ${ag.tier}\nFormation Vector: ${ag.formationVector || 'Unintended mental precognitive simulation kickback (Astral Trails) coalescing on the Vibrational + Telepathic spectrum.'}\n\nCanonical Astral Species in Group (${ag.entities.length}):\n${ag.entities.map((e, i) => `${i + 1}. ${e}`).join('\n')}\n\nDistinctive Astral Construction Law: Astral Entities are NEVER a complete soul (completion elevates an entity to Soul 1). Separated between Tier 5 (EM sync) and Tier 6 (True Astral) by a 10⁹ magnitude gap.`,
+      appearanceAndSilhouette: 'Exaggerated, horrific, epic, gross, or abstract visual proportions and facial distortions shaped by the Illusion of Myths and emotional kickback rather than Darwinian skeletal gravity.',
       abilitiesAndPowers: ag.id === 'astral-soul1-temporal'
         ? 'Retrocausal predation, timeline erasure, and temporal interval drifting triggered by linear Soul 1 detonation.'
-        : 'Electromagnetic synchronization, psychic parasitism, threshold guarding, or thoughtform manifestation.',
-      restrictorPlatesAndLimits: 'Incomplete soul structure; bound to the vibrational spectrum of the psyche or localized electromagnetic/ley substrates.',
-      associatedFuelOrKi: 'Astral Trails & Emotional Simulation Kickback',
+        : 'Vibrational + telepathic spectrum resonance, AMR negative-loop fermentation, framework DRM neurological censoring, or threshold manifestation.',
+      restrictorPlatesAndLimits: 'Incomplete soul structure (< Soul 1); bound to the vibrational/telepathic spectrum of the psyche or localized electromagnetic/ley substrates.',
+      associatedFuelOrKi: 'Astral Trails & Emotional Simulation Kickback (Vibrational + Telepathic Spectrum)',
       canonStatus: 'Established' as const,
-      sourceCitation: 'Primary Ur-Worlds Draft — 150 Astral Entities & Tier 5/6/7 Ecology',
-      tags: ['Astral', 'Folklore', ag.id],
+      sourceCitation: 'Primary Ur-Worlds Draft & 670-Race Master Expansion — 329 Astral Species',
+      tags: ['Astral', 'Folklore', '329 Astral Species', ag.id],
+      createdAt: NOW,
+      updatedAt: NOW,
+    })),
+
+    // All 11 New Expanded Race Categories (145 New Non-Astral Races across Categories 1–7, Bio-Manifold, Netherbounders & Somatic-Ki)
+    ...EXPANDED_RACE_CATEGORIES.map((cat) => ({
+      id: cat.id,
+      title: `Expanded Race Category: ${cat.categoryName}`,
+      summary: `${cat.ontologicalTier} | ${cat.cognitionTier} — ${cat.races.length} Distinct Races (${cat.races.map((r) => r.name).slice(0, 4).join(', ')}...).`,
+      kind: 'Category Race' as const,
+      categoryTier: cat.ontologicalTier,
+      cognitionTier: cat.cognitionTier,
+      factionOrCaste: cat.categoryName,
+      originOrRealm: 'Pan-Cosmological / Bio-Manifold / Nether-Boundary / Void-Tree',
+      metaphysicalNature: `Construction Mechanism:\n${cat.constructionMechanism}\n\nComplete Roster of ${cat.races.length} Races in Category:\n${cat.races.map((r, i) => `${i + 1}. ${r.name} (${r.epithet}) — ${r.morphologyAndTrait}`).join('\n')}`,
+      appearanceAndSilhouette: cat.races.map((r) => `• ${r.name}: ${r.morphologyAndTrait}`).join('\n'),
+      proportionsAndFacialFeatures: {
+        headHeightRatio: cat.ontologicalTier.includes('Category 2')
+          ? 'N/A (Formless Mathematical Proof)'
+          : cat.ontologicalTier.includes('Category 3')
+          ? 'Radial or Non-Emotional Compound Symmetry'
+          : 'Species-Specific Evolutionary & Ontological Proportions',
+        statureAndMass: `Varies across ${cat.races.length} constituent species (${cat.ontologicalTier}).`,
+        somatotypeAndLimbRatio: cat.constructionMechanism,
+        craniofacialStructure: `Adapted to ${cat.cognitionTier} sensory and simulation hardware.`,
+        ocularAndFacialFeatures: cat.races[0]?.morphologyAndTrait || 'Distinct ontological sensory apparatus.',
+        postureAndCenterOfGravity: `Governed by ${cat.associatedFuelOrKi}.`,
+      },
+      abilitiesAndPowers: `Primary Energy & Capability Vector: ${cat.associatedFuelOrKi}.\n${cat.constructionMechanism}`,
+      restrictorPlatesAndLimits: cat.restrictorPlate,
+      associatedFuelOrKi: cat.associatedFuelOrKi,
+      canonStatus: 'Established' as const,
+      sourceCitation: '670-Race Master Expansion — 145 New Category 1–7 & Deep-Time Races',
+      tags: ['Expanded Races', '670-Race Census', cat.ontologicalTier, cat.id],
       createdAt: NOW,
       updatedAt: NOW,
     })),
@@ -1732,7 +1845,7 @@ Described with the hyper-explicit structural clarity of a 2D stickman war-game w
   ];
 
   return {
-    version: '2.6.0-observatory',
+    version: '2.7.0-observatory',
     lastSavedAt: NOW,
     projects,
     loreDocuments,
@@ -1751,10 +1864,10 @@ Described with the hyper-explicit structural clarity of a 2D stickman war-game w
     tags,
     revisions,
     recentRecordIds: [
+      { id: 'lore-500-plus-race-taxonomy-and-astral-construction', type: 'lore', title: 'The 670-Race Master Taxonomy & Astral Construction Analysis: How Standard Races vs. Astral Entities Are Distinctively Made', timestamp: NOW },
       { id: 'lore-netherbounders-and-noble-demons-ontology', type: 'lore', title: 'The Ontology of Netherbounders & Noble Demons: All Tomorrows Deep-Time Divergence, Anglerfish Mimicry, The 4-Stage Blight-Farming Loop & Fossil AMR Vaults', timestamp: NOW },
       { id: 'entity-netherbounders-and-noble-demons', type: 'entity', title: 'Netherbounders & Noble Demons (Deep-Time Speculative Evolution & Ecological Blight-Farmers)', timestamp: NOW },
       { id: 'lore-ammo-specificity-and-nonhuman-devils', type: 'lore', title: 'The "Captured Bullet" AMR System: 7 MWI Grades (10⁴ Jumps), 400–500+ Reserves, Akeno’s 12+ Storm AMRs & The Meta-Chaos (Tier 0)', timestamp: NOW },
-      { id: 'lore-anti-aura-raytracing-doctrine', type: 'lore', title: 'Mindscape-Aura States (Paradoxical/Dualistic Ontology, Tenkaichi Silhouettes & Astral Overlap), Supernatural Kill Effects & CODM Mythic AK117 - Lava Remix Boosted Gear', timestamp: NOW },
       { id: 'ps-mwi-gun-system', type: 'powerSystem', title: 'The "Gun System": 7 MWI Ammo Grades (10⁴ Jumps), 400–500+ AMRs & The Meta-Chaos (Tier 0)', timestamp: NOW },
       { id: 'artifact-boosted-gear-ak117-lava', type: 'entity', title: 'The Redesigned Boosted Gear (CODM Mythic AK117 - Lava Remix Reactive Tectonic Chassis)', timestamp: NOW },
     ],
