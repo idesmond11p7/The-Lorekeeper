@@ -38,3 +38,26 @@ These are author-established narrative milestones as currently recorded in the C
 A short, source-cited lore compatibility note for Chapter 9, with sections: ESTABLISHED, COMPATIBLE BUT UNCONFIRMED, UNRESOLVED, CONTRADICTIONS, WRITER GUARDRAILS.
 
 This record is an intake/coordination note only. Lorekeeper remains the authority on lore; Ledger remains the archive; Writer remains the prose producer.
+
+
+
+## Additional author-assigned work — Chapter 8 documentation
+
+The author explicitly recalls assigning Lorekeeper to document the newer Chapter 8 after its creation. Treat this as a distinct author instruction, not as a request to archive chapter prose or take over Ledger's role.
+
+### Source gate
+The exact newer completed Chapter 8 manuscript has not yet been identified in the currently inspected repository/library sources. Do not use the older October 10 source, October 24 ready manuscript, October 26 redraft, October 27 reconstruction prompt, or any summary as a substitute. Do not claim to have documented a manuscript that has not been read.
+
+When the author-provided/current completed Chapter 8 source is available:
+1. Read the full manuscript.
+2. Extract only lore/worldbuilding material within Lorekeeper's remit: setting facts, locations and realm references, supernatural phenomena, powers/abilities, entities, cosmological implications, terminology, and world-rule dependencies.
+3. For each item, distinguish ESTABLISHED BY TEXT, INFERRED, PROPOSED, and UNRESOLVED.
+4. Cite exact manuscript passages/locations and preserve the manuscript's wording where terminology matters.
+5. Identify compatibility with existing Lorekeeper records and any genuine contradictions.
+6. Do not convert narrative ambiguity into a definitive mechanic or canon entry.
+7. Keep character-psychology analysis, prose craft, chronology receipts, and full chapter storage in their designated workflows.
+
+### Deliverable
+Create a narrowly scoped Chapter 8 lore documentation record in the Lorekeeper's own documentation workspace, with source identity, version/status, evidence excerpts, lore findings, unresolved questions, and links/references to relevant existing Lorekeeper records. Do not modify unrelated lore, taxonomy, cosmology, or power-system records. The author remains final canon authority.
+
+This Chapter 8 documentation assignment is part of the existing Chapter 9 workstream and remains ONGOING. Do not let it displace the limited Chapter 9 lore-compatibility task above.
