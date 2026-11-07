@@ -658,494 +658,495 @@ export const ASTRAL_TAXONOMY_GROUPS: AstralTaxonomyGroup[] = [
   },
   {
     id: 'astral-14-machine',
-    category: '14. Machine, Synthetic & Technomantic Entities',
+    category: '14. Machine, Signal & Modern Egregores',
     tier: 'Psyche Vibrational Spectrum (Incomplete Soul)',
+    formationVector: 'Dead-channel broadcasts, blackouts, and collective dread around modern infrastructure and machinery',
     entities: [
-      'The Cogmind', 'The Data Ghost', 'The Circuit Shade', 'The Algorithmic Eidolon', 'The Nanite Swarm',
-      'The Digital Phantom', 'The Clockwork Apparition', 'The Signal Wraith', 'The Byte Spirit', 'The Mechanist'
+      'The Ghost in the Machine', 'The Static-Wraith', 'The Glitch-Daemon', 'The Wire-Walker', 'The Signal-Phantom',
+      'The Cyber-Tulpa', 'The Data-Leech', 'The Blackout-Spirit', 'The Frequency-Haunt', 'The Iron-Automaton'
     ]
   },
   {
     id: 'astral-15-alchemical',
     category: '15. Alchemical & Elemental Essences',
     tier: 'Psyche Vibrational Spectrum (Incomplete Soul)',
-    formationVector: 'Hermetic calcination, coagulation, and prima materia distillation trails',
+    formationVector: 'Hermetic calcination, coagulation, and prima materia distillation wakes',
     entities: [
       'The Sylph-Adept', 'The Undine-Maiden', 'The Gnome-Elder', 'The Salamander-Spark', 'The Quintessence',
       'The Calcination Ghost', 'The Coagulator', 'The Volatile Spirit', 'The Fixed Daemon', 'The Prima Materia'
     ]
   },
-  // NEW EXPANDED ASTRAL CATEGORIES (16 THROUGH 30 — +150 NEW ASTRAL SPECIES = 329 TOTAL ASTRAL SPECIES)
+  // EXPANDED ASTRAL FAMILIES (16 THROUGH 30 — 329 TOTAL ASTRAL SPECIES)
   {
     id: 'astral-16-acoustic',
-    category: '16. Acoustic, Resonance & Barbarous-Frequency Spirits',
-    tier: 'Tier 5–6 Vibrational & Telepathic Spectrum (Incomplete Soul)',
-    formationVector: 'Coalesced from standing acoustic waves, PGM Barbarous Names, and battlefield death-rattles',
+    category: '16. Acoustic, Infrasound & Barbarous-Voice Entities',
+    tier: 'Tier 5–6 Vibrational & Acoustic Dread Spectrum (Incomplete Soul)',
+    formationVector: 'Born from PGM Barbarous Names, 19Hz fear-frequency infrasound, Kiai shockwaves, and dying screams',
     entities: [
-      'The Infrasound Wraith', 'The Barbarous Phoneme', 'The Echo-Parasite', 'The Bell-Shiver', 'The Choir-Phantasm',
-      'The Sub-Vocal Leech', 'The Shriek-Lattice', 'The Tinnitus Imp', 'The Resonance Eidolon', 'The Dead-Air Sentinel'
+      'The Infrasound Hound', 'The Barbarous Echo', 'The Dead-Bell Wraith', 'The Throat-Clutch Specter', 'The Choir of the Slain',
+      'The Sub-Bass Apparition', 'The Keening Gale', 'The Shattered-Chord Phantom', 'The Whispering Agnosia', 'The Dead-Air Dread'
     ]
   },
   {
     id: 'astral-17-framework-drm',
-    category: '17. Framework-DRM & Neurological Censor Entities ("Astral Hit-Squads")',
-    tier: 'Tier 6 Gatekeeping & Telepathic Enforcement Spectrum (Incomplete Soul)',
-    formationVector: 'Bound to gatekept Occult Frameworks; triggered when an unauthorized brain simulates a forbidden probability angle',
+    category: '17. Gatekept Framework Enforcement & Seal-Hunter Spirits',
+    tier: 'Tier 6 Forbidden-Framework Enforcement Spectrum (Incomplete Soul)',
+    formationVector: 'Bound to the 31 Gatekept Occult Frameworks; automatically drawn to uninitiated mortals who simulate, read, or pry into forbidden rites—inflicting memory wipes, gaslighting, blindness, or execution',
     entities: [
-      'The Agnosia Hound', 'The Wernicke Leech', 'The Chalk-Blindness Specter', 'The Pneuma-Censor', 'The Syntax-Scrambler',
-      'The Gaslight Apparition', 'The Rubric-Eraser', 'The Migraine Warden', 'The Amnesia Mite', 'The Clause-Inquisitor'
+      'The Agnosia Hound', 'The Tongue-Locker', 'The Seal-Hunter', 'The Writ-Eraser', 'The Script-Blinder',
+      'The Memory-Scrubber', 'The Gaslight Phantom', 'The Circle-Breaker', 'The Clause-Inquisitor', 'The Forbidden-Name Stalker'
     ]
   },
   {
     id: 'astral-18-amr-fermenters',
-    category: '18. Noble-House Internal Symbionts & AMR-Fermenters',
-    tier: 'Tier 6 Domesticated Mindscape-Tank Ecology (Incomplete Soul)',
-    formationVector: 'Cultivated inside Noble Demon Mindscape Tanks to harvest Category 4 negative trails and distill Liquid/Solid/Gas AMRs',
+    category: '18. Internal-Tank & AMR-Fermenter Symbionts',
+    tier: 'Tier 6 Internal-World / Mindscape Tank Ecology (Incomplete Soul)',
+    formationVector: 'Domesticated inside the Buddhist-style internal mindscape tanks of Noble Demons and Netherbounders to ferment negative emotional loops (terror, despair, envy, obsession) into usable AMR reserves',
     entities: [
-      'The Dread-Distiller', 'The Bile-Fermenter', 'The Bael-Crusher Mite', 'The Phenex-Ember Worm', 'The Grief-Vintner',
-      'The Paranoia-Spore', 'The Cortisol-Siphon', 'The Marrow-Curdler', 'The Sorrow-Condenser', 'The Tank-Scrubber'
+      'The Dread-Fermenter', 'The Despair-Still', 'The Bael-Hound', 'The Phenex-Ash Worm', 'The Grief-Siphon',
+      'The Night-Sweat Leech', 'The Panic-Churner', 'The Marrow-Curdler', 'The Envy-Filter', 'The Tank-Shade'
     ]
   },
   {
     id: 'astral-19-battlefield',
-    category: '19. Battlefield Aftermath & Mass-Trauma Egregores',
-    tier: 'Tier 6 Collective Trauma Condensation (Incomplete Soul)',
-    formationVector: 'Spawned when thousands of Category 4 soldiers run simultaneous lethal fight-or-flight precognitive simulations',
+    category: '19. Battlefield Trauma, Siege & Shell-Shock Egregores',
+    tier: 'Tier 6 Mass-Slaughter & Siege Condensation (Incomplete Soul)',
+    formationVector: 'Precipitates out of the overlapping pre-cognitive terror of thousands of dying soldiers in trenches, sieges, and scorched war-zones',
     entities: [
-      'The Trench-Miasma', 'The Shellshock Eidolon', 'The No-Man’s-Phantom', 'The Bayonet-Reflex Shade', 'The Mass-Grave Chorus',
-      'The Shrapnel-Poltergeist', 'The Mutiny-Whisper', 'The Last-Stand Simulacrum', 'The Scorched-Earth Wraith', 'The Ceasefire Ghost'
+      'The No-Man’s-Land Fog', 'The Trench-Stalker', 'The Artillery-Shudder', 'The Broken-Vanguard Shade', 'The Charnel-Chorus',
+      'The Siege-Wall Groan', 'The Deserter’s Shadow', 'The Last-Sentry Eidolon', 'The Scorched-Earth Wraith', 'The Ceasefire-Phantom'
     ]
   },
   {
     id: 'astral-20-optical',
-    category: '20. Optical, Ray-Traced & Photonic Mirages',
-    tier: 'Tier 5–6 EM-Photonic Synchronization (Incomplete Soul)',
-    formationVector: 'Condenses in high-refraction zones, eclipses, and peripheral blind spots where mental simulations misread ray-traced light',
+    category: '20. Optical, Refraction & Mindscape-Overlap Phantoms',
+    tier: 'Tier 5–6 Optical-Shift & Domain-Overlap Spectrum (Incomplete Soul)',
+    formationVector: 'Inhabits dusk refraction shifts, peripheral blind spots, ray-traced caustics, and the dark-orange boundary of an active Mindscape Overlap',
     entities: [
-      'The Blind-Spot Stalker', 'The Refraction Double', 'The Umbra-Split', 'The Glare-Fiend', 'The Albedo-Wraith',
-      'The Prism-Apparition', 'The Afterimage Leech', 'The Penumbra-Weaver', 'The Photon-Starved Shade', 'The Specular Mimic'
+      'The Blind-Spot Fetch', 'The Caustic-Double', 'The Eclipse-Silhouette', 'The Noon-Glare Wraith', 'The Dusk-Refraction Shade',
+      'The Refraction-Lure', 'The Dusk-Stalker', 'The Mirror-Lag Apparition', 'The Heat-Haze Phantom', 'The Pitch-Shadow Watcher'
     ]
   },
   {
     id: 'astral-21-somatic-ki',
-    category: '21. Somatic-Ki Exhaust & Martial Residual Ghosts',
-    tier: 'Tier 5 Bio-Electromagnetic Kinetic Imprint (Incomplete Soul)',
-    formationVector: 'Left behind when masters of Ara-Ki, Gō-Ki, or Mu-Ki vent superheated pore-steam and perish mid-kata',
+    category: '21. Somatic-Ki & Bio-Thermal Afterimage Spirits',
+    tier: 'Tier 5 Bio-Electric & Blood-Steam Wake Spectrum (Incomplete Soul)',
+    formationVector: 'Shed violently from the 112°F+ pore-steam, burst capillaries, and bio-electric discharges of extreme Gō-Ki and Yō-Ki martial artists',
     entities: [
-      'The Kata-Echo', 'The Steam-Revenant', 'The Kiai-Aftershock', 'The Calcified-Stance Shade', 'The Blood-Mist Eidolon',
-      'The Dojo-Guardian', 'The Fist-Memory', 'The Reflex-Automaton', 'The Spine-Shiver Spirit', 'The Mu-Ki Shadow'
+      'The Steam-Shroud Fetch', 'The Iron-Pulse Echo', 'The Kiai-Remnant', 'The Stance-Shadow', 'The Blood-Mist Wraith',
+      'The Dojo-Lingering Will', 'The Calcified-Fist Phantom', 'The Headless-Brawler Shade', 'The Heartbeat-Drummer', 'The Mu-Ki Void-Double'
     ]
   },
   {
     id: 'astral-22-abyssal-sea',
-    category: '22. Deep-Sea, Abyssal & Barometric Pressure Phantoms',
-    tier: 'Tier 6 Thalassophobic & Barometric Spectrum (Incomplete Soul)',
-    formationVector: 'Generated by drowning panic, nitrogen narcosis, and crushing deep-trench isolation',
+    category: '22. Abyssal-Sea, Trench & Thalassophobia Entities',
+    tier: 'Tier 6 Hadal-Pressure & Drowned-Terror Spectrum (Incomplete Soul)',
+    formationVector: 'Born from the primal terror of crushing black ocean depths, shipwrecked hulls, and what waits beneath the continental shelf',
     entities: [
-      'The Nitrogen-Rapture Ghost', 'The Bathyal Siren', 'The Crush-Depth Wraith', 'The Brine-Lung Specter', 'The Bioluminescent Lure-Shade',
-      'The Hull-Creak Poltergeist', 'The Undertow Hand', 'The Hadal Eidolon', 'The Bends-Demon', 'The Shipwreck Egregore'
+      'The Hadal-Fetch', 'The Trench-Siren', 'The Black-Current Wraith', 'The Drowned-Lung Ghost', 'The St. Elmo’s Corpse-Light',
+      'The Hull-Knocker', 'The Undertow-Dragger', 'The Abyssal-Mourner', 'The Ghost-Rigging', 'The Derelict-Haunt'
     ]
   },
   {
     id: 'astral-23-urban-brutalist',
-    category: '23. Urban, Architectural & Brutalist Megastructure Spirits',
-    tier: 'Tier 5–6 High-Density Civic Psyche Grid (Incomplete Soul)',
-    formationVector: 'Formed by millions of Category 4 minds compressed into concrete megacities, subways, and liminal transit corridors',
+    category: '23. Urban, Brutalist & Liminal-Alley Haunts',
+    tier: 'Tier 5–6 Dead-Zone & Concrete-Labyrinth Spectrum (Incomplete Soul)',
+    formationVector: 'Coalesces in abandoned subway tunnels, brutalist concrete towers, dead shopping arcades, and rain-slicked 3:00 AM back alleys',
     entities: [
-      'The Brutalist Genius-Loci', 'The Subway-Draft Wraith', 'The High-Rise Vertigo Spirit', 'The Fluorescent-Hum Shade', 'The Concrete-Echo',
-      'The Dead-Mall Phantasm', 'The Gridlock Miasma', 'The Stairwell Loop-Ghost', 'The Asbestos-Lurker', 'The Neon-Smog Eidolon'
+      'The Concrete-Genius', 'The Third-Rail Wraith', 'The High-Rise Jumper Shade', 'The Flickering-Fluorescent', 'The Subway-Tunnel Echo',
+      'The Dead-Mall Phantasm', 'The Overpass-Watcher', 'The Stairwell-Loop Spirit', 'The Basement-Boiler Lurker', 'The Wet-Asphalt Fetch'
     ]
   },
   {
     id: 'astral-24-contagion',
-    category: '24. Contagion, Hypochondria & Plague-Panic Thoughtforms',
-    tier: 'Tier 6 Pathogen-Avoidance Hardware Kickback (Incomplete Soul)',
-    formationVector: 'Birthed from evolutionary Disgust overrides, quarantine hysteria, and febrile delirium',
+    category: '24. Contagion, Fever-Dream & Plague-Miasma Spirits',
+    tier: 'Tier 6 Quarantine-Dread & Delirium Spectrum (Incomplete Soul)',
+    formationVector: 'Precipitates from quarantined wards, collective fear of unseen infection, and 105°F fever hallucinations',
     entities: [
-      'The Fever-Hallucination', 'The Quarantine-Shade', 'The Miasma-Doctor', 'The Cough-Echo', 'The Pox-Phantasm',
-      'The Delirium-Weaver', 'The Contagion-Hound', 'The Sanatorium Wraith', 'The Cytokine-Specter', 'The Leper-Bell Apparition'
+      'The Fever-Dream Fetch', 'The Quarantine-Shade', 'The Pestilence-Crow', 'The Dry-Rattle Wraith', 'The Pox-Weaver',
+      'The Delirium-Spinner', 'The Miasma-Hound', 'The Ward-Bell Phantom', 'The Cold-Sweat Clinger', 'The Plague-Pit Apparition'
     ]
   },
   {
     id: 'astral-25-bibliophilic',
-    category: '25. Forbidden Text, Grimoire-Ink & Bibliophilic Parasites',
-    tier: 'Tier 6 Semantic & Linguistic Vibrational Spectrum (Incomplete Soul)',
-    formationVector: 'Nests inside lead-cinnabar writs, cursed manuscripts, and obsessive scholarly minds',
+    category: '25. Forbidden Grimoire, Cursed-Script & Archive Spirits',
+    tier: 'Tier 6 Lead-Vitriol Ink & Cursed-Text Spectrum (Incomplete Soul)',
+    formationVector: 'Nests inside Solomonic scrolls, lead-bound grimoires, and forbidden archives—feeding on the obsession of scholars who read them',
     entities: [
-      'The Marginalia-Imp', 'The Ink-Drinker', 'The Cipher-Wraith', 'The Dead-Language Whisperer', 'The Scroll-Rot Spirit',
-      'The Palimpsest Shade', 'The Footnote-Trap', 'The Bibliovore Eidolon', 'The Forbidden-Syllable', 'The Lexicon-Golem'
+      'The Marginalia-Imp', 'The Vitriol-Ink Drinker', 'The Clause-Seal Wraith', 'The Dead-Tongue Whisperer', 'The Parchment-Rot Spirit',
+      'The Palimpsest-Shade', 'The False-Rubric', 'The Archive-Eidolon', 'The Unspoken-Page', 'The Chained-Tome Guardian'
     ]
   },
   {
     id: 'astral-26-social-gps',
-    category: '26. Narcissistic, Vanity & Social-Hierarchy Phantoms',
-    tier: 'Tier 5–6 Evolutionary Social-GPS Kickback (Incomplete Soul)',
-    formationVector: 'Spawned from tribal banishment terror, Shame, Envy, Moral Outrage, and status-panic simulations',
+    category: '26. Social-Fear, Paranoia & Scapegoat Phantoms',
+    tier: 'Tier 5–6 Category-4 Limbic & Social-Panic Spectrum (Incomplete Soul)',
+    formationVector: 'Spawned directly from Category 4 human social terror: public humiliation, mob paranoia, exile, envy, and obsessive self-loathing',
     entities: [
-      'The Exile-Dread', 'The Mirror-Envy', 'The Crown-Illusion', 'The Scandal-Poltergeist', 'The Impostor-Syndrome Shade',
-      'The Gossip-Swarm', 'The Pedestal-Idol', 'The Shame-Cringe Wraith', 'The Sycophant-Echo', 'The Guillotine-Specter'
+      'The Scapegoat-Shade', 'The Cracked-Mirror Envy', 'The Impostor-Double', 'The Mob-Whisper', 'The Paranoia-Stalker',
+      'The Rumor-Swarm', 'The Golden-Idol Egregore', 'The Public-Shame Wraith', 'The Sycophant-Echo', 'The Outcast-Fetch'
     ]
   },
   {
     id: 'astral-27-cryo-famine',
-    category: '27. Sub-Zero, Cryo-Stasis & Starvation Spirits',
-    tier: 'Tier 6 Metabolic-Collapse & Hypothermic Spectrum (Incomplete Soul)',
-    formationVector: 'Coalesces in blizzards, siege famines, and extreme metabolic conservation states',
+    category: '27. Cryo-Famine, Permafrost & Starvation Wraiths',
+    tier: 'Tier 6 Deep-Winter & Famine-Trauma Spectrum (Incomplete Soul)',
+    formationVector: 'Coalesces in snowbound mountain passes, starved sieges, and the paradoxical warmth-delusions of fatal hypothermia',
     entities: [
-      'The Paradoxical-Undressing Shade', 'The Frostbite-Whisper', 'The Wendigo-Trail', 'The Whiteout-Mirage', 'The Glacier-Groan Spirit',
-      'The Hunger-Gnaw Preta', 'The Permafrost-Memory', 'The Icicle-Poltergeist', 'The Hypothermic-Lullaby', 'The Winter-Famine Egregore'
+      'The Paradox-Warmth Shade', 'The Frostbite-Whisper', 'The Starvation-Walker', 'The Whiteout-Mirage', 'The Ice-Crevasse Groan',
+      'The Gnawing-Preta', 'The Permafrost-Memory', 'The Black-Ice Lurker', 'The Snow-Sleep Lullaby', 'The Lean-Winter Egregore'
     ]
   },
   {
     id: 'astral-28-kill-effect-relics',
-    category: '28. Relic-Bound, Weapon-Kill-Effect & Murder-Implement Ghosts',
-    tier: 'Tier 6 En-Grafted Trauma & Supernatural Kill-Effect Residue (Incomplete Soul)',
-    formationVector: 'Welded to blades, firearms, and execution tools; triggers psychological and sensory Supernatural Kill Effects on impact',
+    category: '28. Supernatural Kill-Effect & Cursed-Relic Haunts',
+    tier: 'Tier 6 En-Grafted MWI Finisher & Relic Residue (Incomplete Soul)',
+    formationVector: 'Bound into reactive mythic weapons, executioner blades, and Nether-relics; manifests during lethal strikes to trigger exaggerated MWI Supernatural Kill Effects (calcification, sub-dermal ember bursts, ash-vaporization)',
     entities: [
-      'The Executioner’s Notch', 'The Guillotine-Drop Echo', 'The Bullet-Trajectory Ghost', 'The Rust-Thirst Spirit', 'The Scabbard-Whine',
-      'The Trench-Club Wraith', 'The Gallows-Rope Twitch', 'The Blood-Groove Eidolon', 'The Trigger-Itch Imp', 'The Kill-Cam Phantom'
+      'The Calcification-Wraith', 'The Ember-Burst Imp', 'The Ash-Pillar Shade', 'The Smoking-Boot Phantom', 'The Magma-Vein Haunt',
+      'The Salt-Statue Spirit', 'The Glass-Shatter Eidolon', 'The Fuller-Groove Leech', 'The Execution-Notch Ghost', 'The Finisher-Silhouette'
     ]
   },
   {
     id: 'astral-29-extinct-epochs',
-    category: '29. Extinct-Epoch ("Chapters of the Past") Fossil Astral Echoes',
-    tier: 'Tier 6 Deep-Time Paleontological Astral Stratum (Incomplete Soul)',
-    formationVector: 'Ancient Astral Trails shed by vanished pre-human or alien star-empires millions of years ago, trapped in planetary magnetospheres',
+    category: '29. Extinct-Epoch & Deep-Time Remnant Shades',
+    tier: 'Tier 6 Pre-Human & Vanished-Epoch Stratum (Incomplete Soul)',
+    formationVector: 'Ancient Astral fossils left behind by extinct pre-human civilizations and conquered deep-time worlds ("Chapters of the Past")',
     entities: [
-      'The Xeno-Ghost', 'The Dead-Empire Broadcast', 'The Fossil-Eidolon', 'The Star-Wreck Apparition', 'The Post-Human Lament',
-      'The Extinction-Flash Shade', 'The Megalith-Hinge Spirit', 'The Pre-Solar Wraith', 'The Forgotten-Tongue Echo', 'The Epoch-Dust Poltergeist'
+      'The First-Epoch Shade', 'The Sunken-Continent Lament', 'The Megalith-Eidolon', 'The Cyclopean-Ruin Ghost', 'The Pre-Flood Mourner',
+      'The Ash-Era Wraith', 'The Obsidian-Monolith Spirit', 'The Dead-Sun Shade', 'The Extinct-Tongue Echo', 'The Fossil-Poltergeist'
     ]
   },
   {
     id: 'astral-30-psychic-internet',
-    category: '30. Astral Threshold Infrastructure & "Psychic Internet" Routing Daemons',
-    tier: 'Tier 6 Telepathic Network & Mirror-Route Infrastructure (Incomplete Soul)',
-    formationVector: 'Autonomous network spirits maintaining the Bridges, Mirror Dimensions, and Transversal Routes of the Astral "Psychic Internet"',
+    category: '30. Psychic-Internet & Telepathic-Veil Drifters',
+    tier: 'Tier 6 Collective Astral-Network & Telepathic Spectrum (Incomplete Soul)',
+    formationVector: 'Native drifters, couriers, and predators of the collective Psychic Internet (the vibrational-telepathic veil connecting pre-cognitive minds across the world)',
     entities: [
-      'The Packet-Ferryman', 'The Bridge-Weaver', 'The Frequency-Toll Warden', 'The Mirror-Router', 'The Latency-Leech',
-      'The Astral-Firewall Sentinel', 'The Dead-Link Scavenger', 'The Telepathic-Switchboard', 'The Wavelength-Hound', 'The Server-Vault Shade'
+      'The Veil-Courier', 'The Thread-Watcher', 'The Mind-Bridge Warden', 'The Telepathic-Lure', 'The Dream-Crossroads Walker',
+      'The Astral-Hound', 'The Severed-Cord Shade', 'The Collective-Panic Bell', 'The Ley-Current Drifter', 'The Threshold-Door Sentinel'
     ]
   }
 ];
 
-// 4B. HOW RACES ARE MADE VS. HOW ASTRAL ENTITIES ARE DISTINCTIVELY MADE (ARCHITECTURAL DOCTRINE)
+// 4B. HOW RACES ARE MADE VS. HOW ASTRAL ENTITIES ARE DISTINCTIVELY MADE (CANONICAL 6-RULE DOCTRINE)
 export const ASTRAL_CONSTRUCTION_DOCTRINE: AstralConstructionRule[] = [
   {
     id: 'ac-rule-1',
     ruleNumber: 1,
-    title: 'The "Incomplete Soul" Boundary (Soul < 1 vs. Complete Soul 1 + Soul 2)',
-    standardRaceMechanism: 'Bio-Manifold and Netherbound Category 3–5 races possess a complete Soul 1 (linear temporal anchor made of quantum/information particles & time crystals) and Soul 2 (non-Euclidean MWI possibility matrix).',
-    astralEntityMechanism: 'An Astral Entity is NEVER a complete soul. It is a sub-soul fractional condensation. By strict canonical law, if an Astral Entity ever achieves soul completeness, it ceases to be an Astral Entity and automatically graduates into a Tier 7 Semi-Spiritual (Soul 1) being.',
-    canonicalImplication: 'Destroying an Astral Entity does NOT trigger a Soul 1 Supernatural Nuke, because it lacks a linear temporal crystal core.'
+    title: 'Incomplete Soul Ontology (Sub-Soul < 1 vs. Full Soul 1 + Soul 2)',
+    standardRaceMechanism: 'Standard biological and Netherbound races (Categories 3–5) possess a complete, anchored Soul 1 (linear time continuity) and Soul 2 (MWI branching shadow across timelines).',
+    astralEntityMechanism: 'An Astral Entity is NEVER a complete soul. It is a fractional, incomplete soul fragment (< Soul 1). By hard cosmological law, the moment an Astral entity gathers a complete soul, it ceases to be an Astral entity and crosses over into Tier 7 Semi-Spiritual Soulhood.',
+    canonicalImplication: 'Destroying an Astral Entity never triggers a linear Soul 1 Nuke, because there is no complete Soul 1 core to detonate.'
   },
   {
     id: 'ac-rule-2',
     ruleNumber: 2,
-    title: 'Genesis: Evolutionary Bottlenecks vs. Unintended Precognitive Kickback ("Astral Trails")',
-    standardRaceMechanism: 'Constructed through biological/thermodynamic evolution across the Bio-Manifold or All Tomorrows-scale deep-time Nether-bottlenecks, governed by DNA, chitin, Nether-flesh, and internal Mindscape Tanks.',
-    astralEntityMechanism: 'Zero biological reproduction. Whenever Category 4 (or other precognitive) brains run mental simulations weighted by survival emotions (fear, rage, disgust, shame), that simulation causes unintended micro-reality warping—shedding "Astral Trails" every microsecond that cluster and ferment into Astral Entities.',
-    canonicalImplication: 'Every human city, battlefield, or storm continuously manufactures billions of new Astral Trails as a byproduct of conscious thought.'
+    title: 'Pre-Cognitive Simulation Byproduct ("Astral Trails") vs. Lineage & Evolution',
+    standardRaceMechanism: 'Created through multi-generational evolution, deep-time Nether adaptation ("Chapters of the Past"), or dynastic bloodline inheritance with physical/semi-spiritual anatomy.',
+    astralEntityMechanism: 'Have zero biological parents, DNA, or breeding cycles. Whenever Category 3, 4, or 5 minds run pre-cognitive simulations weighted with emotion (fear, anger, shame, desire, awe), those mental projections shed unseen wakes into the world ("Astral Trails") that pool and curdle into autonomous Astral species.',
+    canonicalImplication: 'Every city, battlefield, or haunted district passively spawns new Astral species purely from the pre-cognitive dread and beliefs of its inhabitants.'
   },
   {
     id: 'ac-rule-3',
     ruleNumber: 3,
-    title: 'Substrate: Matter/Nether-Flesh vs. Vibrational Spectrum + Telepathy ("The Psychic Internet")',
-    standardRaceMechanism: 'Anchored in physical matter states (carbon biology, silicon-iron calcified bone) or high-density Category 5 Nether-flesh with Somatic Ki channels.',
-    astralEntityMechanism: 'Exists purely on the Astral Spectrum—defined canonically as the intersection of the Vibrational Spectrum + Telepathy. They inhabit the "Psychic Internet" (Mirror Dimensions, Voids, Bridges, Transversal Routes, and vibrational frequencies of terrestrial locations).',
-    canonicalImplication: 'Astral Entities bypass purely Newtonian barriers unless those barriers are grounded in EM/vibrational dampeners, Suffumigative smoke mediums, or Somatic Ki pressure.'
+    title: 'The Vibrational Spectrum & Telepathic Veil ("The Psychic Internet") vs. Physical Mass',
+    standardRaceMechanism: 'Inhabit physical spacetime or heavy semi-spiritual Nether matter with real mass, inertia, and anatomy.',
+    astralEntityMechanism: 'Inhabit the Psyche Vibrational Spectrum + Telepathy—operating across the unseen "Psychic Internet" that links minds, shadows, mirrors, and internal mindscape tanks.',
+    canonicalImplication: 'Physical blows pass through them unless backed by Somatic Ki (Gō-Ki / Yō-Ki), Solomonic pactional bindings, or Chaldean suffumigation smoke.'
   },
   {
     id: 'ac-rule-4',
     ruleNumber: 4,
-    title: 'The 10⁹ (One Billion×) Magnitude Gap: Tier 5 Low-Astral vs. Tier 6 True Astral',
-    standardRaceMechanism: 'Scales across Category 1–7 ontological authority and the 7 Grades of MWI Ammo Types (10⁴ = 10,000× complexity jump per AMR grade).',
-    astralEntityMechanism: 'Divided across Cognition Tier 5 (Micro-Telekinesis & Low-End Astral synchronized with biological electromagnetic fields: Astral Trails, Apparitions, Eidolons, Wraiths) and Cognition Tier 6 (True Astral & Telekinesis: Ghosts, Jinns, Specters, Banshees, Poltergeists, Pretas, Egregores)—separated by a massive 10⁹ (1,000,000,000×) magnitude gap!',
-    canonicalImplication: 'A Tier 5 Eidolon is barely an electromagnetic static shadow, whereas a Tier 6 Jinn, Preta, or Archon operates a billion times deeper in telekinetic and telepathic complexity.'
+    title: 'The 10⁹× (Billion-Fold) Gulf Between Tier 5 (Low-Astral) & Tier 6 (True Astral)',
+    standardRaceMechanism: 'Scale through bloodline density, somatic training, and the Grade 1–7 complexity of their loaded AMRs.',
+    astralEntityMechanism: 'Divided by a massive 10⁹× (one-billion-fold) qualitative gulf: Tier 5 holds fleeting low-astral wakes (Astral Trails, Apparitions, Phantoms, Eidolons, Wraiths), while Tier 6 holds full folkloric and occult entities (Ghosts, Jinns, Specters, Banshees, Poltergeists, Un-Born, Nachzehrer, Pretas, Gulon, Keres).',
+    canonicalImplication: 'A Tier 5 Eidolon is a fleeting sensory afterimage, whereas a Tier 6 Jinn, Banshee, or Nachzehrer is a billion times denser in psychic weight and can tear apart a room or a human mind.'
   },
   {
     id: 'ac-rule-5',
     ruleNumber: 5,
-    title: 'Morphology: Biomechanical Proportions vs. "The Illusion of Myths" Emotional Exaggeration',
-    standardRaceMechanism: 'Governed by functional evolutionary anatomy: head-height ratios (e.g., 6.8 heads for brutes, 7.8 for martial ascetics), vascular hydraulics, or Anglerfish/Orchid Mantis convergent mimicry.',
-    astralEntityMechanism: 'Because Astral Entities condense out of emotional kickback and collective folklore ("The Illusion of Myths"), their visuals are NOT bound by skeletal gravity—they are emotionally exaggerated: hyper-epic, terrifying, horrific, gross, or geometrically abstract.',
-    canonicalImplication: 'An Astral Entity’s silhouette is a direct visual readout of the psychological trauma, cultural myth, or technological anxiety that spawned it.'
+    title: 'The Illusion of Myths (Shaped by Belief & Dread) vs. Grounded Anatomical Proportions',
+    standardRaceMechanism: 'Bound by functional biomechanics, skeletal mass, and grounded proportions (or, for Noble Demons, high-density patrician sovereignty).',
+    astralEntityMechanism: 'Governed by "The Illusion of Myths"—because they condense out of collective folklore, nightmares, and urban legends, their silhouettes take on exaggerated, paradoxical, or symbolic shapes matching what local minds fear or revere.',
+    canonicalImplication: 'An Astral entity’s appearance is a direct mirror of the cultural trauma, superstition, or mythic archetype that birthed it.'
   },
   {
     id: 'ac-rule-6',
     ruleNumber: 6,
-    title: 'Ecological Function: 50! Population Bedrock, AMR Fermentation & Framework DRM',
-    standardRaceMechanism: 'Compete for territorial sovereignty, soul-currency, and extinct-era AMR reserves across the 29 Underworld Sectors and Bio-Manifold.',
-    astralEntityMechanism: 'Outnumber all biological life on Earth by over 50! (50 factorial). They serve as the political and metabolic bedrock of the supernatural world: (1) fermenting shed human dread into Liquid/Solid/Gas AMRs inside Noble Demon tanks, and (2) acting as autonomous DRM hit-squads (Agnosia Hounds) protecting gatekept Occult Frameworks.',
-    canonicalImplication: 'Without the 50! Astral Ecology, Category 5 Noble Demons could not passively farm negative loops and gatekept Frameworks could not self-censor mortal minds.'
+    title: 'The 50! Astral Economy: Internal-Tank AMR Fermentation & Gatekept Framework Enforcement',
+    standardRaceMechanism: 'Rule territories, wage wars, and wield AMRs across the mortal world and the 29 Underworld Sectors.',
+    astralEntityMechanism: 'Outnumber all physical beings by an astronomical factor (50!). They serve two indispensable roles in the world’s power economy: (1) cultivated inside a Noble Demon’s or Netherbounder’s internal mindscape tank to ferment negative emotional loops into usable AMRs, and (2) bound as automatic enforcement spirits that hunt, memory-wipe, or gaslight uninitiated mortals who pry into Gatekept Occult Frameworks.',
+    canonicalImplication: 'Every Mindscape Overlap and every Gatekept Framework relies on this unseen 50! ecology of Astral entities.'
   }
 ];
 
-// 4C. 11 NEW EXPANDED RACE CATEGORIES ACROSS THE COSMOLOGY (+145 NEW RACES -> 670 TOTAL RACES & ASTRAL SPECIES)
+// 4C. 11 EXPANDED RACE CATEGORIES ACROSS THE COSMOLOGY (+145 RACES -> 670 TOTAL RACES & ASTRAL SPECIES)
 export const EXPANDED_RACE_CATEGORIES: ExpandedRaceCategory[] = [
   {
     id: 'exp-cat1-macro-biomass',
-    categoryName: '1. Category 1 Macro-Biomass & Newtonian Apex Fauna (12 Races)',
-    ontologicalTier: 'Category 1 (Purely Physical & Newtonian)',
-    cognitionTier: 'Tier 1 (Zero Mental or Precognitive Simulation)',
-    constructionMechanism: 'Pure Darwinian & extremophile physical evolution without a single neuron of precognitive simulation. Because they never simulate the future, they shed zero Astral Trails and are completely invisible to telepathic or emotional detection.',
-    associatedFuelOrKi: 'Version 0 Gen-Ki (Pure Thermodynamic & Mechanical Mass)',
-    restrictorPlate: 'Zero magic capability; bound strictly by classical physics and material tensile strength.',
+    categoryName: '1. Category 1 Primeval Flora, Abyssal Leviathans & Zero-Simulation Behemoths (12 Races)',
+    ontologicalTier: 'Category 1 (Purely Physical & Zero-Simulation Life)',
+    cognitionTier: 'Tier 1 (Zero Pre-Cognitive Simulation / Zero Astral Wake)',
+    constructionMechanism: 'Colossal flora, deep-crust worms, and abyssal leviathans that operate purely on instinct and physical reflex without pre-cognitive future simulation. Because they never mentally simulate tomorrow, they shed zero Astral Trails—making them completely invisible to telepathic radar and spirit-sight.',
+    associatedFuelOrKi: 'Version 0 Gen-Ki (Raw Crushing Mass, Metabolic Heat & Physical Momentum)',
+    restrictorPlate: 'Zero MWI magic capability and zero Astral presence; operates strictly through raw physical mass and environment-shaping biology.',
     races: [
-      { name: 'Litho-Vore Leviathans', epithet: 'Continental Mantle Grazers', morphologyAndTrait: '12-kilometer silicate-shelled worms that digest tectonic fault tension without nervous systems.' },
-      { name: 'The Ferro-Mycelial Continents', epithet: 'Iron-Root Fungal Mats', morphologyAndTrait: 'Planetary-scale metallic fungal networks that conduct lightning purely via passive ohmic resistance.' },
-      { name: 'Gravity-Crushed Baro-Whales', epithet: 'Super-Earth Atmospheric Floaters', morphologyAndTrait: 'Hexapodal gas-blimp organisms thriving in 40G high-pressure atmospheres.' },
-      { name: 'Silicon-Glass Reef Walkers', epithet: 'Photonic Coral Striders', morphologyAndTrait: 'Brain-less ambulatory reefs that focus solar beams through crystalline carapaces to vaporize predators.' },
-      { name: 'Thermal-Vent Titan-Worms', epithet: 'Magma-Tube Filterers', morphologyAndTrait: 'Segmented basalt-plated tubes anchored around abyssal volcanic rifts.' },
-      { name: 'Vacuum-Spore Drifters', epithet: 'Interplanetary Exoskeleton Seeds', morphologyAndTrait: 'Lead-hulled dormant macro-spores that ride solar radiation pressure across star systems.' },
-      { name: 'Diamond-Carapace Grazers', epithet: 'Carbon-Cruncher Herd-Beasts', morphologyAndTrait: 'Low-slung quadrupeds whose digestive tracts compress coal seams into industrial diamond armor.' },
-      { name: 'Acid-Sea Planktonic Mats', epithet: 'Sulfuric Super-Colonies', morphologyAndTrait: 'Floating corrosive super-organisms spanning thousands of square miles on caustic worlds.' },
-      { name: 'Magneto-Flora Groves', epithet: 'Lorentz-Force Trees', morphologyAndTrait: 'Metallic forests that whip branches at supersonic speeds whenever planetary magnetic poles fluctuate.' },
-      { name: 'Tectonic-Plate Barnacles', epithet: 'Subduction-Zone Anchors', morphologyAndTrait: 'Mountain-sized calcified filter-feeders harvesting mineral upwellings along crust fractures.' },
-      { name: 'Sub-Mantle Magma Corals', epithet: 'Pyroclastic Reef Builders', morphologyAndTrait: 'Crystalline lattice organisms growing inside liquid nickel-iron planetary cores.' },
-      { name: 'Atmospheric Gas-Blimp Jellyfish', epithet: 'Hydrogen-Sac Sky Drifters', morphologyAndTrait: 'Mile-wide translucent cnidarians trailing electrostatic tentacles through storm clouds.' }
+      { name: 'The Earth-Swallower Worms', epithet: 'Deep-Mantle Grazers', morphologyAndTrait: 'Mile-long, blind worms plated in grey slate that grind through mountain roots without a single pre-cognitive thought.' },
+      { name: 'The Iron-Root Forests of Old', epithet: 'Rust-Bark Groves', morphologyAndTrait: 'Continent-spanning timberlands whose iron-hard roots drink mineral veins and ground out natural lightning.' },
+      { name: 'The Blind Chasm-Whales', epithet: 'Deep-Trench Leviathans', morphologyAndTrait: 'Slumbering white-skinned leviathans of the sunless sea-trenches whose slow heartbeats stir deep ocean currents.' },
+      { name: 'The Glass-Coral Striders', epithet: 'Salt-Reef Walkers', morphologyAndTrait: 'Sightless, many-legged reef-behemoths that carry towering spires of sea-glass across the ocean floor.' },
+      { name: 'The Caldera-Serpents', epithet: 'Ash-Throat Wyrms', morphologyAndTrait: 'Slumber coiled inside volcanic craters for centuries, waking only to feed on molten sulfur and pumice.' },
+      { name: 'The Ash-Spore Drifters', epithet: 'Black-Cloud Blooms', morphologyAndTrait: 'Silent, drifting fungal canopies that float on high mountain winds and rain sleeping-ash over valleys.' },
+      { name: 'The Basalt-Herd Grazers', epithet: 'Stone-Hoofed Behemoths', morphologyAndTrait: 'Broad-backed, six-legged herd beasts whose bellies grind raw coal and limestone into black diamond scutes.' },
+      { name: 'The Bitter-Sea Shoals', epithet: 'Brine-Crusted Leviathans', morphologyAndTrait: 'Vast, floating islands of salt-crusted shell and weed that drift across dead inland seas.' },
+      { name: 'The Lodestone-Groves', epithet: 'Iron-Drawing Trees', morphologyAndTrait: 'Twisted black-timber woods whose sap is heavy with lodestone, wrenching iron blades and mail from travelers’ hands.' },
+      { name: 'The Mountain-Barnacles', epithet: 'Cliff-Face Filterers', morphologyAndTrait: 'House-sized shells fused to sheer mountain crags that drink the mist and hail of high passes.' },
+      { name: 'The Hearth-Core Corals', epithet: 'Deep-Fire Reefs', morphologyAndTrait: 'Crimson stone-growths that bloom like thorny roses along the banks of subterranean magma rivers.' },
+      { name: 'The Storm-Cloud Medusae', epithet: 'Sky-Drifting Bells', morphologyAndTrait: 'Vast, translucent bells that drift inside thunderheads, trailing mile-long tendrils of raw lightning.' }
     ]
   },
   {
     id: 'exp-cat2-thinking-nodes',
-    categoryName: '2. Category 2 Formless Thinking Nodes & Mathematical Phenomena (12 Races)',
-    ontologicalTier: 'Category 2 (Category X — Non-Sentient Thinking Nodes)',
-    cognitionTier: 'Tier 2–3 Formless Conceptual Computation',
-    constructionMechanism: 'Zero physical body, zero ego, zero emotions, and zero self-awareness—yet capable of pure conceptual thought and Netherarchesial reality warping. They exist as self-executing geometric proofs or standing mathematical equations drifting through realms.',
-    associatedFuelOrKi: 'Raw Mathematical Continuity & Ambient MWI Probability Alignment',
-    restrictorPlate: 'Lacks ego or survival instinct; can be trapped or neutralized by feeding it an unsolvable recursive geometric paradox.',
+    categoryName: '2. Category 2 Formless Thinking Geometries & Living World-Laws (12 Races)',
+    ontologicalTier: 'Category 2 (Category X — Formless Thinking Presences)',
+    cognitionTier: 'Tier 2–3 Non-Emotional Spatial & Geometric Intelligence',
+    constructionMechanism: 'Directly from the Category 2 canon: entities that have ZERO physical body and ZERO emotional drives, yet actively think, measure, and reshape local reality like living spatial laws or unseen architectural presences.',
+    associatedFuelOrKi: 'Ambient Spatial & Environmental Alignment',
+    restrictorPlate: 'Zero ego, zero fear, and zero survival instinct; bound strictly to their ancient geometric or environmental rule.',
     races: [
-      { name: 'The Noetic Mycelia', epithet: 'Sub-Quantum Proof Networks', morphologyAndTrait: 'Formless filaments of pure logic that reorganize crystal lattices into computer memory.' },
-      { name: 'The Magnetosphere Proofs', epithet: 'Auroral Calculation Belts', morphologyAndTrait: 'Self-solving differential equations orbiting gas giants that warp gravity when ships cross their vectors.' },
-      { name: 'The Cauchy-Horizon Thinkers', epithet: 'Boundary-Condition Nodes', morphologyAndTrait: 'Non-sentient thought-loops localized around high-gravity event horizons.' },
-      { name: 'The Recursive-Axiom Clouds', epithet: 'Self-Referential Fog', morphologyAndTrait: 'Invisible probability zones that force all matter entering them into bilateral fractal symmetry.' },
-      { name: 'The Topology-Weavers', epithet: 'Manifold-Folding Processes', morphologyAndTrait: 'Formless geometric nodes that continuously invert interior and exterior angles of abandoned ruins.' },
-      { name: 'The Prime-Interval Lattices', epithet: 'Harmonic Number Fields', morphologyAndTrait: 'Rhythmic temporal nodes that only allow chemical reactions to occur on prime-numbered millisecond intervals.' },
-      { name: 'The Zero-Mass Syllogisms', epithet: 'Pure Deductive Currents', morphologyAndTrait: 'Conceptual currents that delete physical effects if their local cause contains a logical contradiction.' },
-      { name: 'The Ionospheric Theorems', epithet: 'Upper-Atmosphere Logic Storms', morphologyAndTrait: 'Lightning-fast non-sentient calculations that rewrite weather patterns into geometric grids.' },
-      { name: 'The Quantum-Foam Automaton-Equations', epithet: 'Planck-Scale Cellular Automata', morphologyAndTrait: 'Microscopic thinking rules that propagate through vacuum energy like Conway’s Game of Life.' },
-      { name: 'The Non-Sentient Geodesics', epithet: 'Trajectory-Optimization Lines', morphologyAndTrait: 'Invisible spatial rails that hijack projectiles and bend them along minimum-energy curves.' },
-      { name: 'The Entropy-Minimizer Fields', epithet: 'Spontaneous-Sorting Zones', morphologyAndTrait: 'Formless thinking zones that un-mix gases and sort rubble by atomic weight.' },
-      { name: 'The Eigenstate-Solvers', epithet: 'Wave-Collapse Nodes', morphologyAndTrait: 'Pure observational processes that lock surrounding quantum superpositions into rigid crystal stasis.' }
+      { name: 'The Silent Ordinances', epithet: 'Unseen Measure-Keepers', morphologyAndTrait: 'Bodiless presences in forgotten sanctuaries that crush any stone or pillar built out of true geometric measure.' },
+      { name: 'The Star-Tide Currents', epithet: 'Night-Sky Drifters', morphologyAndTrait: 'Unseen tides of cold, bodiless thought that flow down when certain dead stars cross the winter zenith.' },
+      { name: 'The Horizon-Watchers', epithet: 'Edge-of-the-World Presences', morphologyAndTrait: 'Formless weights that sit upon desolate mountain ridges, turning travelers back by folding the path.' },
+      { name: 'The Mirror-Mist of Vael', epithet: 'Twin-Shaping Fog', morphologyAndTrait: 'A pale, thinking mist that forces every tree, stone, and ruin within it to grow an exact symmetrical twin.' },
+      { name: 'The Labyrinth-Turners', epithet: 'Hall-Twisting Wills', morphologyAndTrait: 'Silent, bodiless intelligences dwelling in sunken keeps that slowly fold corridors back upon themselves.' },
+      { name: 'The Seventh-Hour Tides', epithet: 'Bell-Measure Currents', morphologyAndTrait: 'Invisible ordinances that allow fire to burn or blood to spill only upon every seventh interval.' },
+      { name: 'The Unspoken Verdicts', epithet: 'Oath-Weighing Winds', morphologyAndTrait: 'Cold, thinking currents that snuff out every hearth and torch in a hall the instant a falsehood is spoken.' },
+      { name: 'The Red-Sky Omens', epithet: 'High-Gale Presences', morphologyAndTrait: 'Thinking tempests that arrange storm-clouds into vast geometric patterns before a dynasty falls.' },
+      { name: 'The Hollow-Wind Voices', epithet: 'Canyon-Carving Thoughts', morphologyAndTrait: 'Bodiless wills that whistle through desert gorges, eroding cliff-faces into intricate acoustic chambers.' },
+      { name: 'The Way-Benders', epithet: 'Road-Lengthening Wills', morphologyAndTrait: 'Silent presences of the old roads that stretch a three-mile walk into a three-day march.' },
+      { name: 'The Stillness-of-Ashes', epithet: 'Sorting-Winds of the Waste', morphologyAndTrait: 'Quiet, unseen currents that endlessly sort the bones and cinders of ruined cities by weight and age.' },
+      { name: 'The Stone-Lock Presences', epithet: 'Time-Freezing Wards', morphologyAndTrait: 'Formless wills that lock decaying ruins in eternal stillness until a living foot crosses the threshold.' }
     ]
   },
   {
     id: 'exp-cat3-memoryless-calculators',
-    categoryName: '3. Category 3 Emotionless Memoryless Precognitive Calculators (15 Races)',
-    ontologicalTier: 'Category 3 (Category X — Emotionless Precognitive Calculators)',
-    cognitionTier: 'Tier 3–5 (Sentient & Precognitive, Zero Emotions, Zero Long-Term Mistake Memory)',
-    constructionMechanism: 'The minimum threshold required to utilize MAGIC steadily. They possess intellect and precognitive simulation, but completely lack evolutionary emotional overrides and lack permanent pattern recognition ("they learn by the way, predict by the way"). Because they carry zero past trauma or nostalgia, their MWI simulations have zero emotional drag.',
-    associatedFuelOrKi: 'Steady Grade 1–2 Non-Specific & Very Specific MWI AMRs',
-    restrictorPlate: 'Zero long-term memory of past mistakes: if an enemy breaks their short-term calculation window, they must re-derive the opponent’s combat style from scratch.',
+    categoryName: '3. Category 3 Passionless & Memoryless Pre-Cognitive Races (15 Races)',
+    ontologicalTier: 'Category 3 (Category X — Emotionless, Memoryless Pre-Cognitive Species)',
+    cognitionTier: 'Tier 3–5 (Real-Time Pre-Cognitive Simulation Without Emotion or Long-Term Memory)',
+    constructionMechanism: 'Directly from the Category 3 canon: the minimum cognitive threshold required to use MWI Magic consistently. These unsettling races have zero emotional drives (no fear, anger, grief, or shame) and no long-term autobiographical memory ("they don\'t learn from past mistakes, they lack long-term memory, they learn by the way, predict by the way"). Because their pre-cognitive simulations are never clouded by panic or trauma, they cast Grade 1–2 AMRs with terrifying, mechanical calm.',
+    associatedFuelOrKi: 'Unclouded Grade 1–2 Pre-Cognitive AMRs',
+    restrictorPlate: 'Zero long-term memory Retention: if an opponent survives their immediate pre-cognitive window and breaks their rhythm, they cannot remember the opponent’s past feints and must re-read them from scratch.',
     races: [
-      { name: 'The Markovian Lattice (Ephemerids)', epithet: 'Twelve-Second Slate-Wipers', morphologyAndTrait: 'Translucent radial-symmetrical arthropods whose synaptic slates wipe every 12 seconds for zero-bias MWI casting.' },
-      { name: 'The Twelve-Second Savants', epithet: 'Instantaneous Ballistic Oracles', morphologyAndTrait: 'Tall, faceless bipeds with 360-degree compound ocular rings that calculate 10,000 future trajectories per second.' },
-      { name: 'The Tabula-Rasa Cephalopods', epithet: 'Zero-Nostalgia Deep Navigators', morphologyAndTrait: 'Floating pelagic calculators that rewrite their own neural pathways after every spell discharge.' },
-      { name: 'The Tachyon-Arithmeticians', epithet: 'Pure-Vector Geometrists', morphologyAndTrait: 'Six-limbed silicate scholars who communicate exclusively in live probability percentages.' },
-      { name: 'The Glass-Craniate Mantids', epithet: 'Exposed-Optic Precogs', morphologyAndTrait: 'Predatory calculators whose transparent skulls glow with real-time quantum gap diagrams.' },
-      { name: 'The Zero-Bias Geometry Clans', epithet: 'Un-Mourning Architects', morphologyAndTrait: 'Builders of non-Euclidean cities who abandon entire metropolises the instant a calculation shifts.' },
-      { name: 'The Stochastic Swarms of Vael', epithet: 'Distributed Probability Locusts', morphologyAndTrait: 'Swarming nodes where each insect calculates a single MWI branch before expiring.' },
-      { name: 'The Amnesiac Navigators', epithet: 'Void-Route Pilots', morphologyAndTrait: 'Elongated navigators immune to Astral gaslighting because they cannot retain false memories.' },
-      { name: 'The Cold-Probability Arachnids', epithet: 'Causal-Web Spinners', morphologyAndTrait: 'Eight-legged weavers whose physical silk threads represent calculated future timelines.' },
-      { name: 'The Delta-State Amphibians', epithet: 'Still-Pulse Precognitives', morphologyAndTrait: 'Lethargic, cold-blooded casters whose brains operate at zero emotional arousal while bending local physics.' },
-      { name: 'The Un-Traumatized Synod', epithet: 'Pain-Blind Tacticians', morphologyAndTrait: 'Caste of pale humanoid calculators lacking pain-memory receptors; impossible to intimidate or demoralize.' },
-      { name: 'The Instant-Derivation Hive', epithet: 'On-The-Fly Counter-Casters', morphologyAndTrait: 'Colonial organisms that invent counter-spells in real time and forget them 30 seconds later.' },
-      { name: 'The Blank-Slate Cetaceans', epithet: 'Sonar-Simulation Leviathans', morphologyAndTrait: 'Sub-surface giants that map future topography via high-frequency acoustic precognition.' },
-      { name: 'The Pure-Vector Avians', epithet: 'Thermals-Of-Tomorrow Gliders', morphologyAndTrait: 'Eyeless raptors that fly by riding wind currents simulated 8 seconds in the future.' },
-      { name: 'The Memoryless Chronometers', epithet: 'Tick-By-Tick Reality Aligners', morphologyAndTrait: 'Metronomic organisms whose heartbeats lock local Possibility Resistance to a steady flatline.' }
+      { name: 'The Ephemerids of the White Fen', epithet: 'Twelve-Breath Seers', morphologyAndTrait: 'Pale, slender reed-folk whose memory clears with every twelfth breath, firing Grade 1–2 AMRs with unclouded stillness.' },
+      { name: 'The Sightless Oracles of Kael', epithet: 'Hundred-Eyed Diviners', morphologyAndTrait: 'Tall, veiled figures crowned with rings of unblinking eyes that pre-cognitively simulate every projectile before it is loosed.' },
+      { name: 'The Lethe-Water Dwellers', epithet: 'Unmourning Deep-Folk', morphologyAndTrait: 'Silent, web-fingered scholars of subterranean lakes who wash away their own yesterday after every spell.' },
+      { name: 'The Star-Abacus Monks', epithet: 'Cold-Measure Astrologers', morphologyAndTrait: 'Six-armed, stone-pale ascetics who cast flawless spatial magic yet never remember why their monastery went to war.' },
+      { name: 'The Glass-Browed Mantids', epithet: 'Clear-Skulled Seers', morphologyAndTrait: 'Stalking hunters of the salt-wastes whose translucent brows shimmer with real-time pre-cognitive strike paths.' },
+      { name: 'The Unmourning Masons', epithet: 'Builders of the Shifting Spires', morphologyAndTrait: 'Raise cyclopean stone towers in complete silence and walk away the instant the immediate simulation ends.' },
+      { name: 'The Locust-Seers of Vael', epithet: 'Swarm-Augurs', morphologyAndTrait: 'Winged covenants where each individual holds a single branch of immediate pre-cognitive simulation.' },
+      { name: 'The Mist-Pilots of the Shallows', epithet: 'Nameless Ferry-Guides', morphologyAndTrait: 'Long-limbed helmsmen whom no illusion or fear-aura can shake because they possess neither fear nor yesterday.' },
+      { name: 'The Fate-Loom Spiders', epithet: 'White-Silk Weavers', morphologyAndTrait: 'Ancient cavern-weavers whose webs map the next hour’s bloodshed, only to be eaten and spun anew.' },
+      { name: 'The Cold-Blooded Augurs', epithet: 'Still-Hearted Marsh-Lords', morphologyAndTrait: 'Serpent-eyed marsh nobles whose pulse never quickens even as they call down lightning AMRs upon an army.' },
+      { name: 'The Painless Synod', epithet: 'Ashen-Skinned Tacticians', morphologyAndTrait: 'An emotionless order that feels neither wound nor terror, reading the battlefield purely in the present tense.' },
+      { name: 'The Counter-Chant Choir', epithet: 'Present-Breath Singers', morphologyAndTrait: 'Weave counter-spells on the breath of the moment and forget the chant the instant silence falls.' },
+      { name: 'The Blind Whale-Singers', epithet: 'Deep-Current Prophets', morphologyAndTrait: 'Sea-giants who map shifting probability currents through low, echoing songs across dark water.' },
+      { name: 'The Tomorrow-Wind Hawks', epithet: 'Eyeless Crag-Raptors', morphologyAndTrait: 'Pre-cognitively simulate wind currents eight heartbeats ahead, striking prey where it is about to dodge.' },
+      { name: 'The Still-Bell Wardens', epithet: 'Bronze-Hearted Sentinels', morphologyAndTrait: 'Keepers of border-shrines whose emotionless pre-cognitive focus dampens wild Astral wakes within earshot.' }
     ]
   },
   {
     id: 'exp-cat4-biomanifold-civilizations',
-    categoryName: '4. Category 4 Non-Human Emotional Civilizations of the Bio-Manifold (15 Races)',
-    ontologicalTier: 'Category 4 (Emotional Evolutionary Civilizations)',
-    cognitionTier: 'Tier 2–6 (Full Sentience, Long-Term Pattern Recognition & Evolutionary Emotions)',
-    constructionMechanism: 'Like Humans, these Bio-Manifold species evolved precompiled hardware/software emotions that weight their precognitive simulations—unconsciously warping reality and spawning massive "Illusion of Myths" pantheons. However, because their evolutionary biology is non-primate, their core emotions and Astral Trails are radically alien.',
-    associatedFuelOrKi: 'Emotionally Weighted MWI Simulations & Somatic Ki (Ichirei Shikon)',
-    restrictorPlate: 'Evolutionarily blind to their own MWI reality-warping capability; vulnerable to Category 5 predation on their species-specific emotional triggers.',
+    categoryName: '4. Category 4 Non-Human Mortal Kindreds & Bio-Manifold Civilizations (15 Races)',
+    ontologicalTier: 'Category 4 (Mortal Species with Full Emotion, Memory & Pre-Cognitive Wakes)',
+    cognitionTier: 'Tier 2–6 (Full Emotional Drives + Long-Term Memory + Astral Trail Generation)',
+    constructionMechanism: 'Parallel mortal civilizations to Humanity. Like humans, they possess full emotional drives (fear, wrath, shame, attachment, pride) wired into long-term memory and pre-cognitive simulation—meaning they shed rich Astral Trails into the Psychic Internet, though shaped by their own unique biology and ancient taboos.',
+    associatedFuelOrKi: 'Emotion-Weighted Pre-Cognitive AMRs & Somatic Ki (Ichirei Shikon)',
+    restrictorPlate: 'Like humanity, they are naturally blind to the unseen Astral wakes they shed and are heavily farmed by Category 5 Nether-entities.',
     races: [
-      { name: 'The Molt-Shame Chitinoids of Kael-Vor', epithet: 'Exoskeleton-Vulnerability Civilization', morphologyAndTrait: 'Armored bipeds whose strongest evolutionary emotion is "Molt-Dread" (the vulnerable 48 hours after shedding armor), spawning shell-god myths.' },
-      { name: 'The Symbiont-Grief Coral-Minds', epithet: 'Paired-Organism Societies', morphologyAndTrait: 'Dual-species symbiotes whose severing triggers catastrophic metabolic grief-waves that warp local ocean gravity.' },
-      { name: 'The Pheromone-Wrath Eusocial Castes', epithet: 'Chemical-Outrage Empires', morphologyAndTrait: 'Hive-cities where Moral Outrage is transmitted via airborne esters, igniting synchronized city-wide Turn Fields.' },
-      { name: 'The Bioluminescent-Awe Deep-Dwellers', epithet: 'Abyssal Light-Worshippers', morphologyAndTrait: 'Sub-oceanic humanoids whose skin flashes complex syntactic light patterns when experiencing religious awe.' },
-      { name: 'The Echo-Attachment Chiropterans', epithet: 'Acoustic-Bonding Clans', morphologyAndTrait: 'Winged nocturnal civilizations whose love/attachment hardware requires continuous harmonic echolocation with their mate.' },
-      { name: 'The Spore-Gratitude Myconids', epithet: 'Reciprocal-Nutrient Networks', morphologyAndTrait: 'Fungal-vascular humanoids whose evolutionary Gratitude algorithm physically grafts generous allies into their regeneration network.' },
-      { name: 'The Thermal-Jealousy Saurians', epithet: 'Basking-Territory Dynasties', morphologyAndTrait: 'Endothermic-ectothermic reptiles whose territorial jealousy spikes body heat past 140°F, fueling natural Ara-Ki.' },
-      { name: 'The Magnetic-Guilt Migrators', epithet: 'Pole-Aligned Nomads', morphologyAndTrait: 'Horned nomads with cranial magnetite whose internal social-GPS Guilt literally pulls them off-balance if they betray the herd.' },
-      { name: 'The Binary-Heart Bonded Avians', epithet: 'Dual-Pulse Sky Kingdoms', morphologyAndTrait: 'High-altitude avians whose twin hearts synchronize across miles; bereavement triggers localized atmospheric vacuum collapses.' },
-      { name: 'The Hibernation-Dread Ursines', epithet: 'Long-Winter Prophets', morphologyAndTrait: 'Massive furred scholars whose multi-month winter torpor generates continent-spanning oneiric Astral realms.' },
-      { name: 'The Chromatophore-Outrage Cephalopods', epithet: 'Living-Tapestry Judges', morphologyAndTrait: 'Amphibious sophonts incapable of lying because their skin automatically displays their subconscious threat simulations.' },
-      { name: 'The Infrasonic-Mourning Titan-Herds', epithet: 'Graveyard-Memory Giants', morphologyAndTrait: 'Four-tusked pachyderm sophonts with 500-year memories whose ancestral mourning rituals crystallize local bedrock.' },
-      { name: 'The Brood-Sacrifice Arachno-Sapiens', epithet: 'Matriarchal Silk-Empires', morphologyAndTrait: 'Architects whose maternal attachment hardware overrides self-preservation, generating impenetrable Nigi-Ki silk fortresses.' },
-      { name: 'The Silica-Nostalgia Crystalline Clans', epithet: 'Piezoelectric Memory Keepers', morphologyAndTrait: 'Long-lived mineral-organic hybrids whose nostalgia resonates through quartz veins as physical lightning.' },
-      { name: 'The Tidal-Panic Amphibians', epithet: 'Lunar-Cycle Civilizations', morphologyAndTrait: 'Coastal empires whose collective endocrine systems surge in lockstep with orbital tidal forces.' }
+      { name: 'The Shell-Shedding Kin of Kael-Vor', epithet: 'Carapace-Mourning Folk', morphologyAndTrait: 'Tall, shell-armored warriors whose deepest vulnerability and dread is the soft-skinned week of the autumn molt.' },
+      { name: 'The Twin-Bound Coral Peoples', epithet: 'Tide-Wedded Dwellers', morphologyAndTrait: 'Sea-cliff kindreds bonded in life-long pairs; when one dies, the survivor’s grief-wake turns the surrounding reef to black salt.' },
+      { name: 'The Amber-Hives of the South', epithet: 'Incense-Sworn Matriarchies', morphologyAndTrait: 'Ancient walled cities where royal wrath is carried on scented smoke, rousing ten thousand spears in a single breath.' },
+      { name: 'The Deep-Lantern Peoples', epithet: 'Sunless-Sea Pilgrims', morphologyAndTrait: 'Pale-skinned abyssal folk whose brows glow with golden light when gripped by sacred awe.' },
+      { name: 'The Night-Winged Clans of the Crags', epithet: 'Echo-Sworn Highlanders', morphologyAndTrait: 'Leathery-winged mountain clans who sing their blood-feuds and marriage vows across moonlit gorges.' },
+      { name: 'The Root-Sworn Myconids', epithet: 'Barrow-Moss Elders', morphologyAndTrait: 'Ancient forest-folk who bury their dead beneath their own feet, sharing the memories of ten generations through the soil.' },
+      { name: 'The Sun-Stone Saurians', epithet: 'Gold-Scaled Dynasty Lords', morphologyAndTrait: 'Proud, sun-worshipping lizard-kings whose blood runs like molten copper when their honor is slighted.' },
+      { name: 'The North-Horned Nomads', epithet: 'Star-Guided Herd-Folk', morphologyAndTrait: 'Great-horned wanderers of the tundra who feel a physical pull in their bones whenever an oath to the clan is broken.' },
+      { name: 'The Twin-Hearted Sky-Folk', epithet: 'High-Aerie Nobles', morphologyAndTrait: 'Feathered cliff-lords whose two hearts beat in unison with their sworn shield-brother across leagues of sky.' },
+      { name: 'The Winter-Dreaming Ursines', epithet: 'Barrow-Sleeping Sages', morphologyAndTrait: 'Towering, fur-cloaked giants whose four-month winter slumbers fill the northern valleys with shared prophetic dreams.' },
+      { name: 'The Shifting-Skin Elders', epithet: 'Truth-Marked Coast-Folk', morphologyAndTrait: 'Sea-peoples who cannot speak a falsehood without their skin flushing with the colors of their secret fear.' },
+      { name: 'The Grave-Keeping Behemoths', epithet: 'Four-Tusked Chroniclers', morphologyAndTrait: 'Towering, grey-hided ancients who remember every treaty and betrayal for five hundred years, weeping tears that harden into amber.' },
+      { name: 'The Silk-Matriarchs of the Loom', epithet: 'Web-Walled Queens', morphologyAndTrait: 'Spin fortress-curtains of iron-tough silk to guard their young, infused with fierce maternal Nigi-Ki.' },
+      { name: 'The Singing-Quartz Clans', epithet: 'Cavern-Chime Artisans', morphologyAndTrait: 'Dwellers in deep crystal vaults whose ancestral songs of longing make the mountain veins hum with lightning.' },
+      { name: 'The Moon-Tide Peoples', epithet: 'Silver-Shoal Mariners', morphologyAndTrait: 'Island kindreds whose blood-rage and sorrow rise and fall with the pull of the moons.' }
     ]
   },
   {
     id: 'exp-cat5-benevolent-symbiotes',
-    categoryName: '5. Category 5 Non-Malevolent / Symbiotic Ontological Manipulators (12 Races)',
-    ontologicalTier: 'Category 5 (Category X — Non-Malevolent Spectrum)',
-    cognitionTier: 'Tier 7–9 (Complete Soul 1 + Soul 2 & Symbiotic MWI Alignment)',
-    constructionMechanism: 'Canon explicitly states that Category 5 manipulation "doesn’t always mean malicious—other entities that aren’t malevolent exist on the other end of the spectrum." Instead of farming fear/dread like Netherbounders, these Category 5 races cultivate Category 4 Gratitude, Reciprocal Altruism, Awe, and Cohesive Trust Lattices to refine high-grade AMRs.',
-    associatedFuelOrKi: 'Symbiotic Trust-Lattice AMRs & Radiant/Cohesive Reserves',
-    restrictorPlate: 'Because "Bad is Stronger than Good" in raw individual urgency, they require synchronized multi-person oaths or Trust Lattices; a single act of betrayal or game-theory defection inside their host group snaps their ontological boundary.',
+    categoryName: '5. Category 5 Custodial, Covenant & Non-Malevolent Sovereigns (12 Races)',
+    ontologicalTier: 'Category 5 (Category X — Non-Malicious & Custodial Spectrum Counterparts)',
+    cognitionTier: 'Tier 7–9 (Full Soul 1 + Soul 2 MWI Sovereignty)',
+    constructionMechanism: 'Directly from the Category 5 canon: "they aren\'t always malicious... other entities that aren\'t malevolent exist on the other end of the spectrum." While Netherbound Category 5s harvest negative emotional loops (terror, despair, obsession), these austere, awe-inspiring Category 5 beings cultivate positive, custodial resonance—kept oaths, guest-right, valor under siege, and willing self-sacrifice.',
+    associatedFuelOrKi: 'Custodial Covenant & Valor-Charged Grade 2–4 AMRs',
+    restrictorPlate: 'Because mortal terror is quick and easy while true trust and courage are fragile, a single act of treachery or oath-breaking within their warded circle shatters theirAMR flow on the spot.',
     races: [
-      { name: 'The Eunoia-Weavers', epithet: 'Architects of Reciprocal Altruism', morphologyAndTrait: 'Luminous multi-winged geometric sovereigns who link mortal communities into shared precognitive shields.' },
-      { name: 'The Covenant Seraphim', epithet: 'Oath-Thermodynamic Engines', morphologyAndTrait: 'Six-armed brass-and-alabaster entities whose internal AMR tanks fill only when mortals keep costly promises under duress.' },
-      { name: 'The Axiomatic Symbiotes', epithet: 'Co-Evolutionary Soul Partners', morphologyAndTrait: 'Non-parasitic Category 5 beings that graft onto consenting Category 4 hosts, trading Grade 3 AMRs for shared sensory awe.' },
-      { name: 'The Trust-Lattice Architects', epithet: 'Game-Theory Harmonists', morphologyAndTrait: 'Tall, porcelain-masked arbiters who turn marketplace fairness and civic cooperation into city-wide Possibility Resistance barriers.' },
-      { name: 'The Martyr-Resonators', epithet: 'Self-Sacrifice Amplifiers', morphologyAndTrait: 'Solemn, bell-chested entities that convert a single mortal’s willing self-sacrifice into a Grade 4 protective miracle.' },
-      { name: 'The Reciprocal-Oath Wardens', epithet: 'Hospitality Law-Keepers', morphologyAndTrait: 'Hearth-crowned giants bound to ancient laws of guest-right; unbeatable inside a home where bread and salt were honestly shared.' },
-      { name: 'The Agape-Conduits', epithet: 'Parental-Aegis Sovereigns', morphologyAndTrait: 'Fierce, lion-headed guardians fueled by the evolutionary attachment hardware of parents defending offspring.' },
-      { name: 'The Sanctuary-Geometers', epithet: 'Asylum-Boundary Carvers', morphologyAndTrait: 'Monastic entities whose footsteps lay down non-violent Turn Fields where weapons suffer 10,000× Possibility Resistance.' },
-      { name: 'The Mercy-Binders', epithet: 'Spared-Blade Collectors', morphologyAndTrait: 'Silver-armored judges who harvest the exact quantum potential released when a victor chooses to spare a defeated enemy.' },
-      { name: 'The Choral-Harmonists', epithet: 'Polyphonic Mindscape Weavers', morphologyAndTrait: 'Entities that synchronize thousands of mortal voices into a single harmonic precognitive simulation.' },
-      { name: 'The Golden-Rule Arbiters', epithet: 'Mirror-Consequence Sovereigns', morphologyAndTrait: 'Symmetric twin-bodied beings whose field forces every combatant to experience the exact physical damage they inflict.' },
-      { name: 'The Catharsis-Harvesters', epithet: 'Grief-To-Clarity Alchemists', morphologyAndTrait: 'Gentle, lantern-bearing psychopomps who consume toxic trauma-trails and exhale calm, liquid-feel restorative AMRs.' }
+      { name: 'The Eunoia-Weavers', epithet: 'Lords of the Unbroken Circle', morphologyAndTrait: 'Multi-winged figures of tarnished gold who weave the courage of a besieged town into an unbreakable Turn Field.' },
+      { name: 'The Six-Winged Covenant Seraphim', epithet: 'Keepers of the Sworn Word', morphologyAndTrait: 'Towering brass-and-ivory guardians whose internal vessels fill with white fire only when mortals keep a deadly oath.' },
+      { name: 'The Soul-Sworn Custodians', epithet: 'Willing-Bond Spirits', morphologyAndTrait: 'Ancient, noble presences that bind themselves only to consenting champions, sharing both wounds and power.' },
+      { name: 'The Pillar-Judges of the Market', epithet: 'Scales-of-Salt Arbiters', morphologyAndTrait: 'Tall, porcelain-masked magistrates who turn honest trade and kept treaties into warded city walls.' },
+      { name: 'The Martyr’s-Bell Sovereigns', epithet: 'Toll-Keepers of the Fallen', morphologyAndTrait: 'Solemn, bell-chested ancients who catch the final breath of a hero dying for his kin and forge it into a high-grade AMR.' },
+      { name: 'The Hearth-Right Giants', epithet: 'Lords of Bread and Salt', morphologyAndTrait: 'Ash-bearded giants bound to the oldest law of hospitality; invincible beneath any roof where a stranger was honestly sheltered.' },
+      { name: 'The Lion-Crowned Wardens', epithet: 'Aegis of the Cradle', morphologyAndTrait: 'Fierce, golden-maned guardians drawn to the side of parents standing between monsters and their children.' },
+      { name: 'The Sanctuary-Builders', epithet: 'Threshold-Consecrators', morphologyAndTrait: 'Silent monastic beings whose footsteps bless the ground so deeply that drawn weapons grow too heavy to lift.' },
+      { name: 'The Mercy-Blades', epithet: 'Collectors of the Spared Stroke', morphologyAndTrait: 'Silver-armored knights who harvest the grace released when a conqueror stays his hand and spares a beaten foe.' },
+      { name: 'The Choir-Lords of the Vigil', epithet: 'Night-Watch Harmonists', morphologyAndTrait: 'Gather the whispered prayers and vigils of a thousand hearths into a single dawn-breaking Turn Field.' },
+      { name: 'The Mirror-Scales of Justice', epithet: 'Twin-Faced Arbiters', morphologyAndTrait: 'Solemn sovereigns under whose gaze every strike dealt in malice is carved simultaneously into the striker’s own flesh.' },
+      { name: 'The Lantern-Bearers of Rest', epithet: 'Cleaners of the Troubled Field', morphologyAndTrait: 'Gentle, hooded guides who drink the bitter hauntings of old battlefields and exhale quiet, restorative dew.' }
     ]
   },
   {
     id: 'exp-cat5-netherbounder-postspecies',
-    categoryName: '6. Category 5 Deep-Time "Netherbounder" Post-Species (All Tomorrows Scale — 20 Races)',
-    ontologicalTier: 'Category 5 (Nether-Bounded Deep-Time Divergent Lineages)',
-    cognitionTier: 'Tier 6–9 (Post-Sentient Specialized Castes to Proto-Noble Survivors)',
-    constructionMechanism: 'Inspired by All Tomorrows and Star Wars "Chapters of the Past." These were once proud alien star-empires, dimensional civilizations, and mortal species dragged across the Nether-boundary millions of years ago. Stripped of their suns and crushed through abyssal evolutionary bottlenecks, they mutated into hyper-specialized survival forms run on the 4-Stage Negative Loop.',
-    associatedFuelOrKi: 'Fermented Negative-Loop AMRs (Liquid, Solid & Gas Depletion States)',
-    restrictorPlate: 'Carry permanent anatomical and psychological "Chapters of the Past" evolutionary scars; starve if cut off from Category 4 negative Astral Trail fermentation.',
+    categoryName: '6. Category 5 Netherbounder Deep-Time Post-Species ("Chapters of the Past" / All Tomorrows Scale — 20 Races)',
+    ontologicalTier: 'Category 5 (Nether-Bounded Conquered Species & Deep-Time Post-Species)',
+    cognitionTier: 'Tier 6–9 (Reshaped Servitor & Siege Castes to Ancient Survivor Bloodlines)',
+    constructionMechanism: 'Inspired by the deep-time evolutionary trauma of All Tomorrows and "Chapters of the Past": these are once-proud mortal kingdoms, alien civilizations, and elder races dragged across the Nether-veil millions of years ago. Stripped of their native skies and reshaped across eons of crushing Nether pressure, war, and selective breeding by the Great Houses, 99% were warped into grotesque, tragic post-species specialized for siege warfare, dread-fermentation, or living architecture.',
+    associatedFuelOrKi: 'Negative-Loop Fermented AMRs (Liquid Fuel Tanks, Solid Rock Chunks & Gas Reserves)',
+    restrictorPlate: 'Carry the permanent anatomical and psychological scars of what their ancestors were forced to become in the Nether; dependent on negative-loop AMR harvesting to stave off atrophy.',
     races: [
-      { name: 'The Qu-Broken Trench-Striders', epithet: 'Stilt-Limbed Abyssal Survivors', morphologyAndTrait: 'Once a starfaring bipedal empire, now 40-foot stilt-legged artillery spotters wading through boiling slag seas.' },
-      { name: 'The Colonial-Flesh Filters of Dis', epithet: 'Living Tapestry Scavengers', morphologyAndTrait: 'Sentient carpets of fused dermal tissue lining citadel walls, filtering toxic Nether-miasma into pure liquid AMR.' },
-      { name: 'The Bone-Spire Acoustic Singers', epithet: 'Hollow-Rib Wind Organs', morphologyAndTrait: 'Sedentary spire-shaped post-sophonts whose wind-carved ribcages howl continuous dread-spores across 50 miles.' },
-      { name: 'The Gravity-Flattened Slab-Folk', epithet: 'High-G Basalt Crawlers', morphologyAndTrait: 'Crushed by 100G Nether-wells into wide, centipede-ribbed shields used as living pavement by Goetic legions.' },
-      { name: 'The Blind-Savant Calcifiers', epithet: 'Fossil-Tank Mathematicians', morphologyAndTrait: 'Eyeless, coral-crusted descendants of an ancient scholar race, bred to calculate Pactional Jurisprudence clauses.' },
-      { name: 'The Symbiotic Armor-Hosts', epithet: 'Living Carapace Wearers', morphologyAndTrait: 'Two distinct extinct species fused into one: an intelligent parasitic spine steering a headless, iron-boned juggernaut.' },
-      { name: 'The Tether-Lung Atmospheric Processors', epithet: 'Floating Gas-Bag Dredgers', morphologyAndTrait: 'Bloated, balloon-chested beings tethered to iron chains that inhale sulfur and exhale suffumigation smoke.' },
-      { name: 'The Multi-Heart Blood-Refiners', epithet: 'Seven-Ventricle Alchemists', morphologyAndTrait: 'Gaunt, translucent-skinned aristocrats whose seven hearts distill raw mortal terror into solid-feel ruby AMR pellets.' },
-      { name: 'The Hollow-Cranial Amplifier Castes', epithet: 'Resonance-Dome Telepaths', morphologyAndTrait: 'Possess elongated, cathedral-like hollow skulls that broadcast Stage-1 vibrational spores into mortal cities.' },
-      { name: 'The Chitin-Plow Siege-Draggers', epithet: 'Keel-Chested Earthmovers', morphologyAndTrait: 'Descendants of an avian species whose breastbones hypertrophied into massive obsidian trench-plows.' },
-      { name: 'The Living-Vault Organ-Carriers', epithet: 'Dynastic AMR Mules', morphologyAndTrait: 'Engineered by Noble Houses with cavernous rib-tanks to store unstable Grade 3 extinct-era AMRs without rupturing.' },
-      { name: 'The Nerve-Stapled Trajectory Calculators', epithet: 'Living Ballistic Computers', morphologyAndTrait: 'Surgically modified Netherbounders wired into citadel walls to run continuous precognitive artillery simulations.' },
-      { name: 'The Slag-Gilled Dredgers', epithet: 'Molten-Metal Divers', morphologyAndTrait: 'Asbestos-scaled amphibians that dive into Phlegethon magma rivers to retrieve sunken Soul 1 crystals.' },
-      { name: 'The Star-Fossil Navigators', epithet: 'Extinct-Constellation Seers', morphologyAndTrait: 'Ancient beings whose eyes still reflect stars that died three billion years ago, granting them unique cold-light AMRs.' },
-      { name: 'The Inverted-Pelvis Chasm-Leapers', epithet: 'Reverse-Jointed Ambushers', morphologyAndTrait: 'Locust-thighed predators capable of silent 300-meter vertical leaps up subterranean cliff faces.' },
-      { name: 'The Dermal-Mirror Light-Trappers', epithet: 'Chrome-Skinned Refractors', morphologyAndTrait: 'Evolved mercury-smooth skin to survive ray-traced photonic storms in the Glass Wastes of Paimon.' },
-      { name: 'The Pharyngeal-Furnace Smelters', epithet: 'Throat-Kiln Smiths', morphologyAndTrait: 'Swallow raw iron ore and vitriol, regurgitating pre-etched Decanic Alloy Antennas.' },
-      { name: 'The Tendon-Loom Bridges', epithet: 'Living Chasm Span-Weavers', morphologyAndTrait: 'Unspool miles of calcified sinew from their wrists to weave suspension bridges across the Barathron.' },
-      { name: 'The Fossil-AMR Miners', epithet: 'Deep-Stratum Core Drillers', morphologyAndTrait: 'Spiral-horned burrowers that extract petrified AMR deposits from dead epochs.' },
-      { name: 'The Proto-Noble Mimic-Lords', epithet: 'First-Generation Angler-Aristocrats', morphologyAndTrait: 'The transitional evolutionary link showing how chitinous Netherbounders first evolved humanoid courtly masks.' }
+      { name: 'The Stilt-Striders of the Slag-Seas', epithet: 'Forty-Foot Ash-Waders', morphologyAndTrait: 'Once a proud royal people of high plains, stretched across eons into gaunt, forty-foot lookouts wading through boiling lakes of slag.' },
+      { name: 'The Weeping-Wall Tapestries of Dis', epithet: 'Colonial Flesh-Curtains', morphologyAndTrait: 'A conquered philosopher-race flattened and colonialized into living, sentient tapestries that line the halls of Dis, filtering miasma and weeping liquid AMR fuel.' },
+      { name: 'The Bone-Spire Singers', epithet: 'Living Siren-Towers', morphologyAndTrait: 'Rooted permanently into basalt crags, their hollowed ribcages catch the Nether-gales to broadcast terrifying infrasound loops across fifty leagues.' },
+      { name: 'The Crushed-Slab Bearers', epithet: 'High-Gravity Siege-Crawlers', morphologyAndTrait: 'Compressed by eons in the deepest, heaviest pits into wide, six-limbed, iron-shelled crawlers that carry entire siege-citadels on their backs.' },
+      { name: 'The Blind Pact-Processors', epithet: 'Coral-Brained Chroniclers', morphologyAndTrait: 'Eyeless descendants of a conquered sage-species whose overgrown skulls are used as living archives to cross-reference millions of Solomonic treaty clauses.' },
+      { name: 'The Twin-Grafted Riders', epithet: 'Host-and-Hulk Post-Species', morphologyAndTrait: 'Two vanished rebel races fused by ancient punishment into one: a cunning, atrophied strategist grown permanently into the open cervical spine of a headless war-brute.' },
+      { name: 'The Censer-Lung Dredgers', epithet: 'Bellows-Chested Thralls', morphologyAndTrait: 'Swollen-chested post-humans tethered to bronze chains who inhale raw brimstone ash and exhale dense Chaldean suffumigation smoke.' },
+      { name: 'The Seven-Hearted Distillers', epithet: 'Living AMR-Vintners', morphologyAndTrait: 'Gaunt, translucent-veined court attendants whose seven sequential hearts refine raw mortal terror into high-grade liquid AMR draughts.' },
+      { name: 'The Cathedral-Skulled Heralds', epithet: 'Telepathic Horn-Bearers', morphologyAndTrait: 'Bear elongated, vaulted acoustic skulls that project their Sovereign Lord’s nightmares directly into the sleeping minds of mortal cities.' },
+      { name: 'The Obsidian-Keel Trenchers', epithet: 'Breast-Plow Earthmovers', morphologyAndTrait: 'Descendants of an avian species whose keels thickened into massive black-glass plows for carving siege-trenches through bedrock.' },
+      { name: 'The Vault-Ribbed Carriers', epithet: 'Living Ammo-Caissons', morphologyAndTrait: 'Bred by the Great Houses with padlocked iron-and-bone ribcages to transport volatile, solid-chunk Grade 3 AMRs across war fronts.' },
+      { name: 'The Wall-Mortared Oracles', epithet: 'Battlement-Grafted Seers', morphologyAndTrait: 'Conquered Category 3 seers mortared alive into fortress walls to pre-cognitively simulate incoming artillery and spell trajectories.' },
+      { name: 'The Phlegethon Dredgers', epithet: 'Magma-Gill Divers', morphologyAndTrait: 'Silicate-scaled divers who plunge into rivers of liquid flame to salvage sunken Soul-stones and ancient relics.' },
+      { name: 'The Dead-Star Navigators', epithet: 'Void-Bough Pilots', morphologyAndTrait: 'Ancient wanderers whose eyes still reflect constellations that died millions of years ago, guiding war-fleets between realms.' },
+      { name: 'The Chasm-Leaper Stalkers', epithet: 'Reverse-Kneed Ambushers', morphologyAndTrait: 'Gaunt, locust-limbed post-predators that bound silently up sheer subterranean cliffs to drag sentries into the dark.' },
+      { name: 'The Mirror-Skinned of Paimon', epithet: 'Quicksilver Courtiers', morphologyAndTrait: 'Clothed in living, mercury-reflective dermis that bends ray-traced light and heat in the Glass Wastes of Paimon.' },
+      { name: 'The Gut-Forge Smiths', epithet: 'Internal-Crucible Artisans', morphologyAndTrait: 'Swallow raw meteoric iron and nightshade oil, regurgitating red-hot alloy talismans already etched with Decanic sigils.' },
+      { name: 'The Sinew-Bridge Weavers', epithet: 'Barathron Chasm-Spinners', morphologyAndTrait: 'Draw leagues of bone-white tendon cord from their own wrists to rig swaying war-bridges across bottomless rifts.' },
+      { name: 'The Deep-Stratum Miners', epithet: 'Spiral-Horned Delvers', morphologyAndTrait: 'Tunnel into the oldest geological layers of the Underworld to quarry petrified veins of extinct-epoch AMRs.' },
+      { name: 'The First-Mask Mimics', epithet: 'Early-Epoch Lure-Nobles', morphologyAndTrait: 'Surviving transitional bloodlines showing the eerie halfway point when monstrous Nether-entities first began sculpting human-like patrician faces.' }
     ]
   },
   {
     id: 'exp-inverted-manifold-castes',
-    categoryName: '7. The Inverted Beast Manifold Ruling Castes & Mirror-Fauna (15 Races)',
-    ontologicalTier: 'Category 5 (Void-Tree Outer Bough Mirror Biospheres)',
-    cognitionTier: 'Tier 6–8 Predatory Mirror-Simulation',
-    constructionMechanism: 'Native to the 6 Inverted Beast Manifolds tethered to the outer boughs of the Void-Tree (Bast-Irkalla, Mal-Caballus, Canis-Hades, Ophi-Nadir, Vespa-Tartaros, Corvus-Gallow), where mortal animal biology is inverted into non-Euclidean demonic apex castes.',
-    associatedFuelOrKi: 'Yō-Ki (Inverted Bestial Warp) & Manifold-Specific Predatory AMRs',
-    restrictorPlate: 'Tied to the predatory laws of their mirror animal; bound by acoustic, spatial, or sensory inversions.',
+    categoryName: '7. The Six Inverted Beast-Manifolds & Outer-Bough Apex Castes (15 Races)',
+    ontologicalTier: 'Category 5 (Inverted Beast-Manifold Sovereign Apex Castes)',
+    cognitionTier: 'Tier 6–8 Predatory Pre-Cognitive Sovereignty',
+    constructionMechanism: 'Native to the 6 Inverted Beast-Manifolds hanging from the outer boughs of the Void-Tree (Bast-Irkalla, Mal-Caballus, Canis-Hades, Ophi-Nadir, Vespa-Tartaros, Corvus-Gallow), where non-human predatory archetypes evolved into towering demonic royalty.',
+    associatedFuelOrKi: 'Yō-Ki (Predatory Bio-Magnetic Pressure) & Manifold-Specific AMRs',
+    restrictorPlate: 'Bound to the predatory laws of their specific Beast-Manifold (stalking shadow, unstoppable stampede, pack-guilt, constriction, hive-mind, or prophetic omen).',
     races: [
-      { name: 'The Shadow-Severing Felines of Vepar', epithet: 'Bast-Irkalla Silent Stalkers', morphologyAndTrait: '9.5-head-long void panthers that sever a victim’s shadow to disconnect their motor nerves.' },
-      { name: 'The Skinless Thunder-Steeds', epithet: 'Mal-Caballus Hypersonic Chargers', morphologyAndTrait: 'Eight-legged equine horrors galloping across salt flats at Mach 4, dragging localized gravity wakes.' },
-      { name: 'The Iron-Briar Cerbereans', epithet: 'Canis-Hades Tri-Cranial Hounds', morphologyAndTrait: 'Three-headed slate-armored mastiffs that track the olfactory scent of mortal guilt across dimensional rifts.' },
-      { name: 'The Guilt-Scenting Garmr-Kin', epithet: 'Blood-Stained Tundra Wolves', morphologyAndTrait: 'Colossal winter hounds whose howl freezes the synovial fluid of oath-breakers.' },
-      { name: 'The Non-Euclidean Naga-Coils', epithet: 'Ophi-Nadir Spatial Constrictors', morphologyAndTrait: 'Serpentine sovereigns whose coils wrap around 4D space, crushing targets from angles that do not physically exist.' },
-      { name: 'The Typhonian Venom-Drakes', epithet: 'Hundred-Viper Brood', morphologyAndTrait: 'Winged draconic vipers whose venom dissolves the Possibility Resistance of local matter.' },
-      { name: 'The Continent-Hollowing Zebub-Queens', epithet: 'Vespa-Tartaros Hive Monarchs', morphologyAndTrait: 'Cathedral-sized wasp matriarchs birthing millions of armor-piercing metallic hornets.' },
-      { name: 'The Stymphalian Bronze-Feathers', epithet: 'Corvus-Gallow Flak-Raptors', morphologyAndTrait: ' Predatory avians that launch supersonic bronze pinions like rotary cannon fire.' },
-      { name: 'The Death-Prophecy Corvids of Stolas', epithet: 'Astronomer-Ravens', morphologyAndTrait: 'Seven-eyed towering corvids that calculate the exact second of a viewer’s death via star-chart trigonometry.' },
-      { name: 'The Acoustic-Null Panthers', epithet: 'Zero-Decibel Ambushers', morphologyAndTrait: 'Feline lords whose fur absorbs 100% of sound and photon reflection within a 10-meter sphere.' },
-      { name: 'The Salt-Flat Spatial Stallions', epithet: 'Horizon-Folding Equines', morphologyAndTrait: 'Compress 100 miles of salt desert into a single hoof-stride.' },
-      { name: 'The Three-Throated Howlers', epithet: 'Harmonic-Rupture Pack', morphologyAndTrait: 'Canids whose tri-part chord shatters calcified Nigi-Ki bone armor.' },
-      { name: 'The Petrifying Basilisk-Broods', epithet: 'Ray-Traced Gaze Vipers', morphologyAndTrait: 'Project a coherent photonic beam that vitrifies carbon flesh into brittle basalt.' },
-      { name: 'The Chitin-Locust Legions', epithet: 'Crop-Blight Devourers', morphologyAndTrait: 'Consume both physical grain and the surrounding population’s hope-simulations.' },
-      { name: 'The Gallows-Wing Harpies', epithet: 'Noose-Talon Sky Hunters', morphologyAndTrait: 'Snatch commanders from fortress battlements using prehensile iron-tendon talons.' }
+      { name: 'The Shadow-Severing Felines of Vepar', epithet: 'Bast-Irkalla Silent Stalkers', morphologyAndTrait: 'Eleven-foot panthers of velvet darkness whose claws sever a target’s cast shadow from their heels, paralyzing motor nerves.' },
+      { name: 'The Skinless Thunder-Steeds', epithet: 'Mal-Caballus Salt-Chargers', morphologyAndTrait: 'Eight-legged war-steeds that gallop across salt-wastes faster than sound, dragging crushing barometric wakes behind them.' },
+      { name: 'The Iron-Briar Cerbereans', epithet: 'Canis-Hades Three-Headed Hounds', morphologyAndTrait: 'Three-headed, slate-armored mastiffs that scent broken oaths and blood-guilt across realm borders.' },
+      { name: 'The Guilt-Scenting Garmr-Kin', epithet: 'Blood-Stained Tundra Wolves', morphologyAndTrait: 'Colossal winter wolves whose baying freezes the marrow in the bones of perjurers and kin-slayers.' },
+      { name: 'The Coiled Naga-Sovereigns', epithet: 'Ophi-Nadir Crushing Wyrms', morphologyAndTrait: 'Crowned serpents whose coils constrict from unseen angles, crushing armor without touching the breastplate.' },
+      { name: 'The Typhonian Venom-Drakes', epithet: 'Hundred-Viper Brood', morphologyAndTrait: 'Winged draconic vipers whose black venom rots both stone fortifications and defensive Turn Fields.' },
+      { name: 'The Continent-Hollowing Zebub-Queens', epithet: 'Vespa-Tartaros Hive Monarchs', morphologyAndTrait: 'Cathedral-sized wasp matriarchs whose paper-and-bone hives hang from cavern roofs, birthing swarms of bronze-stingered hornets.' },
+      { name: 'The Stymphalian Bronze-Feathers', epithet: 'Corvus-Gallow Razor-Pinions', morphologyAndTrait: 'Great carrion-birds that shake their wings to loose storms of sword-sharp bronze feathers.' },
+      { name: 'The Death-Prophecy Corvids of Stolas', epithet: 'Seven-Eyed Star-Ravens', morphologyAndTrait: 'Towering, seven-eyed ravens that read the night sky to speak the exact hour of a viewer’s doom.' },
+      { name: 'The Silence-Cloaked Panthers', epithet: 'Sound-Drinking Ambushers', morphologyAndTrait: 'Feline lords whose coal-black fur drinks all sound and ray-traced light within ten paces.' },
+      { name: 'The Salt-Flat Coursers', epithet: 'Horizon-Folding Steeds', morphologyAndTrait: 'Cross a hundred leagues of salt desert in three bounds under an eclipsed moon.' },
+      { name: 'The Three-Throated Barghests', epithet: 'Bone-Shattering Pack', morphologyAndTrait: 'Graveyard hounds whose three-part howl cracks tempered steel and stone shields.' },
+      { name: 'The Stone-Gaze Basilisks', epithet: 'Salt-Vitriol Vipers', morphologyAndTrait: 'Crested serpents whose heavy yellow gaze triggers an instant calcification kill-effect.' },
+      { name: 'The Chitin-Locust Legions', epithet: 'Harvest-Blight Swarms', morphologyAndTrait: 'Devour both the standing grain in the field and the courage in the defender’s chest.' },
+      { name: 'The Gallows-Wing Harpies', epithet: 'Noose-Talon Sky Hunters', morphologyAndTrait: 'Snatch commanders from castle battlements with long, iron-corded talons.' }
     ]
   },
   {
     id: 'exp-somatic-ki-lineages',
-    categoryName: '8. Somatic-Ki Ascetic Lineages & Bio-Constitutional Trans-Humans (12 Races)',
-    ontologicalTier: 'Category 4–5 Somatic-Constitutional Divergence',
-    cognitionTier: 'Tier 3–6 (Spinal Kushi-Ki Bypass & Mu-Ki Null State)',
-    constructionMechanism: 'Mortal and trans-mortal lineages whose skeletons, vascular systems, and fascia permanently diverged over generations of extreme Somatic Ki conditioning (Ara-Ki, Nigi-Ki, Kushi-Ki, Saki-Ki across Versions I–IV).',
+    categoryName: '8. Somatic-Ki Martial Clans & Bio-Tempered Lineages (12 Races)',
+    ontologicalTier: 'Category 4–5 Somatic-Ki Tempered Lineages',
+    cognitionTier: 'Tier 3–6 (Kushi-Ki Cranial-Nerve Reflex & Mu-Ki Zero-Signature Stealth)',
+    constructionMechanism: 'Warrior clans and ascetic bloodlines that reject MWI spellcraft entirely, pushing biological tissue, bone density, blood pressure, and bio-electricity to extreme physical limits via the Four Ki Types (Ara-Ki, Nigi-Ki, Kushi-Ki, Saki-Ki) and Five Operational Versions (Gen-Ki to Mu-Ki).',
     associatedFuelOrKi: 'Pure Somatic Ki (Gen-Ki, Ren-Ki, Gō-Ki, Yō-Ki, Mu-Ki)',
-    restrictorPlate: 'Zero quantum reality-warping; pays all costs in brutal biological thermodynamics (110°F+ pore-steam, lactic vitrification, capillary blowouts).',
+    restrictorPlate: 'Zero MWI magic; hard-capped by 112°F+ internal organ heat, 200+ mmHg burst capillaries, and torn myofibrils.',
     races: [
-      { name: 'The Graphite-Bone Calcified Clans', epithet: 'Silicon-Iron Osteoid Ascetics', morphologyAndTrait: 'Weigh 265+ lbs at 6\'1" due to carbon-calcified skeletons built to survive Gō-Ki recoil.' },
-      { name: 'The Steam-Pore Venting Berserkers', epithet: 'Collarbone-Geyser Vanguard', morphologyAndTrait: 'Evolved specialized dermal valve-pores across the trapezius to vent 115°F metabolic steam jets.' },
-      { name: 'The Mu-Ki Heartless Assassins', epithet: 'Zero-Tell Void Walkers', morphologyAndTrait: 'Can arrest their own heartbeat and thermal emission for 20 minutes to strike with zero pre-attack Ki wake.' },
-      { name: 'The Yō-Ki Telluric Beast-Shifters', epithet: 'Fault-Line Martial Monks', morphologyAndTrait: 'Dislocate and lock their own pelvic and scapular joints to channel planetary seismic tremors.' },
-      { name: 'The Kushi-Ki Eyeless Spinal-Seers', epithet: 'Cerebellar Reflex Masters', morphologyAndTrait: 'Ritually blinded sword-saints whose dorsal root ganglia react to air-pressure shifts before the brain’s visual cortex could fire.' },
-      { name: 'The Saki-Ki Desiccation Monks', epithet: 'Mummified Trophic Siphons', morphologyAndTrait: 'Skeletal ascetics who drain moisture and ATP heat on contact to re-inflate their own withered musculature.' },
-      { name: 'The Double-Sclera Hydraulic Brawlers', epithet: '240-mmHg Vascular Titans', morphologyAndTrait: 'Evolved reinforced ocular membranes and braided arterial walls to survive explosive Ara-Ki blood pressure.' },
-      { name: 'The Tendon-Bow Archers of Ashihara', epithet: 'Laminated-Sinew Drawers', morphologyAndTrait: 'Forearm flexor tendons are braided like composite steel cables, drawing 800-pound war-bows by hand.' },
-      { name: 'The Sub-Dermal Iron-Fascia Guard', epithet: 'Ren-Ki Impact Absorbers', morphologyAndTrait: 'Connective fascia hardens into non-Newtonian shear-thickening armor the millisecond kinetic force strikes.' },
-      { name: 'The Acoustic-Kiai Throat-Singers', epithet: 'Barometric-Roar Artillery', morphologyAndTrait: 'Hypertrophied cartilaginous larynxes capable of firing 195-decibel shockwaves that rupture lungs.' },
-      { name: 'The Zero-Pulse Hibernators', epithet: 'Gen-Ki Century Sleepers', morphologyAndTrait: 'Drop metabolic baseline to 1 beat per hour, surviving buried under rubble for decades.' },
-      { name: 'The Lactic-Stone Immortals', epithet: 'Vitrified-Muscle Guardians', morphologyAndTrait: 'Veteran masters whose overdriven muscles permanently vitrified into living granite statues that still move once per battle.' }
+      { name: 'The Kokotsu Iron-Bone Clans', epithet: 'Silicon-Iron Skeleton Ascetics', morphologyAndTrait: 'Look 175 lbs in volume yet weigh 265+ lbs due to silicon-iron bone calcification built to survive the recoil of their own strikes.' },
+      { name: 'The Gō-Ki Steam Vanguards', epithet: '112°F Boiling-Blood Fighters', morphologyAndTrait: 'Fight in winter snows stripped to the waist, venting scalding white plumes of steam from dilated collarbone pores.' },
+      { name: 'The Mu-Ki Void Walkers', epithet: 'Zero-Signature Assassins', morphologyAndTrait: 'Drop their heart rate and bio-electric output to zero for twenty minutes at a time, slipping past Astral radar like cold stone.' },
+      { name: 'The Fault-Stance Monks', epithet: 'Nigi-Ki Structural Masters', morphologyAndTrait: 'Lock their pelvis and heels into the bedrock to redirect the kinetic force of a charging beast back into its own chest.' },
+      { name: 'The Kushi-Ki Blind Duelists', epithet: 'Barometric-Skin Swordsmen', morphologyAndTrait: 'Ritually blinded masters whose scarred skin reads micro-barometric air shifts before an enemy’s blade leaves the scabbard.' },
+      { name: 'The Shiden Bio-Static Clans', epithet: 'Purple-Arc Nerve Strikers', morphologyAndTrait: 'Overclock sodium-potassium nerve pumps to discharge high-amperage purple bio-electricity on open-palm contact.' },
+      { name: 'The Crimson-Sclera Pugilists', epithet: 'Ara-Ki Overdrive Brawlers', morphologyAndTrait: 'Broad-chested fighters whose eyes flush solid crimson as hydraulic blood pressure spikes for bone-shattering bursts.' },
+      { name: 'The Sinew-Bow Archers of Ashihara', epithet: 'Iron-Tendon Bowmen', morphologyAndTrait: 'Draw great horn-and-steel warbows that take four men to string, loosing shafts that punch through siege plating.' },
+      { name: 'The Iron-Flesh Wardens', epithet: 'Blade-Stopping Guards', morphologyAndTrait: 'Lock myofibril density at the millisecond of impact so swung blades bounce off their forearms with a dull metallic ring.' },
+      { name: 'The Kiai Thunder-Monks', epithet: 'Sub-Bass Shockwave Singers', morphologyAndTrait: 'Barrel-chested ascetics whose single shouted Kiai ruptures eardrums and shatters लकड़ी/stone shields at thirty paces.' },
+      { name: 'The Cairn-Sleeping Immortals', epithet: 'Saki-Ki Hibernation Masters', morphologyAndTrait: 'Old masters sealed in stone cairns who draw one breath an hour, waiting a century for their clan’s war-horn.' },
+      { name: 'The Calcified Veterans', epithet: 'Stone-Locked Elders', morphologyAndTrait: 'Ancient champions whose over-used muscles have partially mineralized into grey stone, rising for one final war.' }
     ]
   },
   {
     id: 'exp-engrafted-hybrid-lineages',
-    categoryName: '9. Hybrid, Grafted & Relic-Fused Lineages (Expression #6 En-Grafted — 12 Races)',
-    ontologicalTier: 'Category 4–5 En-Grafted Supernatural Hybrids',
-    cognitionTier: 'Tier 6–8 Dual-Hardware Simulation (Host Brain + Relic Core)',
-    constructionMechanism: 'Lineages and individuals whose biology is permanently welded to Supernatural Energy Expression #6 (En-Grafted Structures), reactive mythic weapon chassis (like the CODM Mythic AK117 - Lava Remix Boosted Gear archetype), or Decanic alloys.',
-    associatedFuelOrKi: 'En-Grafted Core AMRs + Host Precognitive Mod Simulation',
-    restrictorPlate: 'Hardware rejection and thermal/ontological overload if the host’s mental simulation desynchronizes from the grafted relic’s specific mod blueprint.',
+    categoryName: '9. En-Grafted Relic Hosts & Reactive-Armament Lineages (12 Races)',
+    ontologicalTier: 'Category 4–5 En-Grafted Relic Hosts (Supernatural Energy Expression #6)',
+    cognitionTier: 'Tier 6–8 Pre-Cognitive Mod Simulation + Relic Core Resonance',
+    constructionMechanism: 'Dynasties and lone wielders whose bodies are permanently fused with En-Grafted supernatural hardware (Expression #6)—ranging from reactive tectonic dragon-gauntlets (like the CODM Mythic AK117 - Lava Remix Boosted Gear template) to Decanic star-metal gears and Solomonic treaty-brands.',
+    associatedFuelOrKi: 'En-Grafted Mod AMRs + Pre-Cognitive Simulation of the Specific Relic',
+    restrictorPlate: 'Operates strictly through pre-cognitive simulation of the relic’s specific mod/stages—never emotional willpower. If the host’s body cannot vent the relic’s thermal or statutory kickback, the graft consumes them.',
     races: [
-      { name: 'The Boosted-Chassis Draconic Grafts', epithet: 'Reactive Tectonic-Arm Bearers', morphologyAndTrait: 'Hosts welded to living obsidian-and-magma reactive gauntlets driven by precognitive mod simulations.' },
-      { name: 'The Clause-Seal Branded Scions', epithet: 'Living Pactional Contracts', morphologyAndTrait: 'Dynasties born with Solomonic lead-and-cinnabar treaties sub-dermally etched into their nervous systems.' },
-      { name: 'The Alloy-Nerve Decan Vessels', epithet: 'Chrono-Geometric Cyborgs', morphologyAndTrait: 'Replaced their brachial nerves with quenched Mars-iron antennas to hold raw Sabian Decan currents.' },
-      { name: 'The Time-Crystal Heart Bearers', epithet: 'Non-Equilibrium Pulse Lineages', morphologyAndTrait: 'Chest cavities house an exotic matter Time-Crystal that repeats its thermodynamic beat without entropy.' },
-      { name: 'The Superfluid-Vein Alchemists', epithet: 'Zero-Viscosity Bloodlines', morphologyAndTrait: 'Replaced their blood with cryogenic Helium-II superfluid AMR that leaks out of microscopic pores.' },
-      { name: 'The Suffumigation-Lung Thurifers', epithet: 'Living Censers of Chaldea', morphologyAndTrait: 'Thoracic cavities burn henbane, sulfur, and myrrh continuously, exhaling dense Phantasmata anchor-smoke.' },
-      { name: 'The Brass-Skulled Solomonic Wardens', epithet: 'Exorcism-Bell Templars', morphologyAndTrait: 'Craniums forged from resonant Goetic brass that rings to shatter hostile pactional injunctions.' },
-      { name: 'The Void-Tree Sap-Drinkers', epithet: 'Abyssal-Amber Mutants', morphologyAndTrait: 'Ingested vitrified sap from the Void-Tree outer boughs, turning their organs into non-Euclidean pockets.' },
-      { name: 'The Aethelfire-Grafted Cryo-Knights', epithet: 'Mathematical-Discontinuity Vanguards', morphologyAndTrait: 'Armor and sternum fused with cold crystalline Aethelfire Flux that strips local spacetime continuity.' },
-      { name: 'The Vaelburn-Core Berserkers', epithet: 'Spacetime-Friction Reactors', morphologyAndTrait: 'Spine-grafted compression cores that vent volatile Vaelburn thermal plasma under high G-loads.' },
-      { name: 'The Karma-Mirror Oculars', epithet: 'Fengdu Audit-Grafted Inquisitors', morphologyAndTrait: 'Left eye replaced with a shard of Diyu’s Karma Mirror, reading a target’s Soul 1 trajectory history.' },
-      { name: 'The Astral-Stitched Revenants', epithet: 'Incomplete-Soul Patchworks', morphologyAndTrait: 'Corpses animated by stitching 100 Tier 6 Astral Entities into a synthetic pseudo-Soul 1 harness.' }
+      { name: 'The Tectonic Dragon-Gauntlet Hosts', epithet: 'Reactive Magma-Chamber Bearers', morphologyAndTrait: 'Wielders whose forearm is fused with a segmented obsidian-and-tungsten reactive chassis (AK117 - Lava Remix template) casting ray-traced magma caustics across five mechanical stages.' },
+      { name: 'The Clause-Branded Scions', epithet: 'Living Solomonic Writ Heirs', morphologyAndTrait: 'Noble heirs born with lead-cinnabar-vitriol Pactional clauses inscribed beneath their skin, dropping local Possibility Resistance on command.' },
+      { name: 'The Decanic Alloy Vessels', epithet: 'Star-Metal Gear Hosts', morphologyAndTrait: 'Warriors with nightshade-quenched iron gears etched with non-linguistic Charaktêr scratches set along their collarbones to anchor planetary currents.' },
+      { name: 'The Time-Crystal Heart Lineages', epithet: 'Repeating-Pulse Bearers', morphologyAndTrait: 'Carry an En-Grafted Time-Crystal core beneath their sternum that resets their physical state across a three-second oscillation loop.' },
+      { name: 'The Superionic-Vein Alchemists', epithet: 'Black-Ice Bloodlines', morphologyAndTrait: 'Old alchemical houses whose En-Grafted vessels pressurize moisture into hot, electrically conductive black superionic ice.' },
+      { name: 'The Suffumigation Thurifers', epithet: 'Internal-Censer Priests', morphologyAndTrait: 'Chaldean priest-warriors whose grafted chest-vents burn henbane, sulfur, and bone-dust, exhaling dense Phantasmata-curdling smoke.' },
+      { name: 'The Brass-Bell Exorcists', epithet: 'Solomonic Resonator Templars', morphologyAndTrait: 'Wear helms of consecrated Solomonic brass fused to their craniums that ring at frequencies lethal to Tier 6 Astral entities.' },
+      { name: 'The Void-Sap Grafted', epithet: 'Outer-Bough Resin Hosts', morphologyAndTrait: 'Drank the bitter golden resin of the Void-Tree’s outer boughs, turning their marrow and sclera into amber.' },
+      { name: 'The Aethelfire Rime Knights', epithet: 'Continuity-Strip Vanguards', morphologyAndTrait: 'Clad in dark plate fused with Aethelfire shards that strip local spatial continuity into cold crystalline fire.' },
+      { name: 'The Vaelburn Core Berserkers', epithet: 'Compressed-Spacetime Hosts', morphologyAndTrait: 'Carry a Vaelburn Spark grafted to their spine that vents intense ray-traced thermal distortion when its plates unseal.' },
+      { name: 'The Karma-Mirror Inquisitors', epithet: 'Diyu-Shard Judges', morphologyAndTrait: 'Replaced one eye with a polished shard of Diyu’s bronze mirror, reading every negative loop and crime in a target’s wake.' },
+      { name: 'The Hundred-Shade Revenants', epithet: 'Astral-Colony Armor Hosts', morphologyAndTrait: 'Fallen champions kept walking by an En-Grafted colony of a hundred bound battlefield Astral spirits inside their plate armor.' }
     ]
   },
   {
     id: 'exp-cat6-classified-anomalies',
-    categoryName: '10. Category 6 Classified / Threshold Anomalies ("The Unspoken Tier" — 10 Races)',
-    ontologicalTier: 'Category 6 (The Unspoken / Classified Bridge Tier)',
-    cognitionTier: 'Tier 10–11B (Conceptual & Abstract 1–2 Interface)',
-    constructionMechanism: 'Why does Category X jump from Category 5 to Category 7? Because Category 6 entities are not conventional living species—they are existential boundary-phenomena and Conceptual/Abstract 2 manifestations occupying the razor-thin event horizon between countably infinite MWI ($\aleph_0$) and transfinite Metachaos.',
-    associatedFuelOrKi: 'Grade 6–7 MWI Boundary Reserves & Raw Conceptual Erasure',
-    restrictorPlate: 'Lacks a conventional psychological core; cannot enter standard Bio-Manifold timelines without triggering localized conceptual rewrites.',
+    categoryName: '10. Category 6 [REDACTED] Bridge Anomalies & Threshold Wardens (10 Races)',
+    ontologicalTier: 'Category 6 (The Missing / Redacted Ontological Bridge Tier)',
+    cognitionTier: 'Tier 10–11B (Trans-MWI Threshold Presences)',
+    constructionMechanism: 'Why does the canonical table jump from Category 5 to Category 7? Because Category 6 entities are the self-redacting Threshold Wardens standing between the Many-Worlds (MWI) and the Category 7 Adjudicators—erasing their own records whenever lower beings attempt to catalog them.',
+    associatedFuelOrKi: 'Trans-MWI Threshold Authority',
+    restrictorPlate: 'Cannot manifest fully inside a standard MWI timeline without erasing local memory and historical continuity around them.',
     races: [
-      { name: 'The Horizon-Auditors', epithet: 'Aleph-Null Boundary Inspectors', morphologyAndTrait: 'Manifest only where a Category 5 entity attempts to breach Grade 7 MWI impossibility thresholds.' },
-      { name: 'The Aleph-Bridge Monitors', epithet: 'Cardinality Gatekeepers', morphologyAndTrait: 'Abstract geometric presences patrolling the chasm between countable Many-Worlds and uncountable Metachaos.' },
-      { name: 'The Ontological-Plate Breakers', epithet: 'Restrictor-Shatter Anomalies', morphologyAndTrait: 'Living fractures that temporarily strip the Restrictor Plates off nearby Category 5s, causing them to dissolve into raw probability.' },
-      { name: 'The Un-Indexed Observers', epithet: 'Censored-From-Memory Entities', morphologyAndTrait: 'Beings whose existence is automatically redacted from any Category 3 or 4 brain the instant line-of-sight breaks.' },
-      { name: 'The Zero-Point Quarantine Wardens', epithet: 'Timeline-Amputation Surgeons', morphologyAndTrait: 'Excise entire infected planetary timelines when Soul 1 nuclear chain-reactions threaten the wider manifold.' },
-      { name: 'The Meta-Boundary Scissors', epithet: 'Cause-And-Effect Severers', morphologyAndTrait: 'Tier 11A/11B entities that cut the link between an action and its physical consequence across multiple worlds.' },
-      { name: 'The Possibility-Drain Leviathans', epithet: 'Soul-2 Grazer Horrors', morphologyAndTrait: 'Swim between parallel worlds, drinking the unchosen branches of Soul 2 matrices until only one rigid fate remains.' },
-      { name: 'The Timeline-Collapser Choir', epithet: 'Superposition Executioners', morphologyAndTrait: 'Force millions of parallel probability branches to collapse into a single hyper-dense singular history.' },
-      { name: 'The Axiom-Graft Experiments', epithet: 'Failed Category-7 Ascendants', morphologyAndTrait: 'Ancient sovereigns who tried to touch the Metachaos without Adjudicator authority and became frozen conceptual paradoxes.' },
-      { name: 'The Silent-Six Arbiters', epithet: 'The Redacted Council', morphologyAndTrait: 'The six nameless wardens who erased Category 6 from all standard in-world occult taxonomies.' }
+      { name: 'The Threshold-Watchers', epithet: 'Keepers of the Outer Gate', morphologyAndTrait: 'Manifest only when a Category 5 Sovereign or mortal ritual threatens to breach the boundary above MWI.' },
+      { name: 'The Veil-Keepers of the Abyss', epithet: 'Silent Border-Lords', morphologyAndTrait: 'Tall, faceless silhouettes standing upon the shore where branching timelines end.' },
+      { name: 'The Seal-Breakers', epithet: 'Shatterers of Ancient Bounds', morphologyAndTrait: 'Step into a realm only when its ruling powers violate the foundational treaties of chaos.' },
+      { name: 'The Unremembered Walkers', epithet: 'Self-Redacting Strangers', morphologyAndTrait: 'Beings whose faces, names, and actions vanish from mortal memory and written ledgers the instant they turn away.' },
+      { name: 'The Branch-Pruners', epithet: 'Reapers of Doomed Timelines', morphologyAndTrait: 'Sever entire corrupted timeline branches when a Soul 1 detonation threatens to cascade.' },
+      { name: 'The Thread-Cutters', epithet: 'Shears of the Unseen Loom', morphologyAndTrait: 'Sever the link between an entity’s pre-cognitive simulation and its AMR reserves, leaving its power inert.' },
+      { name: 'The Possibility-Drinkers', epithet: 'Serpents of the Unchosen Road', morphologyAndTrait: 'Coil between worlds, drinking up alternate MWI outcomes until only one unavoidable fate remains.' },
+      { name: 'The Choir of the Collapse', epithet: 'Singers of the Single Outcome', morphologyAndTrait: 'Their solemn chord forces a thousand branching possibilities to collapse into one heavy reality.' },
+      { name: 'The Frozen-Ascendants', epithet: 'Salt-Pillar Usurpers', morphologyAndTrait: 'Ancient Category 5 Sovereigns who tried to force their way into Category 7 and were locked into timeless monuments on the threshold.' },
+      { name: 'The Six Redacted Judges', epithet: 'The Blotted Council', morphologyAndTrait: 'The six threshold wardens who struck Category 6 from every grimoire and archive in existence.' }
     ]
   },
   {
     id: 'exp-cat7-adjudicators',
-    categoryName: '11. Category 7 Adjudicators & Transfinite Metachaos Authorities (10 Races / Orders)',
-    ontologicalTier: 'Category 7 (Category X — Transfinite Metachaos Authorities / Adjudicators)',
-    cognitionTier: 'Tier 12 Interface (Transfinite Cardinals beyond ZFC / Berkeley Cardinals)',
-    constructionMechanism: 'Operate fundamentally ABOVE the Many-Worlds Interpretation (MWI). While MWI governs Grade 1–7 AMRs across countably infinite branches, Category 7 Adjudicators wield True Netherarchesial / Axiomarchical Reality Warping derived from The Meta-Chaos (VSBW Tier 0 Boundless—the meta-concept of Transcendence and Change/Progress itself).',
-    associatedFuelOrKi: 'Beyond-MWI Transfinite Metachaos Authority (Delta δ / Berkeley Cardinal Scale)',
-    restrictorPlate: 'Dictates existential authority rather than raw physical brawl strength; authority remains strictly bounded to each Adjudicator’s specific axiomatic jurisdiction.',
+    categoryName: '11. Category 7 The High Adjudicators (Above MWI / Below The Meta-Chaos — 10 Orders)',
+    ontologicalTier: 'Category 7 (Category X — Supreme Adjudicators Operating Above MWI)',
+    cognitionTier: 'Tier 12 Interface (Above MWI Grades 1–7, Anchored Below Tier 0 Meta-Chaos)',
+    constructionMechanism: 'Directly from the canonical hierarchy: Category 7 Adjudicators operate on a system HIGHER than MWI (above all 7 MWI Ammo Grades and all 10⁴ complexity jumps), serving as the existential magistrates of reality beneath only The Meta-Chaos (VSBW Tier 0 Boundless).',
+    associatedFuelOrKi: 'Trans-MWI Adjudication Decree (Above Grade 7 AMRs)',
+    restrictorPlate: 'Do not engage in brawls or spell-duels; they act strictly as existential adjudicators bound to the foundational laws beneath The Meta-Chaos.',
     races: [
-      { name: 'The First Adjudicators of the Delta-Cardinal', epithet: 'Supreme Axiomarchical Magistrates', morphologyAndTrait: 'Sovereign authorities operating at cardinal δ scales beyond ZFC set theory; adjudicate existential law across manifolds.' },
-      { name: 'The Berkeley-Scale Architects', epithet: 'Transfinite Reality Shapers', morphologyAndTrait: 'Wield Berkeley-cardinal ontological weight, rewriting the foundational axioms of physics in their jurisdiction.' },
-      { name: 'The Netherarchesial Law-Givers', epithet: 'Originators of Ontological Boundaries', morphologyAndTrait: 'The supreme authorities who forged the Restrictor Plates binding all Category 2, 3, and 5 races.' },
-      { name: 'The ZFC-Breaker Sovereigns', epithet: 'Choice-Axiom Nullifiers', morphologyAndTrait: 'Entities whose presence invalidates standard mathematical set continuity, rendering MWI probability calculation obsolete.' },
-      { name: 'The Transfinite-Lattice Magistrates', epithet: 'Beyond-Aleph Curators', morphologyAndTrait: 'Oversee the macro-cosmological hierarchy where entire infinite multiverses are treated as single legal exhibits.' },
-      { name: 'The Axiomarchical Thrones', epithet: 'Stationary Pillars of Decree', morphologyAndTrait: 'Do not fight with kinetic force; they simply issue existential verdicts that reality reorganizes itself to obey.' },
-      { name: 'The Uncountable-Infinity Curators', epithet: 'Continuum-Hypothesis Wardens', morphologyAndTrait: 'Govern the uncountable gaps between MWI branches where no quantum wave-function can reach.' },
-      { name: 'The Pre-MWI Judges', epithet: 'Antecedent-To-Possibility Lords', morphologyAndTrait: 'Existed before probability and superposition were introduced into the cosmos.' },
-      { name: 'The Meta-Chaos Heralds', epithet: 'Envoys of Endless Progress', morphologyAndTrait: 'Direct emanations of The Meta-Chaos (Tier 0), enforcing the law that no stagnant system can remain supreme forever.' },
-      { name: 'The Boundless-Threshold Sentinels', epithet: 'Horizon Watchers of Tier 0', morphologyAndTrait: 'Stand at the asymptotic boundary between Category 7 finite-domain authority and the Boundless Meta-Chaos.' }
+      { name: 'The First Adjudicators', epithet: 'Magistrates of the Highest Writ', morphologyAndTrait: 'Ancient, hooded sovereigns whose spoken decree sets the baseline laws of physics, soul weight, and Possibility Resistance.' },
+      { name: 'The World-Shapers of the Deep', epithet: 'Founders of the Pillars', morphologyAndTrait: 'The elder powers who laid down the architecture of the realms before the first timeline branched.' },
+      { name: 'The Law-Givers of the Covenant', epithet: 'Forgers of the Ancient Seals', morphologyAndTrait: 'Those who hammered out the inescapable Pactional laws that bind all Goetarchs, spirits, and gods.' },
+      { name: 'The Unbound Sovereigns', epithet: 'Lords Beyond Pre-Cognition', morphologyAndTrait: 'Walk completely outside MWI; no Category 3–5 pre-cognitive simulation can ever foresee or target them.' },
+      { name: 'The Magistrates of the Outer Dark', epithet: 'Keepers of the Great Ledger', morphologyAndTrait: 'Weigh entire epochs and fallen manifolds upon their scales.' },
+      { name: 'The Silent Thrones', epithet: 'Unmoving Pillars of Decree', morphologyAndTrait: 'Never draw a weapon; when they pass judgment, reality itself rearranges to obey.' },
+      { name: 'The Keepers of the Unwritten', epithet: 'Wardens of the Blank Scroll', morphologyAndTrait: 'Rule the silent spaces between manifolds where no history has yet been inscribed.' },
+      { name: 'The Judges Before Time', epithet: 'Elders of the First Dawn', morphologyAndTrait: 'Sat in council before linear Soul 1 time or MWI branching began.' },
+      { name: 'The Heralds of the Meta-Chaos', epithet: 'Voices of Eternal Change', morphologyAndTrait: 'Direct envoys of The Meta-Chaos (Tier 0), ensuring that no empire, god, or cosmic order can stagnate forever.' },
+      { name: 'The Watchers of the Last Horizon', epithet: 'Sentinels of the Uttermost Rim', morphologyAndTrait: 'Stand guard at the furthest rim of creation where all worlds return to the boundless deep.' }
     ]
   }
 ];
@@ -1294,120 +1295,120 @@ export const BRAINSTORM_FORGE_SEEDS: BrainstormPromptSeed[] = [
   {
     id: 'bf-cat2-cat3',
     domain: 'Missing Category Races',
-    question: 'Who are the flagship Category 2 (formless thinking nodes) and Category 3 (emotionless memory-less precognitive calculators) races, and what happens when they collide with Humans?',
-    contextFromDraft: 'The draft establishes that Category 3 races lack emotions and permanent pattern recognition ("they don\'t learn from past mistakes, they lack long-term memory, they learn by the way, predict by the way"), yet it takes a Cat 3 race to utilize MAGIC steadily. Meanwhile Cat 2 has zero form and zero sentience, yet can think and is part of Category X!',
+    question: 'Who are the flagship Category 2 (formless thinking geometries) and Category 3 (emotionless, memoryless pre-cognitive) races, and how do they interact with Category 4–5 factions?',
+    contextFromDraft: 'The draft establishes that Category 3 entities lack emotional drives and lack long-term memory ("they don\'t learn from past mistakes, they lack long-term memory, they learn by the way, predict by the way"), yet Category 3 is the minimum threshold required to cast MWI Magic consistently. Meanwhile Category 2 has zero physical form and zero emotion, yet actively thinks.',
     pitchedIdeas: [
       {
-        name: 'The Markovian Lattice (or The Ephemerids / Tachyon-Calculators)',
-        etymology: 'Named after Markov Chains (memoryless stochastic processes where future states depend ONLY on the current state, never the past).',
-        concept: 'A Category 3 race whose brains physically wipe their synaptic slate every 12 seconds. Because they carry zero trauma, zero nostalgia, and zero past bias, they experience zero psychological drag when simulating the future—allowing them to align Many-Worlds quantum gaps with cold, mathematical precision, even though they cannot remember why they started a war ten minutes ago.',
-        restrictorPlate: 'Zero long-term memory: if an opponent disrupts their current 12-second calculation window, they must re-derive their enemy\'s entire combat style from scratch.'
+        name: 'The Ephemerids of the White Fen (Category 3 Twelve-Breath Seers)',
+        etymology: 'Greek Ephemeros (lasting only a moment / present-breath).',
+        concept: 'An eerie, pale-eyed Category 3 race whose autobiographical memory clears every twelve breaths. Because they carry zero emotional panic, zero trauma, and zero fear of death, their pre-cognitive simulations are crystal-clear—allowing them to fire Grade 1–2 AMRs without hesitation, even though they cannot remember why their elders started a war an hour ago.',
+        restrictorPlate: 'Zero long-term memory: if an opponent survives their twelve-breath pre-cognitive window, they forget the foe’s prior habits and must re-simulate from scratch.'
       },
       {
-        name: 'The Silicon-Blind / Noetic Mycelia (Category 2)',
-        etymology: 'Noetic (pure intellect/thought) + non-sentient subterranean/quantum networks.',
-        concept: 'A Category 2 "race" that has no body, ego, or self-awareness—existing purely as a self-executing mathematical proof drifting through planetary magnetospheres. It "thinks" only in geometric boundary conditions, accidentally warping local gravity and biology whenever a mortal city\'s architecture violates its equation.',
-        restrictorPlate: 'Completely lacks ego or survival instinct; can be "trapped" by feeding it an unsolvable recursive geometric paradox.'
+        name: 'The Silent Ordinances (Category 2 Formless Thinking Geometries)',
+        etymology: 'Archaic decree + unseen spatial presence.',
+        concept: 'A Category 2 presence with zero physical body and zero emotion—drifting through ruined sanctuaries and mountain passes like a living geometric law that crushes any structure or intruder moving out of measure.',
+        restrictorPlate: 'Possesses no ego or survival instinct; can be trapped or bypassed by a paradox or an unbroken Solomonic circle.'
       }
     ]
   },
   {
     id: 'bf-cat5-benevolent',
     domain: 'Missing Category Races',
-    question: 'The draft says Category 5 manipulation "doesn\'t always mean malicious" and that "other entities that aren\'t malevolent exist on the other end of the spectrum." Who are the Anti-Netherbound Category 5s?',
-    contextFromDraft: 'Netherbound Category 5s exploit "Bad is Stronger than Good" (threat simulation bias). But the draft also lists evolutionary algorithms for Gratitude, Reciprocal Altruism, Love/Attachment, and Awe.',
+    question: 'The draft notes that Category 5 entities "aren\'t always malicious" and that "other entities that aren\'t malevolent exist on the other end of the spectrum." Who are the non-malicious / custodial Category 5 counterparts to the Nether-Lords?',
+    contextFromDraft: 'Netherbound Category 5s feed their AMRs via negative emotional loops (terror, despair, paranoia). Yet Category 4 mortal minds also generate fierce positive resonance: kept oaths, sanctuary, valor, and willing sacrifice.',
     pitchedIdeas: [
       {
-        name: 'The Eunoia-Weavers (or The Covenant Seraphim / Axiomatic Symbiotes)',
-        etymology: 'Eunoia (Greek: "beautiful thinking / well-mind") + Reciprocal Altruism game theory.',
-        concept: 'Category 5 entities bound to the evolutionary psychology of Hyper-Cooperation and Reciprocal Altruism. Because "Bad is stronger than Good" in raw survival urgency, a single human\'s gratitude is weaker than their fear—so these Category 5s must link thousands of Category 4 minds into synchronized "Trust Lattices" (festivals, oaths, shared martyrdom) to generate enough simulation weight to rival a Demon.',
-        restrictorPlate: 'If betrayal or "cheating" (evolutionary game theory defection) occurs inside their linked mortal host group, their ontological boundary snaps and their power instantly flatlines.'
+        name: 'The Eunoia-Weavers & Six-Winged Covenant Seraphim',
+        etymology: 'Greek Eunoia (goodwill / noble mind) + ancient covenant guardians.',
+        concept: 'Austere, awe-inspiring Category 5 powers on the custodial end of the spectrum. Where Nether-Lords farm negative loops, these beings charge their Grade 2–4 AMRs from unbroken circles of trust, kept oaths, and shared courage under siege.',
+        restrictorPlate: 'Because fear is easy to trigger while trust is fragile, a single act of betrayal or oath-breaking inside their warded perimeter collapses their AMR charging loop on the spot.'
       }
     ]
   },
   {
     id: 'bf-bloodline-fleshout',
     domain: 'Unfleshed Demon Bloodlines',
-    question: 'Out of the 102 named Demon Bloodlines (Tartarokh, Nadirim, Hex-Matrons of Kael, Void-Suckled, Marrow-Weavers, Lethe-Kin, Quliphot, etc.), which ones are major faction players vs. feral ecological horrors?',
-    contextFromDraft: 'The draft gives full combat & biological breakdowns for 22 breeds (Khorvath, Skorvath, Vael-Gorgers, etc.), and then drops 102 evocative bloodline names across 7 lists.',
+    question: 'Out of the 102 named Demon Bloodlines (Tartarokh, Nadirim, Hex-Matrons of Kael, Void-Suckled, Marrow-Weavers, Lethe-Kin, Quliphot, etc.), which ones rule great courts vs. stalk the deep pits?',
+    contextFromDraft: 'The draft gives full breakdowns for 22 breeds (Khorvath, Skorvath, Vael-Gorgers, etc.), and names 102 ancient bloodlines across 7 lists.',
     pitchedIdeas: [
       {
-        name: 'The Nadirim ("Born of the Absolute Planetary Nadir")',
-        etymology: 'Nadir (lowest astronomical/gravitational point directly beneath an observer) + Hebrew/Semitic plural -im.',
-        concept: 'Entities born at the exact center-of-gravity core of dead or hollowed planets where gravitational vectors cancel out in every direction. They wield inverted barycenter mechanics—making their own sternum the "downward" gravitational nadir of a room so enemies fall *upward* or *sideways* into their blades.',
-        restrictorPlate: 'Must remain anchored to a local center of mass; if knocked airborne away from solid planetary crust, their internal gravity inverts and crushes their own organs.'
+        name: 'The Nadirim ("Born of the Uttermost Pit")',
+        etymology: 'Nadir (lowest point beneath the world) + archaic plural -im.',
+        concept: 'Ancient lords born in the deepest gravity-null cores of hollowed worlds. In combat, their own sternum becomes the local "downward" floor of the Turn Field—causing enemies and projectiles to fall sideways or upward onto their blades.',
+        restrictorPlate: 'Must keep their heels planted on solid ground; if knocked airborne, their own inverted gravity crushes inward on their ribs.'
       },
       {
-        name: 'The Lethe-Kin & Marrow-Weavers (Stygian Soul-Carriers)',
-        etymology: 'Lethe (Greek underworld river of forgetfulness/oblivion).',
-        concept: 'Specialists in stripping long-term pattern recognition from Category 4 mortals—temporarily lobotomizing a human into a Category 3 state so the mortal\'s raw precognitive engine can be hijacked like a biological GPU without emotional interference.',
-        restrictorPlate: 'Cannot harm a target who has already forgotten their own name (Tey-Ren immunity).'
+        name: 'The Lethe-Kin & Marrow-Weavers (Stygian Memory-Strippers)',
+        etymology: 'Lethe (the underworld river of oblivion).',
+        concept: 'Pale river-lords of the Stygian sectors who temporarily strip a Category 4 human’s emotional drives and long-term memories—reducing the victim to a temporary Category 3 state so their unclouded pre-cognitive simulation can be yoked to cast spells.',
+        restrictorPlate: 'Cannot affect a warrior operating in Mu-Ki stillness or someone who has already surrendered their name.'
       }
     ]
   },
   {
     id: 'bf-gatekept-frameworks',
     domain: 'Classified Frameworks',
-    question: 'How do the "Astral Hit-Squads" & Neurological Gaslighters actually hunt down mortals who accidentally discover a Gatekept Framework?',
-    contextFromDraft: 'EXTREME MAJOR POINT in draft: Frameworks are SO GATEKEPT that merely becoming aware of a specific framework leads to being hunted by Astral Entities or other supernatural beings—some tamper with memories, some physically manifest to gaslight the target, some mess with evolutionary nerve/neurology to prevent the simulation from compiling, and some torture/kill.',
+    question: 'How do the Gatekept Framework Enforcement Spirits hunt down uninitiated mortals who pry into the 31 forbidden occult traditions?',
+    contextFromDraft: 'Frameworks are so fiercely gatekept that merely becoming aware of or simulating a forbidden rite draws Astral Entities and enforcement squads—some tamper with memories, some gaslight the practitioner, some induce agnosia/blindness to ritual script, and some execute them.',
     pitchedIdeas: [
       {
-        name: 'The Agnosia Hounds / Pneuma-Censors (Framework Enforcement Ecology)',
-        etymology: 'Agnosia (neurological inability to process sensory information or recognize objects/concepts).',
-        concept: 'Specialized Astral/Category 5 enforcement parasites attached like DRM (Digital Rights Management) to hyper-classified frameworks. The moment a mortal brain starts simulating the specific mathematical angle of a forbidden framework, the entity induces targeted *Wernicke’s Aphasia* or *Visual Agnosia*—making the magician physically unable to read their own chalk sigils, or hallucinate that their ritual room is on fire.',
-        restrictorPlate: 'They only trigger when the specific probability spectrum of that framework is simulated; a practitioner using Category 3 "memoryless" calculation or Mu-Ki null-state can slip under their radar.'
+        name: 'The Agnosia Hounds & Tongue-Lockers (Framework Enforcement Spirits)',
+        etymology: 'Agnosia (inability to recognize shapes/symbols) + occult seal-hounds.',
+        concept: 'Tier 6 enforcement spirits bound into the 31 Gatekept Frameworks. The moment an uninitiated mortal pre-cognitively simulates a restricted Clause-Seal or Decanic glyph, these spirits ride back along the practitioner’s Astral Trail—making the chalk lines writhe unintelligibly, scrubbing short-term memory, or locking the vocal cords before the invocation can finish.',
+        restrictorPlate: 'They track the emotional pre-cognitive wake of Category 4 minds; a passionless Category 3 seer or a fighter in Mu-Ki leaves no wake for them to lock onto.'
       }
     ]
   },
   {
     id: 'bf-netherfire-chemistry',
     domain: 'Netherfire Fuels',
-    question: 'We have 19 named Netherfire fuels (Gloompyre Pulse, Marrowblaze Core, Soulignis Ether, Cryptblaze Fuel, Vaelsteel Embers, etc.) whose exact outcome realities and depletion states (solid/liquid/gas) haven\'t been written yet. How should we differentiate them?',
-    contextFromDraft: 'Vaelburn Spark (spacetime compression thermal friction) and Aethelfire Flux (stripped mathematical continuity -> cold crystalline conflagration) are defined. The draft notes that fuels deplete differently: "Some may deplete like liquid, others may deplete like solid."',
+    question: 'We have 19 named Netherfire reserves (Gloompyre Pulse, Marrowblaze Core, Soulignis Ether, Cryptblaze Fuel, Vaelsteel Embers, etc.). How do their depletion states (liquid tank, solid rock chunks, or gas) and effects differ?',
+    contextFromDraft: 'Vaelburn Spark and Aethelfire Flux are defined, and AMRs deplete in distinct tactile states: some drain like liquid fuel in a tank, some disappear chunk-by-chunk like solid rock ("boom, boom, boom") or crush in an instant, and others vent like gas.',
     pitchedIdeas: [
       {
-        name: 'Marrowblaze Core (Sub-Skeletal Calcination Fuel)',
+        name: 'Marrowblaze Core (Solid-Chunk Bone-Calcining AMR)',
         etymology: 'Marrow + Blaze.',
-        concept: 'Depletes like a sublimating solid chalk rod inside the caster\'s femur. Outcome Reality: Collapses the timeline toward spontaneous internal osteo-combustion, igniting the calcium-phosphate lattice of bones within a 5-meter radius while leaving cloth and outer skin untouched.',
-        restrictorPlate: 'Requires line-of-sight acoustic resonance with skeletal mass; useless against chitinous (Skorvath) or non-skeletal entities.'
+        concept: 'Sits in the reserve like a dense rod of white stone that disappears chunk-by-chunk ("boom, boom, boom") with each shot. It ignites the calcium inside an enemy’s bone marrow from within while leaving outer armor and cloth untouched.',
+        restrictorPlate: 'Requires skeletal bone to catch; useless against chitin-plated Skorvath or non-corporeal Astral spirits.'
       },
       {
-        name: 'Voidignis Fluid (Zero-Kelvin Photonic Burn)',
+        name: 'Voidignis Fluid (Liquid-Tank Black-Frost AMR)',
         etymology: 'Void + Latin Ignis (Fire).',
-        concept: 'Depletes like a heavy, frictionless superfluid that drips upward when spent. Outcome Reality: Forces a Many-Worlds gap where combustion consumes *light and heat* rather than oxygen, creating pitch-black fireballs that leave targets frostbitten and blind.',
-        restrictorPlate: 'Extinguishes instantly if exposed to high-output solar plasma (Tejas-Ignis or Tonalli-Ray).'
+        concept: 'Depletes like heavy black liquid draining from a fuel tank. Its black flame drinks ambient heat and ray-traced light rather than oxygen, vitrifying moisture into black ice and plunging the room into pitch shadow.',
+        restrictorPlate: 'Dispersed by intense solar/light-based AMRs or high-temperature Gō-Ki steam venting.'
       }
     ]
   },
   {
     id: 'bf-netherbounders-noble-demons',
     domain: 'Missing Category Races',
-    question: 'How do we structure the deep-time ontology of Netherbounders and Noble Demons—combining All Tomorrows speculative evolution, the unconscious negative-energy farming loop, and terrifying aristocratic uncanniness?',
-    contextFromDraft: 'Devils/Nether-entities are NOT "teenagers with wings." Regardless of how cool, charming, or psychologically independent they appear, their supernatural ecology unconsciously seeds negative energy through a multi-stage loop to feed their AMRs. Inspired by All Tomorrows, Star Wars deep eras, and the 72 Goetarchs / 102 Bloodlines.',
+    question: 'How do we ground the ontology of Netherbounders and Noble Demons—combining All Tomorrows-scale deep-time history ("Chapters of the Past"), the 4-Stage Negative-Loop AMR Harvest, and the Grounded Sovereign Realism of the 72 Pillar Houses?',
+    contextFromDraft: 'In our verse, Noble Demons are never generic "anime teenagers with wings." Their world combines deep-time evolutionary history (All Tomorrows / Star Wars scale), negative emotional loops feeding AMRs inside their internal mindscape tanks, and grounded physical sovereignty.',
     pitchedIdeas: [
       {
-        name: '1. The "Anglerfish / Mimicry" Aristocracy (Why Noble Demons Look Humanoid)',
-        etymology: 'Speculative Aggressive Mimicry (All Tomorrows / Deep-Sea Predation) + Goetic Courtly Nobility.',
-        concept: 'Why do Noble Demons (like the 72 Goetarchs, Gremory, Bael, or Paimon lineages) wear breathtaking humanoid beauty while trench-caste breeds (Khorvath, Skorvath) look like chitinous siege monsters? Because Noble Demons evolved as *Apex Social/Psychic Parasites*. Their humanoid form is an evolved "lure" (like an anglerfish light or orchid mantis) sculpted over eons of deep time to trigger Category 4 human attachment, awe, lust, and political trust—only for their unconscious ecological field to quietly harvest the resulting psychological friction and dread.',
-        restrictorPlate: 'The Uncanny Valley Tell: Because their humanoid form is convergent evolutionary mimicry rather than human biology, micro-details are always slightly "off" (e.g., blinking cadence, internal temperature, shadow geometry, or how their personal Astral Entities twitch in darkened corners).'
+        name: '1. Sovereign Mimicry & Grounded Patrician Density (Why the 1% Noble Houses Wear Humanoid Form)',
+        etymology: 'Sovereign Apex Predation + Grounded Realism.',
+        concept: 'Why do the 72 Pillar Houses (Gremory, Bael, Paimon) stand like living marble monuments of patrician sovereignty while the 99% lower Netherbounders are chitinous or siege-warped horrors? Because the Great Houses are apex predators of Category 4 awe and dread. Over deep time, their bloodlines sculpted an overwhelming, statue-like humanoid sovereignty that commands mortal devotion and lowers psychological defenses.',
+        restrictorPlate: 'Real Biomechanical Weight: They obey high-fidelity 3D realism (damped inertia, dense skeletal mass, zero cartoon physics) and carry the uncanny stillness of a higher-tier predator.'
       },
       {
-        name: '2. The 4-Stage Unconscious Negative-Energy Agricultural Loop ("Blight-Farming")',
-        etymology: 'Ecological Trophic Cascade + MWI Negative Priority Weighting ("Bad Is Stronger Than Good").',
-        concept: 'Even if a Noble Demon consciously loves a human or tries to be "good," their body and soul-tank automatically run a 4-stage metabolic cycle: (Stage 1: Spore-Seeding) Their passive presence leaks micro-vibrational Astral spores into the local environment; (Stage 2: Threat Incubation) Those spores subtly tilt local probability and mortal amygdala simulations toward paranoia, obsession, tragedy, or despair; (Stage 3: Astral Fermentation) When mortals panic or suffer, their Category 4 brains shed high-density negative Astral Trails; (Stage 4: AMR Distillation) The Demon’s internal tank automatically inhales and refines that fermented dread into Grade 1–3+ AMRs.',
-        restrictorPlate: 'Ecological Starvation: A Netherbounder isolated in a sterile, zero-mind vacuum (or surrounded only by memoryless Category 3 calculators) slowly starves of passive AMR regeneration unless they burn stored fossil reserves.'
+        name: '2. The 4-Stage Negative-Loop AMR Harvest (How Nether Entities Feed Their AMRs)',
+        etymology: 'Negative Emotional Feedback Loops + Internal Mindscape Tank.',
+        concept: 'Even when a Noble Demon isn’t actively fighting, their internal mindscape tank runs a 4-stage harvesting cycle: (1) *Seeding*: Their presence leaks subtle vibrational cues into the local environment; (2) *Negative Loop Lock*: Mortal minds nearby slip into self-reinforcing loops of dread, obsession, envy, or paranoia; (3) *Astral Trail Shedding*: Those pre-cognitive simulations shed dense wakes into the Psychic Internet; (4) *Internal-Tank Fermentation*: The demon’s personal Astral symbionts gather and ferment those wakes into liquid-tank, solid-chunk, or gas AMRs.',
+        restrictorPlate: 'Starvation in Barren Zones: Cut off from Category 4 mortal populations, a Nether-entity cannot passively recharge and must rely strictly on the heirloom AMR vaults stored inside their bloodline.'
       },
       {
-        name: '3. Deep-Time "All Tomorrows" Divergence: Native Nether-Born vs. "Nether-Bounded" Post-Species',
-        etymology: 'C.M. Kosemen’s All Tomorrows Post-Human Radiation + Nether-Boundary Grafting.',
-        concept: 'Distinguishes between (A) *True Primordial Chthonic Demons* (native to the 29 Underworld Sectors) and (B) *Netherbounders*—entire ancient species, civilizations, or "Chapters of the Past" (like the Qu-modified post-humans in All Tomorrows) that were dragged across the Nether-boundary eons ago and forced to evolve under abyssal physics. Over millions of years, some Netherbound lineages mutated into living siege-fauna (Brontorim), some into hyper-specialized AMR-organs, and the rarest survivors climbed into the Noble Demon Aristocracy by mastering Pactional Jurisprudence and multi-AMR internal tanks.',
-        restrictorPlate: 'Fossilized Genetic/Ontological Scars: Every Noble Clan carries an ancient "Chapter of the Past" anatomical or psychological scar from what their lineage had to become in order to survive the Nether bottleneck.'
+        name: '3. Deep-Time "Chapters of the Past" (All Tomorrows Split: First-Born Chthonic vs. 99% Netherbounders vs. 1% Nobles)',
+        etymology: 'All Tomorrows Deep-Time Evolutionary Divergence.',
+        concept: 'Distinguishes *First-Born Chthonic Demons* (native to the 15 Nether-Domains) from *Netherbounders*—entire mortal kingdoms, alien species, and vanished epochs dragged into the Nether millions of years ago. Across eons of crushing Nether pressure and selective breeding, 99% were reshaped into tragic post-species (siege-beasts, living wall-tapestries, blind pact-scribes), while the 1% Sovereign Survivors conquered their sectors and became the Noble Houses.',
+        restrictorPlate: 'Every Netherbounder lineage bears the permanent anatomical and ancestral memory scars of the epoch their species fell.'
       },
       {
-        name: '4. "House Ecology" & Hereditary AMR Organ-Tanks (Why Noble Clans Guard Their Bloodlines)',
-        etymology: 'Dune / Star Wars Great Houses + Speculative Internal Organ Evolution.',
-        concept: 'In-world, what makes a Demon "Noble" isn\'t just a title—it\'s that their bloodline evolved a specialized **Internal Mindscape Tank** capable of safely housing and compressing specific high-Grade (Grade 2–4+) AMRs that would instantly rupture a lesser demon. Each Noble House is essentially a living, self-contained biosphere (populated by their clan’s hereditary Astral Entities) that passes down fossilized, extinct-era AMRs like royal crown jewels.',
-        restrictorPlate: 'Bloodline Over-Specialization & Inbreeding Drift: Just like in All Tomorrows, evolving to hold hyper-complex Grade 3+ AMRs warps the clan\'s baseline psychology—giving each Noble House a signature "Aristocratic Madness" or compulsive behavioral flaw.'
+        name: '4. Living Dynastic AMR Vaults (Why Noble Bloodlines Guard Their Inheritance)',
+        etymology: 'Hereditary Internal Tanks + Grade 2–4+ AMR Hoards.',
+        concept: 'What makes a Demon "Noble" is not a polite title—it is the structural capacity of their hereditary internal tank to hold volatile, high-Grade AMRs (like House Gremory’s Power of Destruction) that would rupture a lesser creature, plus ancestral vaults of extinct-epoch AMRs passed down through the bloodline.',
+        restrictorPlate: 'Bloodline Drift: Housing a specific high-Grade AMR across generations permanently shapes the House’s temperament, thermal aura, and obsessions.'
       }
     ]
   }

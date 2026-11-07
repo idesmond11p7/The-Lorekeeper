@@ -9,9 +9,9 @@ import {
 import { buildCanonicalObservatorySeed } from './observatorySeed';
 
 const IDB_NAME = 'LorekeepersObservatoryDB';
-const IDB_VERSION = 2;
+const IDB_VERSION = 3;
 const STORE_NAME = 'workspace_state';
-const STATE_KEY = 'observatory_v2_main';
+const STATE_KEY = 'observatory_v3_clean';
 
 function openObservatoryIDB(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {

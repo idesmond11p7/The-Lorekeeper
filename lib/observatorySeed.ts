@@ -84,136 +84,135 @@ export function buildCanonicalObservatorySeed(): ObservatoryWorkspaceState {
   const loreDocuments: LoreDocument[] = [
     {
       id: 'lore-500-plus-race-taxonomy-and-astral-construction',
-      title: 'The 670-Race Master Taxonomy & Astral Construction Analysis: How Standard Races vs. Astral Entities Are Distinctively Made',
-      kicker: '6-Rule Astral Construction Doctrine, 329 Astral Species (32 Families) & 341 Non-Astral Races (670 Total)',
+      title: 'The 670-Race Master Taxonomy & Astral Construction Blueprint: How Standard Races vs. Astral Entities Are Distinctively Made',
+      kicker: '6 Canonical Astral Construction Rules, 329 Astral Species (32 Families) & 341 Non-Astral Races & Bloodlines (670 Total)',
       category: 'Cognition & Astral',
-      summary: 'Analyzes the exact architectural difference between how Category 1–7 / Bio-Manifold / Netherbound races are constructed versus how Astral Entities are distinctively generated, and establishes the expanded 670-Race Master Census (329 Astral Species across 32 Taxonomies + 341 Non-Astral Races across 26 Categories/Castes/Bloodlines).',
+      summary: 'Establishes the 6 canonical rules of how standard races (Categories 1–7) are made versus how Astral Entities are distinctively born as incomplete souls (< Soul 1) precipitated from Pre-Cognitive Simulations ("Astral Trails") across the Vibrational + Telepathic Spectrum ("The Psychic Internet")—alongside the 670-Race Master Census.',
       content: `1. ARCHITECTURAL ANALYSIS: HOW STANDARD RACES ARE MADE VS. HOW ASTRAL ENTITIES ARE DISTINCTIVELY MADE
-In the Ur-Verse / ForeverWorlds, **Astral Entities** and **Standard Races (Category 1–7 Bio-Manifold, Netherbounders, Demon Breeds & Noble Bloodlines)** are built on fundamentally different ontological blueprints across six strict laws:
+In the Ur-Verse / ForeverWorlds, **Astral Entities** and **Standard Biological / Netherbound Races (Categories 1–7, Demon Breeds & Bloodlines)** are separated by **6 Canonical Construction Rules**:
 
-• **Rule 1 — The "Incomplete Soul" Law (Sub-Soul < 1 vs. Complete Soul 1 + Soul 2):**
-  - *Standard Races (Cat 3–5):* Possess a complete **Soul 1** (linear temporal anchor composed of quantum particles, information particles, and time crystals) AND a **Soul 2** (non-Euclidean MWI possibility matrix). Shattering their Soul 1 triggers a **Supernatural Nuke**.
-  - *Astral Entities:* An Astral Entity is **NEVER a complete soul**. By strict canonical law, the moment an Astral Entity achieves soul completeness, it ceases to be an Astral Entity and automatically graduates into a **Soul 1 (Tier 7 Semi-Spiritual)** being.
+• **Rule 1 — Incomplete Soul Ontology (Sub-Soul < 1 vs. Full Soul 1 + Soul 2):**
+  - *Standard Races (Categories 3–5):* Possess a complete, anchored **Soul 1** (linear time continuity) and **Soul 2** (MWI branching shadow). When a true Soul 1 is violently destroyed, it triggers a cataclysmic **Soul 1 Nuke**.
+  - *Astral Entities Only:* An Astral Entity is **NEVER a complete soul**. It is an incomplete soul fragment (< Soul 1). By hard cosmological law, the moment an Astral entity gathers a complete soul, it ceases to be an Astral entity and crosses over into **Tier 7 Semi-Spiritual Soulhood**.
 
-• **Rule 2 — Genesis: Darwinian / Deep-Time Bottlenecks vs. Unintended Precognitive Kickback ("Astral Trails"):**
-  - *Standard Races:* Constructed via biological evolution across the Bio-Manifold or *All Tomorrows*-scale deep-time bottlenecks across the Nether-boundary, governed by DNA, chitin, silicon-iron calcified bone, Somatic Ki channels, and internal Mindscape Tanks.
-  - *Astral Entities:* Have **zero biological reproduction**. Whenever Category 4 (or other precognitive) minds run mental simulations—especially those weighted by evolutionary survival emotions (Fear, Anger, Disgust, Shame, Grief)—that simulation causes unintended micro-reality warping, **shedding \`Astral Trails\` every second and microsecond**. Those shed trails cluster, ferment, and coalesce into Astral Entities.
+• **Rule 2 — Pre-Cognitive Simulation Byproduct ("Astral Trails") vs. Lineage & Deep-Time Evolution:**
+  - *Standard Races:* Created through multi-generational evolution, deep-time Nether adaptation (*All Tomorrows* / "Chapters of the Past"), or dynastic bloodline inheritance.
+  - *Astral Entities Only:* Have **zero biological parents, DNA, or breeding cycles**. Whenever Category 3, 4, or 5 minds run **Pre-Cognitive Simulations** weighted with emotion (fear, anger, shame, desire, awe), those mental projections shed unseen wakes into the world (**Astral Trails**) that pool and curdle into autonomous Astral species.
 
-• **Rule 3 — Substrate: Physical/Nether Matter vs. Vibrational Spectrum + Telepathy ("The Psychic Internet"):**
-  - *Standard Races:* Anchored in classical/exotic physical matter states or high-density Category 5 Nether-flesh.
-  - *Astral Entities:* Exist strictly on the **Astral Spectrum = Vibrational Spectrum + Telepathy**. They inhabit the **"Psychic Internet"**—Mirror Dimensions, Voids, Bridges, Transversal Routes, and vibrational frequencies of terrestrial locations.
+• **Rule 3 — The Vibrational Spectrum & Telepathic Veil ("The Psychic Internet") vs. Physical Mass:**
+  - *Standard Races:* Inhabit physical spacetime or heavy semi-spiritual Nether matter with real mass, inertia, and anatomy.
+  - *Astral Entities Only:* Inhabit the **Psyche Vibrational Spectrum + Telepathy**—operating across the unseen **"Psychic Internet"** that links minds, shadows, mirrors, and internal mindscape tanks.
 
-• **Rule 4 — The 10⁹ (1,000,000,000×) Magnitude Gap: Tier 5 Low-Astral vs. Tier 6 True Astral:**
-  - *Cognition Tier 5 (Micro-Telekinesis & Low-End Astral):* Synchronized with biological electromagnetic fields; not necessarily magical. Spawns *Astral Trails, Apparitions / Phantoms, Eidolons, and Wraiths*.
-  - *Cognition Tier 6 (Telekinesis & True Astral):* Separated from Tier 5 by a **massive gap of order 9 ($10^9 = 1,000,000,000\\times$) and above**. Unlocks true Astral Projection and houses complex folklore, grimoire, oneiric, and technomantic species (*Ghosts, Jinns, Specters, Banshees, Poltergeists, Un-Born, Nachzehrer, Pretas, Gulon, Soul Fragments, Keres*, and the 30 Taxonomic Families).
+• **Rule 4 — The $10^9\\times$ (Billion-Fold) Gulf Between Tier 5 (Low-Astral) & Tier 6 (True Astral):**
+  - *Tier 5 (Low-Astral Wakes):* Fleeting sensory wakes and afterimages (*Astral Trails, Apparitions, Phantoms, Eidolons, Wraiths*).
+  - *Tier 6 (True Astral Species):* Separated from Tier 5 by a **1,000,000,000× ($10^9$) qualitative gulf**. Here sit the full folkloric, occult, and urban-legend species (*Ghosts, Jinns, Specters, Banshees, Poltergeists, Un-Born, Nachzehrer, Pretas, Gulon, Soul Fragments, Keres*, and the 30 Astral Families).
 
-• **Rule 5 — Morphology: Biomechanical Proportions vs. "The Illusion of Myths" Exaggeration:**
-  - *Standard Races:* Governed by functional evolutionary biomechanics (head-height ratios, vascular hydraulics, or Anglerfish/Orchid Mantis convergent mimicry).
-  - *Astral Entities:* Because they condense directly from emotional kickback and collective folklore (*The Illusion of Myths*), their visuals are **emotionally exaggerated**—epic, terrifying, horrific, gross, or geometrically abstract—acting as a direct visual readout of the trauma or anxiety that birthed them.
+• **Rule 5 — The Illusion of Myths (Shaped by Belief & Dread) vs. Grounded Anatomical Proportions:**
+  - *Standard Races:* Bound by functional biomechanics, skeletal mass, and grounded proportions.
+  - *Astral Entities Only:* Governed by **"The Illusion of Myths"**—because they condense out of collective folklore, nightmares, and urban legends, their silhouettes take on exaggerated, paradoxical, or symbolic shapes matching what local minds fear or revere.
 
-• **Rule 6 — Ecological Function: The 50! Population Bedrock, AMR Fermentation & Framework DRM:**
-  - In the Terra-Realms alone, Astral Entities outnumber all biological life by over **$50!$ ($50$ factorial)**. They form the foundational political and metabolic bedrock of the supernatural world—serving as the internal symbionts that **ferment mortal dread into Liquid/Solid/Gas \`AMRs\`** inside Noble Demon tanks, and as autonomous **DRM Hit-Squads (Agnosia Hounds)** that neurologically gaslight mortals who glimpse gatekept Occult Frameworks.
+• **Rule 6 — The $50!$ Astral Economy: Internal-Tank AMR Fermentation & Gatekept Framework Enforcement:**
+  - Across the world, Astral Entities outnumber physical beings by an astronomical factor (**over $50!$**). They serve two indispensable roles in the power economy: (1) cultivated inside a Noble Demon’s or Netherbounder’s **internal mindscape tank** to ferment negative emotional loops into usable **AMRs**, and (2) bound as automatic **Gatekept Framework Enforcement Spirits** (*Agnosia Hounds & Tongue-Lockers*) that memory-wipe, gaslight, blind, or execute uninitiated mortals who pry into the 31 forbidden occult traditions.
 
-2. MASTER CENSUS CALCULATION: 670 NAMED RACES & ASTRAL SPECIES (SURPASSING 500+ TOTAL & 100+ NEW CATEGORIES)
-• **Part I — All 32 Astral Taxonomy Categories (329 Distinct Astral Species):**
-  - *Baseline Tier 5 & Tier 6 Astral Species:* 15 species
-  - *Soul 1 Detonation Fallout (Exotic Temporal Horrors):* 14 species
-  - *Canonical Astral Families 1–15 (Trance, Goetic, Funerary, Planetary, Liminal, Thoughtforms, Parasites, Archons, Tricksters, Bestial, Dream, Mythic, Elemental, Machine, Alchemical):* 150 species (15 × 10)
-  - *Expanded Astral Families 16–30 (Acoustic/Barbarous-Frequency, Framework-DRM Censors, Noble-House AMR-Fermenters, Battlefield Mass-Trauma, Optical/Ray-Traced Mirages, Somatic-Ki Residual Ghosts, Deep-Sea/Barometric Phantoms, Urban/Brutalist Spirits, Contagion/Plague Thoughtforms, Bibliophilic/Grimoire Parasites, Social-GPS Vanity Phantoms, Sub-Zero/Starvation Spirits, Weapon Kill-Effect Ghosts, Extinct-Epoch Fossil Echoes, Psychic-Internet Routing Daemons):* **150 new species** (15 × 10)
-  - **Astral Species Subtotal = 329 Species**
+2. MASTER CENSUS: 670 CANONICAL RACES, BLOODLINES & ASTRAL SPECIES
+• **Part I — All 32 Astral Taxonomy Families (329 Distinct Astral Species):**
+  - *Tier 5 & Tier 6 Baseline Species:* 15 species
+  - *Soul 1 Destruction Fallout (Temporal Horrors):* 14 species
+  - *Foundational Families 1–15 (Trance/Mirror, Goetic/Pactional, Funerary/Chthonic, Planetary Intelligences, Threshold Guards, Thoughtforms/Egregores, Parasites/Siphons, Archons/Judges, Tricksters/Vagabonds, Totemic Beasts, Dream/Nightmare, Mythic Archetypes, Elemental Weather, Machine/Signal Egregores, Alchemical Essences):* 150 species (15 × 10)
+  - *Expanded Families 16–30 (Acoustic/Barbarous-Voice, Gatekept Framework Enforcement, Internal-Tank AMR Symbionts, Battlefield/Siege Trauma, Optical/Mindscape-Overlap Phantoms, Somatic-Ki Afterimages, Abyssal-Sea Horrors, Urban/Brutalist Liminal Haunts, Contagion/Fever Spirits, Cursed Grimoire Spirits, Social-Fear/Paranoia Phantoms, Cryo-Famine Wraiths, Supernatural Kill-Effect Relics, Extinct-Epoch Shades, Psychic-Internet Drifters):* **150 species** (15 × 10)
+  - **Astral Entities Subtotal = 329 Species**
 
-• **Part II — All Non-Astral Bio-Manifold, Netherbound, Somatic-Ki & Category 1–7 Races (341 Distinct Races & Lineages):**
+• **Part II — All Non-Astral Biological, Netherbound, Somatic & Category 1–7 Races (341 Distinct Races & Lineages):**
   - *Detailed Demon Breeds (6 Castes):* 22 breeds
   - *Named Demon Bloodlines (7 Groups):* 102 bloodlines
   - *Sovereign Goetarch Pillar Dynasties:* 72 lineages
-  - *11 New Expanded Race Categories (+145 New Races):*
-    1. Category 1 Macro-Biomass & Newtonian Apex Fauna (12 races)
-    2. Category 2 Formless Thinking Nodes & Mathematical Phenomena (12 races)
-    3. Category 3 Emotionless Memoryless Precognitive Calculators (15 races)
-    4. Category 4 Non-Human Emotional Civilizations of the Bio-Manifold (15 races)
-    5. Category 5 Non-Malevolent / Symbiotic Ontological Manipulators (12 races)
-    6. Category 5 Deep-Time "Netherbounder" Post-Species — *All Tomorrows* Scale (20 races)
-    7. Inverted Beast Manifold Ruling Castes & Mirror-Fauna (15 races)
-    8. Somatic-Ki Ascetic Lineages & Bio-Constitutional Trans-Humans (12 races)
-    9. Hybrid, Grafted & Relic-Fused Lineages — Expression #6 En-Grafted (12 races)
-    10. Category 6 Classified / Threshold Anomalies — "The Unspoken Tier" (10 races)
-    11. Category 7 Adjudicators & Transfinite Metachaos Authorities (10 races)
+  - *11 Expanded Race Categories (+145 Races):*
+    1. Category 1 Primeval Flora, Abyssal Leviathans & Zero-Simulation Behemoths (12 races)
+    2. Category 2 Formless Thinking Geometries & Living World-Laws (12 races)
+    3. Category 3 Passionless & Memoryless Pre-Cognitive Races (15 races)
+    4. Category 4 Non-Human Mortal Kindreds & Bio-Manifold Civilizations (15 races)
+    5. Category 5 Custodial, Covenant & Non-Malevolent Sovereigns (12 races)
+    6. Category 5 Netherbounder Deep-Time Post-Species ("Chapters of the Past" / All Tomorrows Scale — 20 races)
+    7. The Six Inverted Beast-Manifolds & Outer-Bough Apex Castes (15 races)
+    8. Somatic-Ki Martial Clans & Bio-Tempered Lineages (12 races)
+    9. En-Grafted Relic Hosts & Reactive-Armament Lineages (12 races)
+    10. Category 6 [REDACTED] Bridge Anomalies & Threshold Wardens (10 races)
+    11. Category 7 The High Adjudicators (Above MWI / Below The Meta-Chaos — 10 orders)
   - **Non-Astral Races Subtotal = 341 Races & Lineages**
-  - **GRAND TOTAL CANONICAL RACES & ASTRAL SPECIES = 329 + 341 = 670 RACES & SPECIES!**`,
+  - **GRAND TOTAL CANONICAL RACES & ASTRAL SPECIES = 329 + 341 = 670!**`,
       establishedFacts: [
-        'Astral Entities are never complete souls (Soul < 1); achieving soul completeness automatically elevates an entity to a Tier 7 Semi-Spiritual Soul 1.',
-        'Astral Entities are generated without biological reproduction via unintended precognitive simulation kickback ("Astral Trails") on the Vibrational + Telepathic spectrum.',
-        'Cognition Tier 5 (Low-Astral EM sync) and Tier 6 (True Astral Projection) are separated by a 10⁹ (1,000,000,000×) magnitude gap.',
-        'The Master Observatory Census now catalogs 670 total named races and Astral species: 329 Astral Species across 32 Taxonomies and 341 Non-Astral Races across 26 Categories/Castes/Bloodlines.',
+        'Astral Entities are incomplete souls (< Soul 1); if an Astral entity ever completes its soul, it crosses over into Tier 7 Semi-Spiritual Soulhood (Soul 1).',
+        'Astral Entities have zero biological birth; they precipitate from the unseen wakes ("Astral Trails") shed whenever Category 3–5 minds run emotion-weighted Pre-Cognitive Simulations.',
+        'Tier 5 Low-Astral wakes and Tier 6 True Astral species are separated by a 10⁹× (one-billion-fold) qualitative gulf.',
+        'The Master Observatory Census catalogs 670 named races and species: 329 Astral Species across 32 Families and 341 Non-Astral Races, Post-Species, Bloodlines, and Orders.',
       ],
       inferredPrinciples: [
-        'Standard races evolve hardware to survive physical or Nether environments, whereas Astral Entities condense directly out of the psychological and vibrational friction of thinking minds.',
+        'Standard races are shaped by biomechanics, bloodline inheritance, or All Tomorrows-scale deep-time evolution, whereas Astral Entities are shaped by The Illusion of Myths.',
       ],
       unresolvedQuestions: [
-        'How do Category 3 memoryless calculators interact with Tier 6 Framework-DRM Censor entities when casting steady MAGIC?',
+        'How do Category 3 emotionless/memoryless pre-cognitive seers interact with Gatekept Framework Enforcement Spirits when their wakes lack Category 4 emotional heat?',
       ],
-      provenanceNote: 'Direct Creator Mandate — 500+ Race Expansion & Astral Entity Construction Analysis.',
+      provenanceNote: 'Canonical 670-Race Taxonomy & Astral Construction Blueprint.',
       canonStatus: 'Established',
-      sourceCitation: 'Direct Creator Mandate — 670-Race Master Taxonomy & Astral Construction Analysis',
-      tags: ['670 Races', 'Astral Entities', 'Taxonomy', 'Category 1-7', 'Netherbounders', 'Soul 1', 'Cognition Tiers'],
+      sourceCitation: 'Primary Ur-Worlds Draft & Creator Canonical Directive — 670-Race Taxonomy & Astral Construction Analysis',
+      tags: ['670 Races', 'Astral Entities', '329 Astral Species', 'Category 1-7', 'Netherbounders', 'Soul 1', 'All Tomorrows'],
       createdAt: NOW,
       updatedAt: NOW,
     },
     {
       id: 'lore-netherbounders-and-noble-demons-ontology',
-      title: 'The Ontology of Netherbounders & Noble Demons: All Tomorrows Deep-Time Divergence, Anglerfish Mimicry, The 4-Stage Blight-Farming Loop & Fossil AMR Vaults',
-      kicker: 'Deep-Time Speculative Evolution, Convergent Predatory Mimicry, Unconscious Negative-Energy Ecology & Bloodline Drift',
+      title: 'The Ontology of Netherbounders & Noble Demons: Deep-Time "Chapters of the Past" (All Tomorrows Scale), Sovereign Mimicry, Negative-Loop AMR Harvesting & Dynastic Vaults',
+      kicker: 'Deep-Time Post-Species Divergence, Grounded Patrician Sovereignty, 4-Stage Negative-Loop AMR Fermentation & Bloodline Drift',
       category: 'Cacodictyology',
-      summary: 'Establishes the four core ontological pillars of Netherbounders and Noble Demons (the 72 Goetarchs & 102 Bloodlines): (1) All Tomorrows / Star Wars deep-time divergence between Native Chthonic Demons and Netherbounders, (2) "Anglerfish / Orchid Mantis" evolutionary mimicry and Uncanny Valley tells, (3) the 4-Stage Unconscious Negative-Energy Agricultural Loop ("Ecological Blight-Farming"), and (4) Noble Clans as living dynastic vaults of extinct-era Grade 2–4+ AMRs carrying hereditary Bloodline Drift.',
-      content: `1. DEEP-TIME DIVERGENCE (ALL TOMORROWS & STAR WARS "CHAPTERS OF THE PAST" SCALE): NATIVE CHTHONIC DEMONS VS. NETHERBOUNDERS
-• **Why Demons Aren’t Just "Humans With Wings":** Inspired by the deep-time speculative evolution of C.M. Kosemen's ***All Tomorrows*** and the multi-epoch rise-and-fall scale of ***Star Wars*** ("chapters of the past"), the Underworld is not a single static race—it is a **geological graveyard of epochs**.
-• **Native Chthonic Demons (Aboriginal Nether-Fauna):** Primordial abyssal lifeforms born directly from the raw thermodynamic and MWI pressure of the 15 Nether-Domains. They never possessed mammalian or humanoid ancestry.
-• **Netherbounders (The Dragged Epochs):** Across millions of years and forgotten chapters of history, entire ancient species, fallen star-faring or dimensional civilizations, and conquered ecosystems were dragged across the boundary and **Nether-bound**. Stripped of their original sun, physics, and ecology, they were forced through brutal evolutionary bottlenecks to survive on Nether-radiation and MWI friction:
-  - **The 99% (Post-Sentient / Specialized Castes):** Like the post-humans of *All Tomorrows*, 99% of Netherbound lineages were warped by natural selection or deliberate Flesh-Caste bio-engineering into terrifyingly specialized survival forms—living siege engines (*Brontorim*), blind sonic-tunnelers (*Skul-Vermil*), multi-limbed chitinous hounds, or sessile living fortresses.
-  - **The 1% Apex Survivors (The Proto-Nobles):** A tiny fraction of Netherbounder apex predators and native abyssal sovereigns refused to devolve into beasts. Instead, they evolved **Internal Mindscape Tanks** capable of storing, refining, and firing high-grade \`AMRs\`—domesticating internal Astral ecosystems and becoming the **Noble Demons**.
+      summary: 'Establishes the four foundational pillars of Netherbounders and Noble Demons (the 72 Goetarchs & 102 Bloodlines): (1) All Tomorrows-scale deep-time divergence between First-Born Chthonic Demons, the 99% reshaped Netherbounder post-species ("Chapters of the Past"), and the 1% Noble Demon Sovereigns; (2) Sovereign Patrician Mimicry; (3) the 4-Stage Negative-Loop AMR Harvest inside their internal mindscape tanks; and (4) Noble Houses as Living Dynastic AMR Vaults.',
+      content: `1. DEEP-TIME "CHAPTERS OF THE PAST" (ALL TOMORROWS SCALE): FIRST-BORN CHTHONIC DEMONS VS. NETHERBOUNDERS
+• **Why Demons Are Never Generic "Anime Teenagers With Wings":** Inspired by the deep-time evolutionary weight of ***All Tomorrows*** and ***Star Wars*** macro-history, the Underworld is a **stratified graveyard of conquered epochs**.
+• **First-Born Chthonic Demons:** Primordial horrors native to the slag, ash, and crushing dark of the 15 Nether-Domains, having never shared a single ancestor with humanity.
+• **Netherbounders (Conquered Deep-Time Species):** Across millions of years ("Chapters of the Past"), entire mortal kingdoms, alien civilizations, and vanished epochs were dragged across the Nether-veil when their timelines or realms collapsed:
+  - **The 99% Reshaped Post-Species:** Stripped of their native skies and subjected to eons of crushing Nether pressure and selective breeding by the Flesh-Castes, 99% were warped into tragic, specialized post-species—living siege-citadels (*Brontorim*), blind carrion-swarms (*Skul-Vermil*), forty-foot slag-waders, or living wall-tapestries.
+  - **The 1% Sovereign Survivors (Noble Demons):** The rare apex bloodlines that refused to degenerate into servitor beasts. Instead, they expanded their internal mindscape tanks to house volatile, high-Grade AMRs and conquered their sectors as the **72 Pillar Houses and 102 Bloodlines**.
 
-2. THE "ANGLERFISH / ORCHID MANTIS" ARISTOCRACY: CONVERGENT EVOLUTIONARY MIMICRY & THE UNCANNY VALLEY
-• **Why Do Noble Demons Look Humanoid?** If Devils are fundamentally non-human eldritch/speculative-evolution organisms, why do the **72 Goetarchs / 102 Noble Bloodlines** (Gremory, Bael, Sitri, Phenex, etc.) look like breathtakingly beautiful aristocrats?
-• **Predatory Convergent Evolution:** Their humanoid appearance is **not genetic kinship with humanity**—it is **Orchid Mantis / Anglerfish mimicry**.
-  - Because **Category 4 (Humans)** possess the most volatile, hyper-fertile emotional/cognitive engines in the mortal worlds—capable of generating massive volumes of high-density Astral Trails—Noble Demons evolved a **Hyper-Humanoid Courtly Carapace** specifically sculpted to hijack human mirror neurons, trigger awe, lust, trust, and psychological submission, and keep Category 4 prey in close, long-term proximity without triggering fatal flight-or-fight panic.
-• **The Uncanny Valley Tell (Prose & Visual Rule):** A Noble Demon's beauty is *too* mathematically symmetrical, *too* stillness-locked. Under close observation:
-  - Their blinking and micro-expressions operate on a slight delay because their brain is running **Tier 8–9 Precognitive Simulations** rather than human mammalian reflexes.
-  - Under **Real Ray-Traced Light**, the light reflecting off their eyes or skin subtly mismatches the room's ambient light source—betraying the internal glow of their Mindscape Tank.
-  - When a Noble Demon drops their courtly compression or enters a **Mindscape-Aura State (Tenkaichi/Xenoverse Silhouette)**, the "humanoid mask" doesn't tear off like a cheap costume; rather, their **ontological silhouette overlaps reality**, revealing the ancient Netherbounder / Chthonic geometry underneath.
+2. SOVEREIGN MIMICRY & GROUNDED PATRICIAN REALISM (WHY THE 1% NOBLE HOUSES WEAR HUMANOID FORM)
+• **Why Do the 72 Pillar Houses Look Like Patrician Royalty?** While trench-breeds (*Khorvath, Skorvath*) are iron-scaled or chitinous horrors, Noble Demons (*Gremory, Bael, Sitri, Phenex*) stand like living marble monuments of patrician sovereignty.
+• **Apex Predators of Category 4 Minds:** Their human likeness is **not genetic kinship with humanity**—it is **Sovereign Predatory Mimicry** refined over deep time.
+  - Because **Category 4 mortals** possess the richest emotional pre-cognitive simulations in the cosmos—constantly shedding dense wakes of dread, desire, awe, and obsession—the Great Houses sculpted forms of overwhelming, statue-like human perfection to command mortal devotion and lower psychological defenses without triggering blind flight.
+• **The Uncanny Tells of a Noble Demon:** Up close, a Noble Demon never feels like a fragile human:
+  - They carry immense, grounded biological density and structural inertia.
+  - When they activate their **Mindscape-Aura State**, the room is plunged into their internal world (dark blinding lava, abyssal shadow, and lurking personal Astral symbionts).
 
-3. THE 4-STAGE UNCONSCIOUS NEGATIVE-ENERGY AGRICULTURAL LOOP ("ECOLOGICAL BLIGHT-FARMING")
-• **Ontologically Evil by Ecology, Not Just Cartoon Malice:** Netherbounders and Noble Demons are ontologically predatory because **their biology and internal Astral ecosystems run on an unconscious negative-energy feedback loop**. Even if a Noble Demon is polite, cultured, or genuinely fond of a mortal, their sheer existence functions as a **spiritual radiation leak** that farms local trauma:
-  1. **Stage 1 — Passive Vibrational Spore-Seeding:** Simply by breathing and existing in a region, a Netherbounder or Noble Demon's aura-state leaks microscopic **vibrational + telepathic frequencies** (the Astral spectrum) into the surrounding city or ecosystem.
-  2. **Stage 2 — Amygdala / Probability Tilt ("Bad is Stronger than Good"):** Because negative psychological states (dread, paranoia, grief, envy, obsession, existential terror) have **3× to 10× higher caloric density** in the Astral spectrum than fleeting happiness, the Demon's passive field subtly tilts local MWI probability and mortal mental simulations toward friction—provoking nightmares, domestic paranoia, road rage, insomnia, and creeping despair in nearby Category 4 populations.
-  3. **Stage 3 — Astral Trail Fermentation:** As the surrounding population experiences these micro-traumas, they shed dense **Astral Trails**. The Demon's personal **Astral Entities** (the internal symbionts/parasites living in their soul-ecology) harvest and ferment these shed trails like psychic livestock.
-  4. **Stage 4 — \`AMR\` Distillation:** That fermented negative loop feeds directly back into the Demon's internal Mindscape Tank, condensing into their specific **Liquid, Solid, or Gas \`AMRs\`**!
-• **Narrative Consequence:** A Noble Demon doesn't need to twirl a mustache and murder civilians to be a monster. Simply **living near a human town** slowly turns the town's psychological weather toxic so the Demon's internal \`AMR\` tank stays topped off. To *stop* feeding on negative loops requires conscious, agonizing **Restrictor Plate** suppression—like holding your breath underwater.
+3. THE 4-STAGE NEGATIVE-LOOP AMR HARVEST (HOW NETHER ENTITIES FEED THEIR AMRS)
+• **Predatory by Ecology, Not Cartoon Villainy:** A Noble Demon does not need to act like a cartoonish villain to be dangerous; **their internal mindscape tank runs a continuous 4-stage harvesting cycle**:
+  1. **Stage 1 — Seeding:** Simply by occupying a territory, a Noble Demon’s presence leaks subtle vibrational cues into the local environment.
+  2. **Stage 2 — Negative Loop Lock:** Because negative emotional loops (dread, paranoia, obsession, grief, envy) are self-reinforcing and far denser than fleeting joy, the Demon’s presence subtly tilts nearby mortal minds into recurring negative feedback loops.
+  3. **Stage 3 — Astral Trail Shedding:** As local mortals run feverish pre-cognitive simulations of their fears or obsessions, they shed thick **Astral Trails** into the Psychic Internet.
+  4. **Stage 4 — Internal-Tank Fermentation:** The Demon’s personal Astral symbionts (*Dread-Fermenters and Despair-Stills*) gather those wakes and ferment them inside the Demon’s internal tank into usable **Liquid-Tank, Solid-Chunk, or Gas AMRs**!
+• **The Cost of Restraint:** Simply living near a human city quietly sours the district’s dreams and luck to keep the Demon’s tank topped off; suppressing that harvest requires constant, conscious restraint.
 
-4. LIVING VAULTS OF EXTINCT-ERA AMRS & ARISTOCRATIC MADNESS ("BLOODLINE DRIFT")
-• **What Makes a Demon "Noble" vs. Low-Born?** In standard anime, nobility just means "born with a bigger mana pool." In the **ForeverWorlds Gun System**, a **Noble Bloodline** is a **Living Dynastic Vault of Extinct-Era \`AMRs\`**:
-  - **Inherited Internal Architecture:** Over millions of years of deep history, each of the 72 / 102 Noble Clans engineered their internal Mindscape Tanks to house and synthesize **specific \`Grade 2\`, \`Grade 3\`, or \`Grade 4+\` \`AMRs\`** ($10^4$ to $10^{12}$ complexity/impossibility) that cannot be naturally synthesized anymore—often harvested from extinct epochs, dead stars, or vanished species ("chapters of the past").
-  - **Tactile Clan Depletion Signatures:** Every Noble House has a signature internal depletion feel and mental-state requirement:
-    • *House Bael (Extinction / Erasure Dominance):* Their \`AMR\` feels like **ultra-dense black tectonic rock** getting crushed chunk by chunk (*boom, boom, boom*) inside the chest; each shot imposes an ontological decree of structural decay.
-    • *House Phenex (Immortal Eschaton Ember):* Their \`AMR\` feels like a **superheated pressurized liquid-metal tank** connected to an agonizing mental simulation of burning alive and reconstructing every nerve ending across thousands of micro-timelines.
-    • *Other Noble Houses:* May run on pressurized cryogenic gas \`AMRs\`, acoustic glass-shattering solid \`AMRs\`, or non-Euclidean temporal fluid \`AMRs\`.
-  - **Aristocratic Madness ("Bloodline Drift"):** Because every \`AMR\` is tied to a **mental state and precognitive simulation**, carrying an ancient \`Grade 3+\` \`AMR\` in your genetics permanently warps a Noble Demon's psychology. Each clan suffers from a hereditary psychological/sensory quirk ("Bloodline Drift") dictated by the philosophy of their ancestral \`AMR\`—meaning Noble politics isn't a human parliament; it is a room full of apex predators whose brains literally simulate reality through incompatible, ancient alien physics.`,
+4. LIVING DYNASTIC AMR VAULTS & "BLOODLINE DRIFT"
+• **What Makes a Demon House "Noble"?** Nobility in the Nether is not a polite court title—a **Great House is a Living Vault of High-Grade & Extinct-Epoch AMRs**:
+  - **Hereditary Internal Tanks:** Over millennia, each of the 72 Pillar Houses engineered their bloodline vessels to hold **Grade 2, Grade 3, or Grade 4+ AMRs** ($10^4$ to $10^{12}$ complexity) that would rupture a lesser creature—including heirloom AMRs harvested from extinct epochs ("Chapters of the Past").
+  - **Distinct House AMR Profiles:**
+    • *House Gremory:* Houses high-grade Destruction AMRs inherited through dynastic convergence.
+    • *House Bael:* Their Destruction AMR sits in the reserve like **solid black rock** that disappears chunk by chunk (*boom, boom, boom*) or crushes in an instant.
+    • *House Phenex:* Their Immortality AMR drains and refills like **white-hot liquid fuel**, tied to the mental state of burning away and reforming whole.
+  - **Bloodline Drift:** Because every AMR is linked to a specific mental state via Pre-Cognitive Simulation, carrying an ancient Grade 3+ AMR across generations permanently shapes the House’s psychology, pride, and obsessions.`,
       establishedFacts: [
-        'Netherbounders are ancient species, fallen star-empires, and conquered ecosystems dragged across the Nether-boundary in past epochs ("chapters of the past") and forced through All Tomorrows-scale evolutionary bottlenecks.',
-        '99% of Netherbounder lineages mutated into specialized post-sentient siege and trench castes (e.g., Brontorim, Skul-Vermil), while the 1% Apex Survivors evolved Internal Mindscape Tanks and domesticated internal Astral ecosystems to become the Noble Demons.',
-        'Noble Demons look humanoid due to "Anglerfish / Orchid Mantis" convergent evolutionary mimicry designed to interface with Category 4 (Human) neurology and harvest their high-density Astral Trails, retaining permanent Uncanny Valley tells.',
-        'Netherbounders and Noble Demons feed via a 4-Stage Unconscious Negative-Energy Agricultural Loop: (1) Passive Vibrational Spore-Seeding, (2) Amygdala / Probability Tilt ("Bad is Stronger than Good"), (3) Astral Trail Fermentation by personal Astral Entities, and (4) Distillation into Liquid, Solid, or Gas AMRs.',
-        'Noble Clans are Living Dynastic Vaults whose internal Mindscape Tanks house extinct-era Grade 2–4+ AMRs (10⁴ to 10¹² complexity/impossibility), inflicting hereditary "Bloodline Drift" (psychological/sensory warping tied to the ancestral AMR mental state).',
+        'Netherbounders are conquered mortal kingdoms, alien species, and vanished epochs ("Chapters of the Past") dragged into the Nether across deep time (All Tomorrows scale).',
+        'While 99% were reshaped across eons into specialized siege and servitor post-species (Brontorim, Skul-Vermil), the 1% Sovereign Survivors expanded their internal tanks and rose as the Noble Houses.',
+        'Noble Demons wear grounded, statue-like patrician human perfection as Sovereign Mimicry to command Category 4 awe and desire.',
+        'Nether entities feed their AMRs via a 4-Stage Negative-Loop Harvest: (1) Seeding, (2) Negative Loop Lock, (3) Astral Trail Shedding, and (4) Internal-Tank Fermentation by personal Astral symbionts.',
+        'Each Great House is a Living Dynastic Vault housing heirloom Grade 2–4+ AMRs (Liquid-Tank, Solid-Chunk, or Gas) that shape the family’s psychology ("Bloodline Drift").',
       ],
       inferredPrinciples: [
-        'A Noble Demon is ontologically predatory by unconscious ecology regardless of polite or cultured behavior; simply residing near a Category 4 settlement passively poisons local psychological weather unless suppressed via agonizing Restrictor Plates.',
+        'A Noble Demon is dangerous by sheer ecological presence; living near a mortal city passively harvests negative loops unless the Demon actively throttles their internal tank.',
       ],
       unresolvedQuestions: [
-        'Which specific extinct epochs ("chapters of the past") did the oldest Netherbounder Noble Houses originate from prior to crossing the Nether-boundary?',
+        'Which extinct epochs ("Chapters of the Past") did the oldest Netherbounder Houses originate from before their fall into the Nether?',
       ],
-      provenanceNote: 'Direct Creator Mandate — Ontology of Netherbounders & Noble Demons.',
+      provenanceNote: 'Canonical Brainstorming & Ontology Document — Co-designed with Creator.',
       canonStatus: 'Established',
-      sourceCitation: 'Direct Creator Mandate — Ontology of Netherbounders & Noble Demons (All Tomorrows Deep-Time, Anglerfish Mimicry, 4-Stage Blight-Farming & Fossil AMR Vaults)',
-      tags: ['Netherbounders', 'Noble Demons', '72 Goetarchs', 'All Tomorrows', 'Negative Loop', 'AMR', 'Astral Ecology', 'Bloodline Drift'],
+      sourceCitation: 'Creator Canonical Directive — Ontology of Netherbounders, Noble Demons & Negative-Loop AMR Harvesting',
+      tags: ['Netherbounders', 'Noble Demons', 'All Tomorrows', '72 Goetarchs', 'Negative Loops', 'AMR', 'Bloodline Drift'],
       createdAt: NOW,
       updatedAt: NOW,
     },
@@ -336,7 +335,7 @@ In the Ur-Verse, normal mundane kills do NOT have Kill Effects. However, **Super
       canonStatus: 'Established',
       sourceCitation: 'Creator Canonical Directive — Paradoxical Mindscape-Aura States, Supernatural Kill Effects & CODM Mythic AK117 - Lava Remix',
       provenanceNote: 'Established directly by creator explanation of paradoxical/dualistic auras, Tenkaichi/Xenoverse state silhouettes, Mindscape Domain Overlap, MWI Supernatural Kill Effects, and CODM Mythic AK117 - Lava Remix.',
-      tags: ['Mindscape Aura', 'Paradoxical Ontology', 'Kill Effects', 'AK117 - Lava Remix', 'Astral Economy', 'Rias Expansion', 'MWI'],
+      tags: ['Mindscape Aura', 'Paradoxical Ontology', 'Kill Effects', 'AK117 - Lava Remix', 'Astral Economy', 'MWI'],
       createdAt: NOW,
       updatedAt: NOW,
     },
@@ -647,53 +646,53 @@ In the Ur-Verse, normal mundane kills do NOT have Kill Effects. However, **Super
       title: `Astral Taxonomy: ${ag.category}`,
       summary: `${ag.tier} (${ag.entities.length} Species) — Includes: ${ag.entities.join(', ')}.`,
       kind: 'Astral Entity' as const,
-      categoryTier: ag.id === 'astral-soul1-temporal' ? 'Tier 7 Breach Phenomenon' : 'Astral (Incomplete Soul < Soul 1)',
+      categoryTier: ag.id === 'astral-soul1-temporal' ? 'Tier 7 Breach Phenomenon' : 'Astral Entity (Sub-Soul < Soul 1)',
       cognitionTier: ag.tier,
       factionOrCaste: ag.category,
-      originOrRealm: 'Astral Realms ("Psychic Internet" Vibrational + Telepathic Substrate)',
-      metaphysicalNature: `Tier Classification: ${ag.tier}\nFormation Vector: ${ag.formationVector || 'Unintended mental precognitive simulation kickback (Astral Trails) coalescing on the Vibrational + Telepathic spectrum.'}\n\nCanonical Astral Species in Group (${ag.entities.length}):\n${ag.entities.map((e, i) => `${i + 1}. ${e}`).join('\n')}\n\nDistinctive Astral Construction Law: Astral Entities are NEVER a complete soul (completion elevates an entity to Soul 1). Separated between Tier 5 (EM sync) and Tier 6 (True Astral) by a 10⁹ magnitude gap.`,
-      appearanceAndSilhouette: 'Exaggerated, horrific, epic, gross, or abstract visual proportions and facial distortions shaped by the Illusion of Myths and emotional kickback rather than Darwinian skeletal gravity.',
+      originOrRealm: 'The Vibrational Spectrum & Telepathic Veil ("The Psychic Internet")',
+      metaphysicalNature: `Tier Classification: ${ag.tier}\nFormation Vector: ${ag.formationVector || 'Precipitated from emotion-weighted Pre-Cognitive Simulations (Astral Trails).'}\n\nCanonical Species in Family (${ag.entities.length}):\n${ag.entities.map((e, i) => `${i + 1}. ${e}`).join('\n')}\n\nAstral Construction Rule: Astral Entities are NEVER a complete soul (gathering a complete soul crosses an entity over into Tier 7 Semi-Spiritual Soulhood). Separated between Tier 5 Low-Astral and Tier 6 True Astral by a 10⁹× (one-billion-fold) qualitative gulf.`,
+      appearanceAndSilhouette: 'Paradoxical, folkloric, or urban-legend silhouettes governed by The Illusion of Myths rather than biological evolution.',
       abilitiesAndPowers: ag.id === 'astral-soul1-temporal'
-        ? 'Retrocausal predation, timeline erasure, and temporal interval drifting triggered by linear Soul 1 detonation.'
-        : 'Vibrational + telepathic spectrum resonance, AMR negative-loop fermentation, framework DRM neurological censoring, or threshold manifestation.',
-      restrictorPlatesAndLimits: 'Incomplete soul structure (< Soul 1); bound to the vibrational/telepathic spectrum of the psyche or localized electromagnetic/ley substrates.',
-      associatedFuelOrKi: 'Astral Trails & Emotional Simulation Kickback (Vibrational + Telepathic Spectrum)',
+        ? 'Timeline predation, entropy stalking, and temporal anomaly generation following a linear Soul 1 detonation.'
+        : 'Operating across the Psychic Internet, fermenting negative emotional loops into AMRs inside internal mindscape tanks, or enforcing Gatekept Occult Frameworks.',
+      restrictorPlatesAndLimits: 'Incomplete soul (< Soul 1); bound to specific vibrational frequencies, suffumigation smoke media, or their host’s internal mindscape tank.',
+      associatedFuelOrKi: 'Shed Pre-Cognitive Simulation Wakes (Astral Trails) & Suffumigation Smoke',
       canonStatus: 'Established' as const,
-      sourceCitation: 'Primary Ur-Worlds Draft & 670-Race Master Expansion — 329 Astral Species',
-      tags: ['Astral', 'Folklore', '329 Astral Species', ag.id],
+      sourceCitation: 'Primary Ur-Worlds Draft & Expanded 32-Family Astral Registry (329 Species)',
+      tags: ['Astral', 'Psychic Internet', '329 Astral Species', ag.id],
       createdAt: NOW,
       updatedAt: NOW,
     })),
 
-    // All 11 New Expanded Race Categories (145 New Non-Astral Races across Categories 1–7, Bio-Manifold, Netherbounders & Somatic-Ki)
+    // All 11 Expanded Non-Astral Race Categories (145 New Races)
     ...EXPANDED_RACE_CATEGORIES.map((cat) => ({
       id: cat.id,
-      title: `Expanded Race Category: ${cat.categoryName}`,
+      title: `Expanded Race Registry: ${cat.categoryName}`,
       summary: `${cat.ontologicalTier} | ${cat.cognitionTier} — ${cat.races.length} Distinct Races (${cat.races.map((r) => r.name).slice(0, 4).join(', ')}...).`,
       kind: 'Category Race' as const,
       categoryTier: cat.ontologicalTier,
       cognitionTier: cat.cognitionTier,
       factionOrCaste: cat.categoryName,
-      originOrRealm: 'Pan-Cosmological / Bio-Manifold / Nether-Boundary / Void-Tree',
-      metaphysicalNature: `Construction Mechanism:\n${cat.constructionMechanism}\n\nComplete Roster of ${cat.races.length} Races in Category:\n${cat.races.map((r, i) => `${i + 1}. ${r.name} (${r.epithet}) — ${r.morphologyAndTrait}`).join('\n')}`,
+      originOrRealm: 'Pan-Cosmological / Bio-Manifold, Nether-Domains & Inverted Beast-Manifolds',
+      metaphysicalNature: `Construction & Evolutionary Mechanism:\n${cat.constructionMechanism}\n\nComplete Roster of ${cat.races.length} Canonical Races:\n${cat.races.map((r, i) => `${i + 1}. ${r.name} (${r.epithet}) — ${r.morphologyAndTrait}`).join('\n')}`,
       appearanceAndSilhouette: cat.races.map((r) => `• ${r.name}: ${r.morphologyAndTrait}`).join('\n'),
       proportionsAndFacialFeatures: {
         headHeightRatio: cat.ontologicalTier.includes('Category 2')
-          ? 'N/A (Formless Mathematical Proof)'
+          ? 'N/A (Formless Thinking Geometry)'
           : cat.ontologicalTier.includes('Category 3')
-          ? 'Radial or Non-Emotional Compound Symmetry'
-          : 'Species-Specific Evolutionary & Ontological Proportions',
+          ? 'Emotionless, Unblinking Pre-Cognitive Symmetry'
+          : 'Species-Specific Evolutionary & Deep-Time Proportions',
         statureAndMass: `Varies across ${cat.races.length} constituent species (${cat.ontologicalTier}).`,
         somatotypeAndLimbRatio: cat.constructionMechanism,
-        craniofacialStructure: `Adapted to ${cat.cognitionTier} sensory and simulation hardware.`,
-        ocularAndFacialFeatures: cat.races[0]?.morphologyAndTrait || 'Distinct ontological sensory apparatus.',
+        craniofacialStructure: `Adapted to ${cat.cognitionTier} and environmental survival pressure.`,
+        ocularAndFacialFeatures: cat.races[0]?.morphologyAndTrait || 'Distinct evolutionary sensory organs.',
         postureAndCenterOfGravity: `Governed by ${cat.associatedFuelOrKi}.`,
       },
-      abilitiesAndPowers: `Primary Energy & Capability Vector: ${cat.associatedFuelOrKi}.\n${cat.constructionMechanism}`,
+      abilitiesAndPowers: `Associated Fuel / Ki Vector: ${cat.associatedFuelOrKi}.\n${cat.constructionMechanism}`,
       restrictorPlatesAndLimits: cat.restrictorPlate,
       associatedFuelOrKi: cat.associatedFuelOrKi,
       canonStatus: 'Established' as const,
-      sourceCitation: '670-Race Master Expansion — 145 New Category 1–7 & Deep-Time Races',
+      sourceCitation: 'Creator Canonical Directive — 670-Race Master Expansion (145 New Non-Astral Races)',
       tags: ['Expanded Races', '670-Race Census', cat.ontologicalTier, cat.id],
       createdAt: NOW,
       updatedAt: NOW,
@@ -702,41 +701,41 @@ In the Ur-Verse, normal mundane kills do NOT have Kill Effects. However, **Super
     // The 72 Goetarchs Registry & Noble Demon Ontology
     {
       id: 'entity-goetarch-72-registry',
-      title: 'The 72 Goetarchs (Sovereign Pillar Nobles of Solomon)',
-      summary: 'Complete canonical roster of the 72 Sovereign Noble Clans commanding the Goetic-Solomonic Hegemony—Apex 1% survivors of deep-time divergence carrying Living Dynastic Vaults of Grade 2–4+ AMRs.',
+      title: 'The 72 Goetarchs (Sovereign Pillar Dynasties & Noble Demons)',
+      summary: 'Complete canonical roster of the 72 Noble Demon Houses commanding the Goetic-Solomonic Hegemony—ancient sovereigns housing Living Dynastic AMR Vaults.',
       kind: 'Goetarch / Sovereign',
-      categoryTier: 'Category 5 (Sovereign Apex)',
-      cognitionTier: 'Tier 8-9 (Soul 1 / Soul 2 Interface & Precognitive Simulation)',
-      factionOrCaste: 'The Solomonic-Goetic Hegemony (Noble Demons)',
+      categoryTier: 'Category 5 (Sovereign Pillar Aristocracy)',
+      cognitionTier: 'Tier 8-9 (Full Soul 1 + Soul 2 MWI Sovereignty)',
+      factionOrCaste: 'The Solomonic-Goetic Hegemony (The 72 Pillars)',
       originOrRealm: 'Dite-Sovereign & The 72 Pillar Citadels',
-      metaphysicalNature: `Complete Canonical Roster of the 72 Goetarchs:\n${GOETARCH_72_NOBLES.map((g, i) => `#${i + 1}. ${g}`).join('  |  ')}\n\nOntological Classification: The 1% Apex Survivors of deep-time Nether-evolution who evolved Internal Mindscape Tanks capable of housing extinct-era Grade 2–4+ AMRs (10⁴ to 10¹² complexity) and domesticating internal Astral ecosystems.`,
-      appearanceAndSilhouette: 'Aristocratic and monstrous multi-form sovereigns (9 to 12 heads tall in courtly humanoid aspect) utilizing "Anglerfish / Orchid Mantis" convergent evolutionary mimicry to hijack Category 4 neurology, with permanent Uncanny Valley tells (delayed precognitive micro-expressions, mismatched internal Mindscape Tank ray-traced reflections, and Tenkaichi/Xenoverse ontological silhouette overlap).',
-      abilitiesAndPowers: 'Command pactional legions, extinct-era Grade 2–4+ AMRs (liquid/solid/gas tactile depletion reserves), 4-Stage Unconscious Negative-Energy Agricultural Loops ("Ecological Blight-Farming"), Sovereign Turn Fields, and geopolitical soul-treaties across the Underworld.',
-      restrictorPlatesAndLimits: 'Bound by primordial Solomonic treaties, Clause-Seals, and hereditary "Bloodline Drift" (psychological/sensory warping caused by the mental-state simulations of their ancestral AMRs). Must actively engage Restrictor Plates to avoid passively blight-farming nearby Category 4 populations.',
-      associatedFuelOrKi: 'Extinct-Era Grade 2–4+ AMRs Distilled via the 4-Stage Negative-Energy Astral Loop',
+      metaphysicalNature: `Complete Canonical Roster of the 72 Goetarch Nobles:\n${GOETARCH_72_NOBLES.map((g, i) => `#${i + 1}. ${g}`).join('  |  ')}\n\nOntology of Noble Demons: The 1% Apex Sovereign Survivors of the Nether whose hereditary internal mindscape tanks were engineered over millennia to house volatile, high-Grade AMRs and command legions of personal Astral symbionts.`,
+      appearanceAndSilhouette: 'Towering, statue-like patrician royalty sculpted via Sovereign Mimicry to command Category 4 awe and dread.',
+      abilitiesAndPowers: 'Command legion hierarchies, heirloom Grade 2–4+ AMRs (Liquid-Tank, Solid-Chunk, and Gas reserves), 4-Stage Negative-Loop AMR Harvesting, Mindscape-Aura Overlaps, and Pactional treaties.',
+      restrictorPlatesAndLimits: 'Bound by primordial Solomonic treaty clauses and Bloodline Drift (hereditary psychological obsessions tied to their house AMR). Must actively throttle their internal tank when living among mortals.',
+      associatedFuelOrKi: 'Heirloom Grade 2–4+ House AMRs Fermented via 4-Stage Negative-Loop Harvesting',
       canonStatus: 'Established',
-      sourceCitation: 'Primary Ur-Worlds Draft & Creator Mandate — 72 Goetarchs & Noble Demon Ontology',
-      tags: ['Goetarchs', '72 Pillars', 'Sovereigns', 'Noble Demons', 'Netherbounders', 'Bloodline Drift', 'AMR'],
+      sourceCitation: 'Primary Ur-Worlds Draft & Canonical Noble Demon Ontology',
+      tags: ['Goetarchs', '72 Pillars', 'Sovereigns', 'Noble Demons', 'Netherbounders', 'Negative Loops', 'AMR'],
       createdAt: NOW,
       updatedAt: NOW,
     },
     {
       id: 'entity-netherbounders-and-noble-demons',
-      title: 'Netherbounders & Noble Demons (Deep-Time Speculative Evolution & Ecological Blight-Farmers)',
-      summary: 'Canonical ontological classification distinguishing Native Chthonic Demons, the 99% post-sentient Netherbounder castes (All Tomorrows scale), and the 1% Noble Demon aristocracy.',
+      title: 'Netherbounders & Noble Demons (Deep-Time "Chapters of the Past" & Negative-Loop AMR Ecology)',
+      summary: 'Canonical distinction between First-Born Chthonic Demons, the 99% reshaped Netherbounder post-species (All Tomorrows scale), and the 1% Noble Demon Sovereigns.',
       kind: 'Demon Bloodline',
-      categoryTier: 'Category 3–5 (Trench Castes to Sovereign Nobles)',
-      cognitionTier: 'Post-Sentient Specialized Castes up to Tier 8–9 Precognitive Sovereigns',
-      factionOrCaste: 'Nether-Ecology / 102 Noble Bloodlines / 9 Trench & Flesh Castes',
-      originOrRealm: 'The 15 Nether-Domains & Dragged Epochs ("Chapters of the Past")',
-      metaphysicalNature: 'Divided into Native Chthonic Demons (aboriginal abyssal lifeforms) and Netherbounders (entire ancient species, fallen star-empires, and ecosystems dragged across the Nether-boundary in past epochs and crushed through All Tomorrows-style evolutionary bottlenecks). 99% mutated into specialized siege/trench castes (Brontorim, Skul-Vermil), while the 1% Apex Survivors evolved Internal Mindscape Tanks to become the Noble Demons.',
-      appearanceAndSilhouette: 'Netherbounder Castes: Non-human chitinous, lithic, or multi-limbed biological machinery. Noble Demons: "Anglerfish / Orchid Mantis" Hyper-Humanoid Courtly Carapaces evolved to lure Category 4 prey, marked by Uncanny Valley stillness, mismatched internal ray-traced eye reflections, and elder Netherbounder silhouette overlap during Mindscape-Aura activation.',
-      abilitiesAndPowers: 'Operate on the 4-Stage Unconscious Negative-Energy Agricultural Loop: (1) Passive Vibrational Spore-Seeding, (2) Amygdala/Probability Tilt ("Bad is Stronger than Good"), (3) Astral Trail Fermentation by internal Astral Entities, and (4) Distillation into Liquid/Solid/Gas AMRs. Noble Clans house extinct-era Grade 2–4+ AMRs.',
-      restrictorPlatesAndLimits: 'Ontologically predatory by unconscious ecology—simply existing near Category 4 towns poisons local psychological weather unless suppressed by agonizing Restrictor Plates. Noble Clans suffer from hereditary "Bloodline Drift" tied to their ancestral AMR mental states.',
-      associatedFuelOrKi: '4-Stage Negative-Loop Astral Fermentation → Liquid / Solid / Gas AMRs',
+      categoryTier: 'Category 3–5 (Reshaped Post-Species to Sovereign Nobles)',
+      cognitionTier: 'Tier 6–9 (Servitor Castes up to 72 Pillar Sovereigns)',
+      factionOrCaste: 'Nethermost Hierarchy / 102 Bloodlines / 72 Pillars',
+      originOrRealm: 'The 15 Nether-Domains & Conquered Deep-Time Epochs ("Chapters of the Past")',
+      metaphysicalNature: 'Separates First-Born Chthonic Demons (native to the deep pits) from Netherbounders—entire mortal kingdoms, alien species, and vanished epochs dragged across the Nether-veil millions of years ago (All Tomorrows scale). While 99% were warped into specialized siege and servitor post-species (Brontorim, Skul-Vermil, Slag-Striders), the 1% Sovereign Survivors expanded their internal tanks and rose as the Noble Houses.',
+      appearanceAndSilhouette: '99% Netherbounders: Chitinous, iron-scaled, or siege-warped post-species. 1% Noble Demons: Patrician humanoid royalty of immense physical density and structural inertia.',
+      abilitiesAndPowers: 'Powered by the 4-Stage Negative-Loop AMR Harvest: (1) Seeding vibrational cues, (2) Locking nearby mortals into negative emotional loops, (3) Harvesting shed Astral Trails, and (4) Fermenting them inside their internal mindscape tank into Liquid, Solid, or Gas AMRs.',
+      restrictorPlatesAndLimits: 'Living near mortal cities passively sours local dreams and luck unless throttled. Each Noble House suffers from Bloodline Drift tied to its heirloom AMR.',
+      associatedFuelOrKi: '4-Stage Negative-Loop Harvest → Liquid-Tank, Solid-Chunk & Gas AMRs',
       canonStatus: 'Established',
-      sourceCitation: 'Direct Creator Mandate — Ontology of Netherbounders & Noble Demons',
-      tags: ['Netherbounders', 'Noble Demons', 'All Tomorrows', 'Negative Loop', 'Astral Ecology', 'AMR', 'Uncanny Valley'],
+      sourceCitation: 'Creator Canonical Directive — Ontology of Netherbounders & Noble Demons',
+      tags: ['Netherbounders', 'Noble Demons', 'All Tomorrows', 'Negative Loops', 'AMR', 'Chapters of the Past'],
       createdAt: NOW,
       updatedAt: NOW,
     },
@@ -1845,7 +1844,7 @@ Described with the hyper-explicit structural clarity of a 2D stickman war-game w
   ];
 
   return {
-    version: '2.7.0-observatory',
+    version: '3.0.0-clean-observatory',
     lastSavedAt: NOW,
     projects,
     loreDocuments,
@@ -1864,9 +1863,9 @@ Described with the hyper-explicit structural clarity of a 2D stickman war-game w
     tags,
     revisions,
     recentRecordIds: [
-      { id: 'lore-500-plus-race-taxonomy-and-astral-construction', type: 'lore', title: 'The 670-Race Master Taxonomy & Astral Construction Analysis: How Standard Races vs. Astral Entities Are Distinctively Made', timestamp: NOW },
-      { id: 'lore-netherbounders-and-noble-demons-ontology', type: 'lore', title: 'The Ontology of Netherbounders & Noble Demons: All Tomorrows Deep-Time Divergence, Anglerfish Mimicry, The 4-Stage Blight-Farming Loop & Fossil AMR Vaults', timestamp: NOW },
-      { id: 'entity-netherbounders-and-noble-demons', type: 'entity', title: 'Netherbounders & Noble Demons (Deep-Time Speculative Evolution & Ecological Blight-Farmers)', timestamp: NOW },
+      { id: 'lore-500-plus-race-taxonomy-and-astral-construction', type: 'lore', title: 'The 670-Race Master Taxonomy & Astral Construction Blueprint: How Standard Races vs. Astral Entities Are Distinctively Made', timestamp: NOW },
+      { id: 'lore-netherbounders-and-noble-demons-ontology', type: 'lore', title: 'The Ontology of Netherbounders & Noble Demons: Deep-Time "Chapters of the Past" (All Tomorrows Scale), Sovereign Mimicry, Negative-Loop AMR Harvesting & Dynastic Vaults', timestamp: NOW },
+      { id: 'entity-netherbounders-and-noble-demons', type: 'entity', title: 'Netherbounders & Noble Demons (Deep-Time "Chapters of the Past" & Negative-Loop AMR Ecology)', timestamp: NOW },
       { id: 'lore-ammo-specificity-and-nonhuman-devils', type: 'lore', title: 'The "Captured Bullet" AMR System: 7 MWI Grades (10⁴ Jumps), 400–500+ Reserves, Akeno’s 12+ Storm AMRs & The Meta-Chaos (Tier 0)', timestamp: NOW },
       { id: 'ps-mwi-gun-system', type: 'powerSystem', title: 'The "Gun System": 7 MWI Ammo Grades (10⁴ Jumps), 400–500+ AMRs & The Meta-Chaos (Tier 0)', timestamp: NOW },
       { id: 'artifact-boosted-gear-ak117-lava', type: 'entity', title: 'The Redesigned Boosted Gear (CODM Mythic AK117 - Lava Remix Reactive Tectonic Chassis)', timestamp: NOW },

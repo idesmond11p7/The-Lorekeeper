@@ -75,9 +75,16 @@ export const PowerForgeView: React.FC<PowerForgeViewProps> = ({
   onAddAbility,
   onAddInteraction,
 }) => {
-  const [subTab, setSubTab] = useState<'turnFields' | 'systems' | 'abilities' | 'scaling'>('turnFields');
+  const [subTab, setSubTab] = useState<'turnFields' | 'systems' | 'abilities' | 'scaling' | 'merlinBarrier'>('merlinBarrier');
   const [showNewAbilityModal, setShowNewAbilityModal] = useState(false);
   const [showNewScalingModal, setShowNewScalingModal] = useState(false);
+
+  // Interactive Merlin Barrier / MWI Probability & Realm Solidity Sandbox state
+  const [simulatorProbability, setSimulatorProbability] = useState<number>(35);
+  const [causalSteps, setCausalSteps] = useState<number>(4);
+  const [hybridLogicRatio, setHybridLogicRatio] = useState<number>(75);
+  const [realmSolidity, setRealmSolidity] = useState<'Liquid Realm' | 'Sub-Hybrid (Terra / Bio-Manifold)' | 'Solid Realm (Temporal-Axis Will)'>('Sub-Hybrid (Terra / Bio-Manifold)');
+  const [entityType, setEntityType] = useState<'Rias Gremory (Sovereign Hybrid MWI)' | 'Noble Demon (Patrician Hybrid)' | 'Netherbounder (Negative Loop AMR)' | 'Conservative Practitioner (Pure Conventional)'>('Rias Gremory (Sovereign Hybrid MWI)');
 
   // Interactive Turn Field & Power Vibe Architect state
   const [tfTitle, setTfTitle] = useState('');
@@ -270,6 +277,18 @@ export const PowerForgeView: React.FC<PowerForgeViewProps> = ({
       <div className="p-4 lg:px-6 bg-[#191B25] border-b border-[#353744] flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div className="flex flex-wrap items-center gap-2">
           <button
+            onClick={() => setSubTab('merlinBarrier')}
+            className={`inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-medium border transition-all ${
+              subTab === 'merlinBarrier'
+                ? 'bg-[#242633] border-[#F18A82] text-[#E9E1D2]'
+                : 'border-transparent text-[#A4A6B5] hover:text-[#E9E1D2]'
+            }`}
+          >
+            <ShieldAlert className="w-3.5 h-3.5 text-[#F18A82]" />
+            <span>The Merlin Barrier &amp; Probability</span>
+          </button>
+
+          <button
             onClick={() => setSubTab('turnFields')}
             className={`inline-flex items-center gap-2 px-3 py-1.5 rounded text-xs font-medium border transition-all ${
               subTab === 'turnFields'
@@ -339,6 +358,438 @@ export const PowerForgeView: React.FC<PowerForgeViewProps> = ({
           )}
         </div>
       </div>
+
+      {/* Sub-Tab -1: The Merlin Barrier, Realm Solidity & Defensive Network Feed */}
+      {subTab === 'merlinBarrier' && (
+        <div className="flex-1 overflow-y-auto p-6 lg:p-8 space-y-8">
+          <div className="max-w-6xl mx-auto space-y-8">
+            {/* Header Banner: Multi-Axis MWI, Merlin Barrier & Defensive Network Durability */}
+            <div className="p-6 rounded-lg bg-[#191B25] border border-[#F18A82]/50 space-y-5">
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-mono uppercase tracking-widest text-[#F18A82]">
+                  Core Mechanics · The Merlin Barrier, Realm Solidity &amp; Defensive Network Architecture
+                </span>
+                <CanonBadge status="Established" size="sm" />
+              </div>
+              <h2 className="text-2xl lg:text-3xl font-serif font-bold text-[#E9E1D2]">
+                The Merlin Barrier, Liquid-to-Solid Realms &amp; Durability as a Defensive Network
+              </h2>
+              <p className="text-xs sm:text-sm text-[#A4A6B5] leading-relaxed">
+                Durability in the Ur-Verse is <strong>not discarded</strong>—rather, it is <strong>a Multi-Node Defensive Network of interlocking abilities</strong> instead of a single monolithic RPG attribute. Rather than a flat &ldquo;pump Ki/Mana into the body to face-tank a nuke like Superman&rdquo; stat bar, supernatural entities weave a live <strong>Defensive Network</strong> combining outer causal/vector abilities (such as <strong>Rias Gremory&apos;s Localized Gravity / Vector Field</strong> or <em>Gojo-style</em> spatial convergence), mid-layer Precognitive Simulation &amp; AMR routing, and inner somatic/metaphysical chassis resilience—all operating through a <strong>Hybrid MWI Architecture</strong> across realms of varying ontological solidity.
+              </p>
+
+              {/* Three Core Pillars of MWI Operation */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+                <div className="p-4 rounded bg-[#101117] border border-[#76D5E0]/40 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-mono uppercase text-[#76D5E0]">1. Purely Conventional (Pre-Merlin)</span>
+                    <span className="text-[10px] font-mono bg-[#76D5E0]/10 text-[#76D5E0] px-2 py-0.5 rounded">Objective Laws</span>
+                  </div>
+                  <h3 className="text-sm font-serif font-semibold text-[#E9E1D2]">Grounded Multi-Step Causation</h3>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Used by low-end practitioners or hyper-conservative entities by choice. Follows high natural probability and baseline physical laws (e.g., calling lightning from storm clouds). Because objective laws show zero favoritism, stray backfire can burn the caster.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#F18A82]/40 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-mono uppercase text-[#F18A82]">2. Purely Unconventional (Post-Merlin)</span>
+                    <span className="text-[10px] font-mono bg-[#F18A82]/10 text-[#F18A82] px-2 py-0.5 rounded">Rare / Volatile</span>
+                  </div>
+                  <h3 className="text-sm font-serif font-semibold text-[#E9E1D2]">Acausal Probability Brute-Force</h3>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Forcing random, zero-logic outcomes across the Merlin Barrier costs astronomical Precognitive Simulation / IR and triggers severe thermodynamic kickback. Worse, when two pure unconventional MWI effects clash without equal stabilization, they create a catastrophic reality mess—so it is rarely used raw.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#D3B477]/60 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-mono uppercase text-[#D3B477]">3. The Hybrid MWI Standard</span>
+                    <span className="text-[10px] font-mono bg-[#D3B477]/10 text-[#D3B477] px-2 py-0.5 rounded">Sovereign Standard</span>
+                  </div>
+                  <h3 className="text-sm font-serif font-semibold text-[#E9E1D2]">Super-Logical + Post-Merlin Ratio</h3>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Far superior to either extreme. Combines <strong>super-logical causal chains</strong> with post-Merlin quantum states in custom ratios (varying by culture, philosophy, and AMR). Powers multi-layered <strong>Defensive Networks</strong> and enables Countable-Infinity universal collapse in Liquid Realms via a single-photon micro-wormhole paradox.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Durability as a Multi-Node Defensive Network (Not a Single Attribute) */}
+            <div className="p-6 rounded-lg bg-[#191B25] border border-[#D3B477]/50 space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-wider text-[#D3B477]">
+                    Defensive Topology · Why Durability Is an Interconnected Network of Abilities
+                  </span>
+                  <h3 className="text-lg font-serif font-bold text-[#E9E1D2]">
+                    The 4-Node Defensive Network (Replacing the Single &ldquo;Durability Stat&rdquo;)
+                  </h3>
+                </div>
+                <span className="text-[11px] font-mono px-2.5 py-1 rounded bg-[#101117] border border-[#353744] text-[#76D5E0]">
+                  Networked Defense: Causal Field + Precog/AMR + Somatic/Soul Chassis
+                </span>
+              </div>
+              <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                Intrinsic physical and metaphysical resilience still exist, but they never operate in isolation as a single flat number. Instead, an entity&apos;s survivability is a <strong>Defensive Network</strong> where distinct nodes handle vector deflection, probability filtering, AMR dampening, and structural anchoring in sequence:
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="p-4 rounded bg-[#101117] border border-[#D3B477]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[10px] font-mono">
+                    <span className="text-[#D3B477] uppercase">Node 01 · Outer Perimeter</span>
+                    <span className="text-[#E9E1D2]">Active Ability</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    Causal &amp; Vector Boundary
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    The signature outer ability (e.g., <strong>Rias&apos;s Localized Gravity / Vector Field</strong>, thermodynamic shear, or <em>Gojo-style</em> spatial convergence). Redirects, decelerates, or strips incoming kinetic and energetic vectors before physical contact occurs.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#9A82E8]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[10px] font-mono">
+                    <span className="text-[#9A82E8] uppercase">Node 02 · Probability Filter</span>
+                    <span className="text-[#E9E1D2]">Hybrid MWI</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    Precognitive &amp; Turn Field Routing
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Uses Precognitive Simulation and Turn Field authority to select micro-states where lethal transfer fails to resolve cleanly, preventing raw unconventional MWI attacks from bypassing the outer vector boundary.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#76D5E0]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[10px] font-mono">
+                    <span className="text-[#76D5E0] uppercase">Node 03 · Reserve Buffer</span>
+                    <span className="text-[#E9E1D2]">AMR Sink</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    AMR &amp; Thermodynamic Shunt
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Any residual force or causal bleed that penetrates the outer field is shunted across the entity&apos;s <strong>AMR</strong> and environmental ground-paths rather than dumping raw megajoules into the physical frame.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#F18A82]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[10px] font-mono">
+                    <span className="text-[#F18A82] uppercase">Node 04 · Core Anchor</span>
+                    <span className="text-[#E9E1D2]">Somatic + Soul</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    Biomechanical &amp; Metaphysical Chassis
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    High-density skeletal/muscular architecture interlocked with deeper metaphysical/soul cohesion. Keeps the body structurally whole under high-G maneuvers and handles residual shock that clears the outer three nodes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Realm Solidity & Ontological Will Architecture */}
+            <div className="p-6 rounded-lg bg-[#191B25] border border-[#9A82E8]/40 space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-wider text-[#9A82E8]">
+                    Cosmological Topography · Why Possibility Resistance Varies Across Dimensions
+                  </span>
+                  <h3 className="text-lg font-serif font-bold text-[#E9E1D2]">
+                    The Three Realm Solidity States: Liquid, Sub-Hybrid (Terra), and Solid (Temporal-Axis Will)
+                  </h3>
+                </div>
+                <span className="text-[11px] font-mono px-2.5 py-1 rounded bg-[#101117] border border-[#353744] text-[#D3B477]">
+                  MWI Scale: Lower-to-Mid Ur-Verse Tier (Below Cat 7 Metachaos)
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <div className="p-4 rounded bg-[#101117] border border-[#76D5E0]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] font-mono">
+                    <span className="text-[#76D5E0] uppercase">I. Liquid Realms</span>
+                    <span className="text-[#E9E1D2]">~0% External Resistance</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    99% Psyche-Shaped Mirror Loops
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    Dimensions lacking Category 3–7 observers and lacking their own objective realm will. Reality here is a liquid mirror loop (~99% mathematically shaped by the observer&apos;s psyche). Because ambient Possibility Resistance is practically zero, <strong>Rias Gremory</strong> can achieve <strong>Countable Infinity (VSBW High 3-A) universal destruction</strong> using a hyper-logical, energy-efficient Hybrid MWI trigger (e.g., sending a single photon backward through a micro-wormhole to prevent its own creation).
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#D3B477]/40 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] font-mono">
+                    <span className="text-[#D3B477] uppercase">II. Sub-Hybrid Realms</span>
+                    <span className="text-[#E9E1D2]">High Collective Anchor</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    The Bio-Manifold &amp; &ldquo;Terra&rdquo; (Earth)
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    A sub-hybrid between liquid psyche-shaping and objective physical law. Billions of overlapping <strong>Category 3–7 beings</strong> continuously run unconscious and conscious precognitive simulations, creating an active multi-entity interference shield. Universal-scale timeline erasure is blocked by collective observer resistance, forcing entities to use balanced <strong>Hybrid MWI</strong> &amp; localized Turn Fields.
+                  </p>
+                </div>
+
+                <div className="p-4 rounded bg-[#101117] border border-[#F18A82]/50 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] font-mono">
+                    <span className="text-[#F18A82] uppercase">III. Solid Objective Realms</span>
+                    <span className="text-[#F18A82]">MWI Locked (&lt; Cat 7)</span>
+                  </div>
+                  <div className="text-sm font-serif font-semibold text-[#E9E1D2]">
+                    Autonomous Realm Will &amp; Temporal-Axis Simulation
+                  </div>
+                  <p className="text-xs text-[#A4A6B5] leading-relaxed">
+                    High-tier objective realms that possess their own <strong>Will and Psyche</strong>. In many Solid Realms, the <strong>Temporal Axis itself (3D Spatial + 1D Temporal)</strong> serves as the realm&apos;s precognitive simulation. These realms <strong>do NOT follow Many-Worlds Theory</strong> (altering the past does not branch timelines) and completely reject all MWI reality-warping below <strong>Category 7</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Interactive 4-Axis Hybrid MWI, Realm Solidity & Defensive Network Sandbox */}
+            <div className="p-6 rounded-lg bg-[#191B25] border border-[#353744] space-y-6">
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+                <div>
+                  <h3 className="text-lg font-serif font-semibold text-[#E9E1D2]">
+                    4-Axis Hybrid MWI, Realm Solidity &amp; Defensive Network Planner
+                  </h3>
+                  <p className="text-xs text-[#A4A6B5]">
+                    Test how Realm Solidity, Hybrid Logic Ratio, and Causal Steps govern Precognitive Simulation cost, clash stability, and Defensive Network routing.
+                  </p>
+                </div>
+                <div className="flex flex-wrap items-center gap-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-mono text-[#A4A6B5]">Realm Type:</span>
+                    <select
+                      value={realmSolidity}
+                      onChange={(e: any) => setRealmSolidity(e.target.value)}
+                      className="px-2.5 py-1.5 rounded bg-[#101117] border border-[#353744] text-xs text-[#D3B477]"
+                    >
+                      <option value="Liquid Realm">Liquid Realm (~99% Psyche Mirror)</option>
+                      <option value="Sub-Hybrid (Terra / Bio-Manifold)">Sub-Hybrid (Terra / Bio-Manifold)</option>
+                      <option value="Solid Realm (Temporal-Axis Will)">Solid Realm (Temporal-Axis Will / Non-MWI)</option>
+                    </select>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-mono text-[#A4A6B5]">Archetype:</span>
+                    <select
+                      value={entityType}
+                      onChange={(e: any) => setEntityType(e.target.value)}
+                      className="px-2.5 py-1.5 rounded bg-[#101117] border border-[#353744] text-xs text-[#E9E1D2]"
+                    >
+                      <option value="Rias Gremory (Sovereign Hybrid MWI)">Rias Gremory (Sovereign Hybrid MWI)</option>
+                      <option value="Noble Demon (Patrician Hybrid)">Noble Demon (Sovereign Patrician)</option>
+                      <option value="Netherbounder (Negative Loop AMR)">Netherbounder (Negative Loop AMR)</option>
+                      <option value="Conservative Practitioner (Pure Conventional)">Conservative Practitioner (Pure Conventional)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              {/* 4-Axis Controls */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-4 rounded bg-[#101117] border border-[#353744]">
+                <div className="space-y-2">
+                  <div className="flex justify-between text-xs">
+                    <span className="text-[#A4A6B5]">Natural Probability Spectrum:</span>
+                    <span className="font-mono text-[#D3B477]">{simulatorProbability}%</span>
+                  </div>
+                  <input
+                    type="range"
+                    min={1}
+                    max={95}
+                    value={simulatorProbability}
+                    onChange={(e) => setSimulatorProbability(Number(e.target.value))}
+                    className="w-full accent-[#D3B477]"
+                  />
+                  <p className="text-[10px] text-[#A4A6B5]">
+                    {simulatorProbability > 50
+                      ? 'High natural probability (Pre-Merlin baseline)'
+                      : simulatorProbability > 15
+                      ? 'Post-Merlin threshold (Requires Hybrid MWI framing)'
+                      : 'Near-Zero Quantum Anomaly (e.g., Single-Photon Time Paradox)'}
+                  </p>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex justify-between text-xs">
+                    <span className="text-[#A4A6B5]">Hybrid Logic-to-Unconventional:</span>
+                    <span className="font-mono text-[#9A82E8]">{hybridLogicRatio}% Logical</span>
+                  </div>
+                  <input
+                    type="range"
+                    min={10}
+                    max={100}
+                    value={hybridLogicRatio}
+                    onChange={(e) => setHybridLogicRatio(Number(e.target.value))}
+                    className="w-full accent-[#9A82E8]"
+                  />
+                  <p className="text-[10px] text-[#A4A6B5]">
+                    {hybridLogicRatio >= 90
+                      ? 'Pure Conventional / Hyper-Conservative'
+                      : hybridLogicRatio >= 60
+                      ? 'Balanced Sovereign Hybrid (Optimal Network Stability)'
+                      : 'Unconventional-Heavy (High Clash Mess & IR Cost)'}
+                  </p>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex justify-between text-xs">
+                    <span className="text-[#A4A6B5]">Causal / Network Nodes Engaged:</span>
+                    <span className="font-mono text-[#76D5E0]">{causalSteps} Nodes / Steps</span>
+                  </div>
+                  <input
+                    type="range"
+                    min={1}
+                    max={6}
+                    value={causalSteps}
+                    onChange={(e) => setCausalSteps(Number(e.target.value))}
+                    className="w-full accent-[#76D5E0]"
+                  />
+                  <p className="text-[10px] text-[#A4A6B5]">
+                    {causalSteps >= 4
+                      ? 'Full 4-Node Defensive Network / Multi-Step Chain'
+                      : 'Single-node / acausal brute-force (Spikes kickback)'}
+                  </p>
+                </div>
+
+                <div className="flex flex-col justify-center p-3 rounded bg-[#191B25] border border-[#353744] space-y-1.5">
+                  <span className="text-[10px] font-mono uppercase text-[#A4A6B5]">
+                    Realm &amp; Defensive Network Resolution
+                  </span>
+                  <div className="text-xs font-serif font-semibold text-[#E9E1D2]">
+                    {realmSolidity === 'Solid Realm (Temporal-Axis Will)' ? (
+                      <span className="text-[#F18A82]">⛔ LOCKED: Solid Realm Rejects MWI Nodes (&lt; Cat 7; Node 04 Chassis Only)</span>
+                    ) : realmSolidity === 'Liquid Realm' && simulatorProbability <= 10 && causalSteps >= 4 ? (
+                      <span className="text-[#D3B477]">🌌 VSBW High 3-A: Countable Infinity Liquid Realm Collapse</span>
+                    ) : hybridLogicRatio >= 60 && causalSteps >= 3 ? (
+                      <span className="text-[#76D5E0]">✓ Coherent 4-Node Defensive Network Active</span>
+                    ) : (
+                      <span className="text-[#F18A82]">⚡ Unstable Single-Node / Unconventional Clash Kickback</span>
+                    )}
+                  </div>
+                  <p className="text-[10px] text-[#A4A6B5]">
+                    Ambient Resistance:{' '}
+                    <strong className="font-mono text-[#E9E1D2]">
+                      {realmSolidity === 'Liquid Realm'
+                        ? '0.01 Delta (Near-Zero)'
+                        : realmSolidity === 'Solid Realm (Temporal-Axis Will)'
+                        ? '∞ (Non-MWI Temporal Will)'
+                        : `${Math.max(0.15, ((100 - simulatorProbability) * (115 - hybridLogicRatio)) / (causalSteps * 180)).toFixed(2)} Delta-Bar`}
+                    </strong>
+                  </p>
+                </div>
+              </div>
+
+              {/* Canonical Defensive Network & Power Manifestation Matrix */}
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-xs font-mono uppercase text-[#D3B477]">
+                    Canonical Defensive Network &amp; MWI Manifestation Matrix (Networked Abilities vs. Single-Stat Tanking)
+                  </h4>
+                  <span className="text-[10px] font-mono text-[#A4A6B5]">
+                    Note: Terminology varies across Ur-Verse cultures due to information degradation &amp; local frameworks
+                  </span>
+                </div>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left text-xs">
+                    <thead>
+                      <tr className="border-b border-[#353744] text-[#A4A6B5] font-mono text-[11px]">
+                        <th className="pb-2 pr-3">Entity / Manifestation</th>
+                        <th className="pb-2 px-3">MWI Architecture &amp; Ratio</th>
+                        <th className="pb-2 px-3">Defensive Network Nodes / Causal Mechanism</th>
+                        <th className="pb-2 pl-3">Realm &amp; Clash Behavior</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-[#353744]/50 text-[#E9E1D2]">
+                      <tr>
+                        <td className="py-3 pr-3 font-medium">
+                          Rias Gremory — Sovereign Defensive Network
+                          <span className="block text-[10px] font-mono text-[#D3B477]">72 Pillar Sovereign Hybrid</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#76D5E0]">
+                          Sovereign Hybrid MWI
+                          <span className="block text-[10px] font-mono text-[#A4A6B5]">~75% Super-Logical / 25% Post-Merlin</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#A4A6B5]">
+                          Operates as a <strong>4-Node Defensive Network</strong>: (1) Outer <strong>Localized Gravity / Vector Deflection Field</strong> strips incoming kinetic/baryonic trajectories; (2) Precognitive Turn-Field filter blocks acausal bypass; (3) AMR thermodynamic shunt disperses bleed; (4) Somatic &amp; soul chassis anchors the core.
+                        </td>
+                        <td className="py-3 pl-3 text-[#A4A6B5]">
+                          High stability in Sub-Hybrid (Terra) clashes; if one node is taxed, adjacent nodes absorb and reroute load without reality-mess.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 pr-3 font-medium">
+                          Rias Gremory — Single-Photon Micro-Wormhole Paradox
+                          <span className="block text-[10px] font-mono text-[#F18A82]">VSBW High 3-A (Countable Infinity)</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#D3B477]">
+                          Advanced Super-Logical Hybrid
+                          <span className="block text-[10px] font-mono text-[#A4A6B5]">Near-0% Natural Prob / 95% Logical Coherence</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#A4A6B5]">
+                          Manipulates a single quantum particle via a microscopic wormhole, sending one photon backward in time to prevent its own creation—unraveling the entire timeline with minimal energy cost.
+                        </td>
+                        <td className="py-3 pl-3 text-[#A4A6B5]">
+                          <strong>Lethal to Liquid Realms</strong> (where Cat 3–7 resistance is ~0). Blocked in Sub-Hybrid Terra by collective Cat 3–7 precog resistance, and impossible in Solid Realms.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 pr-3 font-medium">
+                          Spatial Convergence / Asymptotic Network
+                          <span className="block text-[10px] font-mono text-[#9A82E8]">Gojo &ldquo;Infinity&rdquo; Archetype</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#76D5E0]">
+                          Mathematical Hybrid MWI
+                          <span className="block text-[10px] font-mono text-[#A4A6B5]">High Mathematical Coherence</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#A4A6B5]">
+                          Allocates ~90% of its Defensive Network into <strong>Node 01 (Spatial Convergence)</strong> &amp; <strong>Node 02 (Continuous Precognitive Automated Filtering)</strong>, recursively dividing space so attacks decelerate infinitely before reaching Node 04 (Somatic Body).
+                        </td>
+                        <td className="py-3 pl-3 text-[#A4A6B5]">
+                          Requires continuous precognitive simulation + AMR fuel; vulnerable if an opponent collapses Node 01 via Turn Field dominance or Solid Realm rules.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 pr-3 font-medium">
+                          Raw Acausal Probability Warping
+                          <span className="block text-[10px] font-mono text-[#F18A82]">Pure Unconventional MWI</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#F18A82]">
+                          Unbalanced Post-Merlin
+                          <span className="block text-[10px] font-mono text-[#A4A6B5]">&lt;20% Logical / &gt;80% Random Anomaly</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#A4A6B5]">
+                          Lacks a structured Defensive Network; attempts to brute-force impossible outcomes (e.g., face-tanking nuclear yield with zero field/routing nodes or firing lightning from eyes with no step-chain).
+                        </td>
+                        <td className="py-3 pl-3 text-[#A4A6B5]">
+                          <strong>Rarely used:</strong> Astronomical IR/Precog cost, severe thermodynamic kickback, and creates chaotic reality-shattering feedback when clashing.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 pr-3 font-medium">
+                          Atmospheric / Multi-Step Conductive Strike &amp; Ward
+                          <span className="block text-[10px] font-mono text-[#76D5E0]">Pure Conventional / Conservative</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#76D5E0]">
+                          Pre-Merlin Conventional
+                          <span className="block text-[10px] font-mono text-[#A4A6B5]">100% Objective Physical Chain</span>
+                        </td>
+                        <td className="py-3 px-3 text-[#A4A6B5]">
+                          Uses existing barometric charge, dielectric grounding, and somatic armor (Nodes 01 &amp; 04 purely conventional). Zero Merlin Barrier tax, but bound by objective thermodynamics.
+                        </td>
+                        <td className="py-3 pl-3 text-[#A4A6B5]">
+                          Works even in high-resistance environments, but objective physics does not respect the user—stray arcs or heat can burn the caster if grounding fails.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Sub-Tab 0: Turn Fields & Power Vibe Architect */}
       {subTab === 'turnFields' && (
