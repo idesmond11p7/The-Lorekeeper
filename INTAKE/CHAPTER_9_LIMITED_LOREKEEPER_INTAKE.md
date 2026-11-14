@@ -61,3 +61,84 @@ When the author-provided/current completed Chapter 8 source is available:
 Create a narrowly scoped Chapter 8 lore documentation record in the Lorekeeper's own documentation workspace, with source identity, version/status, evidence excerpts, lore findings, unresolved questions, and links/references to relevant existing Lorekeeper records. Do not modify unrelated lore, taxonomy, cosmology, or power-system records. The author remains final canon authority.
 
 This Chapter 8 documentation assignment is part of the existing Chapter 9 workstream and remains ONGOING. Do not let it displace the limited Chapter 9 lore-compatibility task above.
+
+
+## 2026-11-14 — AUTHOR-APPROVED SETTING AND NOMENCLATURE INTAKE
+
+[STATUS: ONGOING / COMPATIBILITY REVIEW ONLY]
+[AUTHORITY: Author-approved revision sheet; author retains final canon authority]
+[PROJECT TITLE: ForeverWorlds: Endless Apocrypha]
+[SETTING DESIGNATION: Soma]
+
+### Purpose
+The author has approved a revised naming sheet and intends to revise selected existing chapters so the setting designation is **Soma** and the new character/faction nomenclature is used where applicable. This intake asks Lorekeeper to verify compatibility with existing lore and identify terminology dependencies. It is not permission to redesign the cosmology or silently settle unresolved alternatives.
+
+### Core identity
+- Current title: **ForeverWorlds: Endless Apocrypha**
+- Setting: **Soma**
+- Protagonist: **Jonah Laurence / Ira Lowe** — same character; do not split or duplicate the identity.
+
+### Author-approved nomenclature
+
+#### Gamori Bloodline / Dynasty
+- Matriarch: **Velmoraia Zeth Gamori**
+- Crimson Sovereign: **Serzeth Golachab Gamori**
+- Heiress of Ruin: **Myre Belphira Gamori**
+
+#### Cytry Dominion
+- Apex Leviathan Sovereign: **Kreska Thalosarn Cytry**
+- Younger Sister: **Vera Octavia Cytry**
+
+#### Satariel Sphere & Apex Sovereigns
+- Supreme General / Consort: **Estrise Vaelith Satariel**
+- Supreme Architect: **Azerak Zebulor** OR **Azerak Kharoveth** — unresolved
+- Fallen Watcher / Rogue Governor: **Semyaxa**
+
+#### Local & counterpart cast
+- Issei Hyoudou counterpart: **Isamu Hojo**
+- Akeno Himejima counterpart: **Aione Shirogane**
+- Kiba Yuuto counterpart: **Renji Kurosawa**
+- Koneko Toujou counterpart: **Shiroha Kuze**
+- Kuroka counterpart: **Kuroha Kuze**
+- Katerea Leviathan counterpart: **Kalythia Rahab**
+- Rossweisse counterpart: **Ragna Hrafnsdottir** OR **Ragna Lindqvist** — unresolved
+
+#### Ecclesiastical faction
+- Asia Argento counterpart: **Alessia Conti**
+- Xenovia Quarta counterpart: **Xenia Sforza**
+- Irina Shidou counterpart: **Iori Shindō** OR **Rina Tachibana** — unresolved
+
+### Designation vocabulary
+The author-approved labels are **Bloodline / Dynasty**, **Dominion**, **Sphere**, and **Ecclesiastical Faction**. Avoid treating these as generic fantasy noble houses. Do not assume the labels alone establish their constitutional form, metaphysical nature, jurisdiction, hierarchy, or power-scaling relationship.
+
+### Requested Lorekeeper review
+1. Search the existing Lorekeeper corpus for all relevant occurrences and definitions of Soma, the former setting designation, the Gamori/Gremory naming, and each listed faction/title/name.
+2. Identify whether any proposed name or designation conflicts with existing canon, another entity, a species, a realm, a power-system term, or an established historical record.
+3. Distinguish exact existing evidence from inference and proposal. Cite repository paths and source passages.
+4. Determine which terms are simple identity substitutions and which require lore-level redesign or explanatory bridge.
+5. Check whether Dynasty, Dominion, Sphere, and Ecclesiastical Faction can coexist in the current cosmology without implying unsupported equivalence.
+6. Return a dependency map for affected lore records and a list of chapter-facing terminology constraints.
+7. Preserve unresolved variants exactly as unresolved; do not select a preferred name.
+8. Do not edit core cosmology, taxonomy, power-system, or character records during this intake. First return findings and proposed minimal changes for author review.
+
+### Chapter revision boundary
+The author intends to replace the old setting designation with **Soma** in selected chapters and apply the new names where the same underlying referents are intended. The selected chapter inventory and authoritative source versions have not yet been supplied in this intake.
+
+Do not perform global replacement or edit chapter prose. The Ledger owns chapter storage and revision provenance. Lorekeeper's task is to identify lore dependencies, terminology conflicts, and safe/unsafe substitutions. Preserve historical names where they occur in quoted documents, deliberate in-world references, or historical context unless the author directs otherwise.
+
+### Character-design and psychology boundary
+Visual design and character psychology are being reviewed in parallel. Do not infer physical appearance, temperament, motivations, voice, behaviour, powers, or relationships from names and titles alone. Flag where the current Lorekeeper sources do and do not establish those details.
+
+### Required output
+Return a compact report with:
+- ESTABLISHED IN EXISTING LORE
+- AUTHOR-APPROVED REVISION TERMS
+- COMPATIBLE BUT UNCONFIRMED
+- CONFLICTS / DUPLICATES
+- UNRESOLVED NAME VARIANTS
+- SAFE SUBSTITUTIONS
+- CONTEXT-DEPENDENT / UNSAFE SUBSTITUTIONS
+- AFFECTED LOREKEEPER RECORDS
+- RECOMMENDED MINIMAL FOLLOW-UP CHANGES
+
+The author remains final canon authority. This intake is a request for verification, not a declaration that Lorekeeper has already validated or implemented the revised cosmology.
